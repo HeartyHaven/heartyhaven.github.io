@@ -17,8 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I'm Yue Huang. I am currently a fourth-year undergraduate student at [Sichuan University](https://www.scu.edu.cn/).
-I'm currently a visiting student at LAIR LAB, [Lehigh University](https://www.lehighuniversity.cn/), supervised by [Prof. Lichao Sun](https://lichao-sun.github.io/). Previously, I worked with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University KEG & Zhipu AI Inc. and [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
+Hello, I'm Yue Huang, currently a fourth-year undergraduate student at [Sichuan University](https://www.scu.edu.cn/).
+
+I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.lehighuniversity.cn/), under the supervision of [Prof. Lichao Sun](https://lichao-sun.github.io/). Previously, I collaborated with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University KEG & Zhipu AI Inc., and [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
+
 
 ❤️‍🔥 The project [TrustLLM](https://github.com/HowieHwong/TrustLLM), led by me and [Prof. Lichao Sun](https://lichao-sun.github.io/), is cordially inviting researchers, developers, and practitioners interested in issues related to trustworthy LLMs to join us. [Contact me.](mailto:howiehwong@gmail.com)
 
@@ -31,8 +33,10 @@ I'm currently a visiting student at LAIR LAB, [Lehigh University](https://www.le
 
 # 🔥 News
 - *2024.01.15*: &nbsp;🎉🎉 My paper [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
+- *2024.01.13*: &nbsp;🎉🎉 Finish research internship in Tsinghua University KEG & Zhipu Inc.!
 
-# 📝 Publications 
+
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/metatool_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -41,11 +45,21 @@ I'm currently a visiting student at LAIR LAB, [Lehigh University](https://www.le
 
 **Yue Huang**, Jiawen Shi, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun
 
-[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+</div>
+</div>
 
-[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/trustllm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
+
+Lichao Sun$^{*}$, **Yue Huang**$^{*}$, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. ($^{*}$: co-corresponding authors)
+
+**Toolkit & Code**: https://github.com/HowieHwong/TrustLLM
 </div>
 </div>
+
+
 
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
