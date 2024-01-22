@@ -48,12 +48,12 @@ I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.l
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/trustllm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/trustllm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
 
-Lichao Sun$^{*}$, **Yue Huang**$^{*}$, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. ($^{*}$: co-corresponding authors)
+Lichao Sun*, **Yue Huang***, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
 
 **Toolkit & Code**: https://github.com/HowieHwong/TrustLLM
 </div>
@@ -64,7 +64,7 @@ Lichao Sun$^{*}$, **Yue Huang**$^{*}$, Haoran Wang, Siyuan Wu, Qihui Zhang, Chuj
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
 # 🎖 Honors and Awards
-- *2024.01* Microsoft Accelerate Foundation Models Research is awarded (Project: [TrustLLM](https://github.com/HowieHwong/TrustLLM) & PI: [Lichao Sun](https://lichao-sun.github.io/))
+- *2024.01* Microsoft Accelerate Foundation Models Research is awarded (Project: [TrustLLM](https://github.com/HowieHwong/TrustLLM) & Lead PI: [Lichao Sun](https://lichao-sun.github.io/))
 
 [//]: # (# 📖 Educations)
 
