@@ -33,7 +33,7 @@ I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.l
 
 # 🔥 News
 - *2024.01.15*: &nbsp;🎉🎉 My paper [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
-- *2024.01.13*: &nbsp;🎉🎉 Finish research internship in Tsinghua University KEG & Zhipu Inc.!
+- *2024.01.13*: &nbsp;🎉🎉 Finish research internship at Tsinghua University KEG & Zhipu Inc.!
 
 
 # 📝 Selected Publications 
