@@ -32,7 +32,7 @@ I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.l
 
 
 # 🔥 News
-- *2024.01.27*: &nbsp;🎉🎉 This fall, I will be pursuing my Ph.D. at the University of Notre Dame, with [Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en) as my advisor!
+- *2024.01.27*: &nbsp;🎉🎉 This fall, I will be pursuing my Ph.D. at the University of Notre Dame, with [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en) as my advisor!
 - *2024.01.15*: &nbsp;🎉🎉 My paper [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
 - *2024.01.13*: &nbsp;🎉🎉 Finish research internship at Tsinghua University KEG & Zhipu Inc.!
 
