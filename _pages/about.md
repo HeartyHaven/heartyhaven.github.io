@@ -19,7 +19,12 @@ redirect_from:
 
 Hello, I'm Yue Huang, currently a fourth-year undergraduate student at [Sichuan University](https://www.scu.edu.cn/).
 
-I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.lehighuniversity.cn/), under the supervision of [Prof. Lichao Sun](https://lichao-sun.github.io/). Previously, I collaborated with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University KEG & Zhipu AI Inc., and [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
+I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.lehighuniversity.cn/), under the supervision of [Prof. Lichao Sun](https://lichao-sun.github.io/). Before this, I received guidance from [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) of Tsinghua University and collaborated with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN). I was fortunate to receive guidance from [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
+
+
+
+
+
 
 
 ❤️‍🔥 The project [TrustLLM](https://github.com/HowieHwong/TrustLLM), led by me and [Prof. Lichao Sun](https://lichao-sun.github.io/), is cordially inviting researchers, developers, and practitioners interested in issues related to trustworthy LLMs to join us. [Contact me.](mailto:howiehwong@gmail.com)
