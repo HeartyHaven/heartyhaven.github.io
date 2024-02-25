@@ -17,13 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I'm Yue Huang, currently a fourth-year undergraduate student at [Sichuan University](https://www.scu.edu.cn/).
+[//]: # (Hello, I'm Yue Huang, currently a fourth-year undergraduate student at [Sichuan University]&#40;https://www.scu.edu.cn/&#41;.)
 
-I am currently a visiting student at LAIR LAB, [Lehigh University](https://www.lehighuniversity.cn/), under the supervision of [Prof. Lichao Sun](https://lichao-sun.github.io/). Before this, I received guidance from [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) of Tsinghua University and collaborated with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN). I was fortunate to receive guidance from [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
+[//]: # ()
+[//]: # (I am currently a visiting student at LAIR LAB, [Lehigh University]&#40;https://www.lehighuniversity.cn/&#41;, under the supervision of [Prof. Lichao Sun]&#40;https://lichao-sun.github.io/&#41;. During this time, I also receive guidance from Prof. [Philip S. Yu]&#40;https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en&#41;. Before this, I received guidance from [Prof. Tang Jie]&#40;https://keg.cs.tsinghua.edu.cn/jietang/&#41; of Tsinghua University and collaborated with [Dr. Xiao Liu]&#40;https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN&#41;. I was fortunate to collaborate with [Prof. Cheng Huang]&#40;https://chenghuang.org/index.html&#41; at Sichuan University.)
 
+[//]: # ()
+[//]: # ()
+Hello, I'm Yue Huang, and I'm currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/).
 
-
-
+At present, I have the privilege of being a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), where I work under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). During this enriching experience, I also have the opportunity to receive mentorship from Prof. [Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Prior to this, I was under the mentorship of [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University, and I had the opportunity to collaborate with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN). My academic journey has also been enriched by a collaboration with [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
 
 
 
