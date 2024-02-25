@@ -24,7 +24,7 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hello, I'm Yue Huang, and I'm currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/).
+Hello, I'm Yue Huang (黄跃, Yue pronounced similar to your), and I'm currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/).
 
 At present, I have the privilege of being a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), where I work under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). During this enriching experience, I also have the opportunity to receive mentorship from Prof. [Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Prior to this, I was under the mentorship of [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University, and I had the opportunity to collaborate with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN). My academic journey has also been enriched by a collaboration with [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
 
