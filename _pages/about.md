@@ -24,7 +24,7 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hello, I'm Yue Huang (黄跃, Yue pronounced similar to your), an upcoming student at [University of Notre Dame](https://www.nd.edu/). I'm currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/).
+Hello, I'm Yue Huang (黄跃, Yue pronounced similar to your), an upcoming PhD student at [University of Notre Dame](https://www.nd.edu/). I'm currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/).
 
 At present, I have the privilege of being a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), where I work under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). During this enriching experience, I also have the opportunity to receive guidance from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Prior to this, I was under the mentorship of [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University, and I had the opportunity to collaborate with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN). My academic journey has also been enriched by a collaboration with [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
 
@@ -43,7 +43,7 @@ At present, I have the privilege of being a visiting student at the LAIR Lab, [L
 - *2024.03.05*: &nbsp;🎉🎉 One paper has been accepted as a short paper of WWW 2024!
 - *2024.02.08*: &nbsp;🎉🎉 Thanks for the invited talk on TrustLLM Project! @ [IBM Research](https://research.ibm.com/)
 - *2024.01.27*: &nbsp;🎉🎉 This fall, I will be pursuing my Ph.D. at the University of Notre Dame, with [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en) as my advisor!
-- *2024.01.15*: &nbsp;🎉🎉 My paper [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
+- *2024.01.15*: &nbsp;🎉🎉 [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
 - *2024.01.13*: &nbsp;🎉🎉 Finish research internship at Tsinghua University KEG & Zhipu Inc.!
 
 
