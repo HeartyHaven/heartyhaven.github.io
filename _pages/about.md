@@ -40,6 +40,7 @@ At present, I have the privilege of being a visiting student at the LAIR Lab, [L
 
 
 # 🔥 News
+- *2024.03.14*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://scholar.google.com/citations?user=1AqAngQAAAAJ&hl=zh-CN) and [Dongping](https://dongping-chen.github.io/)!
 - *2024.03.05*: &nbsp;🎉🎉 One paper has been accepted as a short paper of WWW 2024!
 - *2024.02.08*: &nbsp;🎉🎉 Thanks for the invited talk on TrustLLM Project! @ [IBM Research](https://research.ibm.com/)
 - *2024.01.27*: &nbsp;🎉🎉 This fall, I will be pursuing my Ph.D. at the University of Notre Dame, with [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en) as my advisor!
