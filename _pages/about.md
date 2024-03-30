@@ -32,8 +32,8 @@ Passionate about fostering trust in Large Language Models (LLMs), I lead the [Tr
 
 # 💡 Research Interest
 
-- Trustworthy AI: safety, truthfulness, fairness, robustness, and privacy of AI model. (*e.g.,* [TrustLLM](https://github.com/HowieHwong/TrustLLM))
-- LLM-based Agents: tool usage (*e.g.,* [MetaTool](https://arxiv.org/abs/2310.03128)), efficiency and utility.
+- Trustworthy AI: safety, truthfulness, fairness, robustness, privacy and machine ethics of AI model.
+- LLM-based Agents: tool usage, efficiency and utility.
 - Applied ML/DL: knowledge graph, AI for X (*e.g.,* computational social science, cybersecurity & human computer interaction)
 
 
