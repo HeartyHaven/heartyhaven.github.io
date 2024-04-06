@@ -67,20 +67,8 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 
 Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
 
-**Toolkit & Code**: https://github.com/HowieHwong/TrustLLM
-</div>
-</div>
 
-# ⚙️ Project
-
-**TrustLLM: Trustworthiness in Large Language Models**
-
-<div align="center">
-
-
-<img src="https://raw.githubusercontent.com/TrustLLMBenchmark/TrustLLM-Website/main/img/logo.png" width="60%">
-
-</div>
+[**Toolkit & Code**](https://github.com/HowieHwong/TrustLLM) [![](https://img.shields.io/github/stars/HowieHwong/TrustLLM)](https://github.com/HowieHwong/TrustLLM)
 
 [![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue?style=flat-square)](https://trustllmbenchmark.github.io/TrustLLM-Website/)
 [![Paper](https://img.shields.io/badge/Paper-%F0%9F%8E%93-lightgrey?style=flat-square)](https://arxiv.org/abs/2401.05561)
@@ -90,20 +78,38 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 [![Toolkit Document](https://img.shields.io/badge/Toolkit%20Document-%F0%9F%93%9A-blueviolet?style=flat-square)](https://howiehwong.github.io/TrustLLM/)
 [![Code](https://img.shields.io/badge/Code-%F0%9F%90%99-red?style=flat-square)](https://github.com/HowieHwong/TrustLLM)
 
+</div>
+</div>
 
+[//]: # (# ⚙️ Project)
 
+[//]: # ()
+[//]: # (**TrustLLM: Trustworthiness in Large Language Models**)
 
-- We have proposed a set of guidelines based on a comprehensive literature review for evaluating the trustworthiness of LLMs, which is a taxonomy encompassing eight aspects, including *truthfulness, safety, fairness, robustness, privacy, machine ethics, transparency, and accountability*.
-- We have established a benchmark for six of these aspects due to the difficulty of benchmarking transparency and accountability. This is the first comprehensive and integrated benchmark comprising over 18 subcategories, covering more than 30 datasets and 16 LLMs, including proprietary and open-weight ones.
-- We obtain empirical findings from the results of our experiments, which provide valuable insights for future research.
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (- We have proposed a set of guidelines based on a comprehensive literature review for evaluating the trustworthiness of LLMs, which is a taxonomy encompassing eight aspects, including *truthfulness, safety, fairness, robustness, privacy, machine ethics, transparency, and accountability*.)
 
-📣 **Welcome your Contribution**
+[//]: # (- We have established a benchmark for six of these aspects due to the difficulty of benchmarking transparency and accountability. This is the first comprehensive and integrated benchmark comprising over 18 subcategories, covering more than 30 datasets and 16 LLMs, including proprietary and open-weight ones.)
 
-We welcome your contributions, including but not limited to the following:
+[//]: # (- We obtain empirical findings from the results of our experiments, which provide valuable insights for future research.)
 
-- New benchmark datasets of trustworthy dimension
-- Research on trustworthy issues of LLM
-- Improvements to the [trustllm toolkit](https://github.com/HowieHwong/TrustLLM)
+[//]: # (📣 **Welcome your Contribution**)
+
+[//]: # ()
+[//]: # (We welcome your contributions, including but not limited to the following:)
+
+[//]: # ()
+[//]: # (- New benchmark datasets of trustworthy dimension)
+
+[//]: # (- Research on trustworthy issues of LLM)
+
+[//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 
 # 🎤 Talk
