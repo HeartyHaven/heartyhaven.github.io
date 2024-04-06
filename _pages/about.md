@@ -74,7 +74,6 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 [![ibm](https://img.shields.io/badge/Invited%20Talk-IBM%20Research-blue)](https://research.ibm.com/)
 [![huggingface](https://img.shields.io/badge/huggingface-Daily%20Paper-yellow)](https://research.ibm.com/)
 [![report](https://img.shields.io/badge/Reported%20By-机器之心-brown)](https://mp.weixin.qq.com/s/iah6Wz0VsMsJx_wCtgirBw) 
-
 [![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue)](https://trustllmbenchmark.github.io/TrustLLM-Website/)
 [![Dataset](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)](https://huggingface.co/datasets/TrustLLM/TrustLLM-dataset)
 [![Data Map](https://img.shields.io/badge/Data%20Map-%F0%9F%8D%9F-orange)](https://atlas.nomic.ai/map/f64e87d3-c769-4a90-b15d-9dc833acc8ba/8e9d7045-503b-4ba0-bc64-7201cb7aacee?xs=-16.14086&xf=-1.88776&ys=-7.54937&yf=3.88213)
