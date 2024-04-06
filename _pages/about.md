@@ -131,8 +131,8 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 
 # 📖 Educations
 
-- *2024.09 - 2029.06 (Expected)*, Ph.D, [University of Notre Dame](https://www.nd.edu/)
-- *2020.09 - now*, BEng., [Sichuan University](https://www.scu.edu.cn/)
+- *2024.09 - 2029.06 (Expected)*, Ph.D, [University of Notre Dame](https://www.nd.edu/) <img src='images/Notre_Dame.png' style='width: 6em;'>
+- *2020.09 - now*, BEng., [Sichuan University](https://www.scu.edu.cn/) <img src='images/scu.png' style='width: 6em;'>
 
 # 💻 Internships
 
