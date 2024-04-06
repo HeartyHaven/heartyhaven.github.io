@@ -84,7 +84,7 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 
 
 - `NAACL 2024` [LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?](https://arxiv.org/abs/2401.05952) Qihui Zhang, Chujie Gao, Dongping Chen, **Yue Huang**, et al.
-
+- `WWW 2024` From Creation to Clarification: ChatGPT's Journey Through the Fake News Quagmire **Yue Huang**, Kai Shu, Philip S. Yu, Lichao Sun
 
 
 
