@@ -83,15 +83,12 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 
 
 <div class='paper-box'>
-<div class='paper-box-text' markdown="1">
 
-<div class="badge">NAACL 2024</div>
 
-[LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?](https://arxiv.org/abs/2401.05952)
-
+- ``NAACL 2024`` [LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?](https://arxiv.org/abs/2401.05952)
 Qihui Zhang, Chujie Gao, Dongping Chen, **Yue Huang**, et al.
 
-</div>
+
 </div>
 
 
