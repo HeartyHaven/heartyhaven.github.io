@@ -87,7 +87,7 @@ Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao
 
 - ![NAACL 2024](https://img.shields.io/badge/NAACL-2024-f24b2e) [LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?](https://arxiv.org/abs/2401.05952) Qihui Zhang, Chujie Gao, Dongping Chen, **Yue Huang**, et al.
 - ![WWW 2024](https://img.shields.io/badge/WWW-2024-c7be87) [From Creation to Clarification: ChatGPT's Journey Through the Fake News Quagmire]() **Yue Huang**, Kai Shu, Philip S. Yu, Lichao Sun
-- ![ScureComm 2023](https://img.shields.io/badge/SecureComm-2023-87acc7) [CyberEA: CyberEA: An Efficient Entity Alignment Framework for Cybersecurity Knowledge Graph](https://securecomm.eai-conferences.org/2023/full-program-2/) **Yue Huang**, Yongyan Guo, Cheng Huang
+- ![ScureComm 2023](https://img.shields.io/badge/SecureComm-2023-87acc7) [CyberEA: An Efficient Entity Alignment Framework for Cybersecurity Knowledge Graph](https://securecomm.eai-conferences.org/2023/full-program-2/) **Yue Huang**, Yongyan Guo, Cheng Huang
 
 
 
