@@ -38,6 +38,7 @@ Passionate about fostering trust in Large Language Models (LLMs), I lead the [Tr
 
 
 # 🔥 News
+- *2024.05.02*: &nbsp;🎉🎉 [TrustLLM](https://trustllmbenchmark.github.io/TrustLLM-Website/) has been accepted by ICML 2024! Thanks to all the collaborators. See you in Vienna!
 - *2024.03.14*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://mask-hui.github.io/), [Chujie](https://flossiee.github.io/) and [Dongping](https://dongping-chen.github.io/)!
 - *2024.03.05*: &nbsp;🎉🎉 One paper has been accepted as a short paper of WWW 2024!
 - *2024.02.08*: &nbsp;🎉🎉 Thanks for the invited talk on TrustLLM Project! @ [IBM Research](https://research.ibm.com/)
@@ -65,7 +66,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/trustllm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
+![ICML 2024](https://img.shields.io/badge/ICLR-2024-7740bd)![ICML 2024](https://img.shields.io/badge/ICLR-2024-7740bd)[TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
 
 Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
 
