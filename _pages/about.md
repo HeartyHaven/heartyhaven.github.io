@@ -68,7 +68,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 
 ![ICML 2024](https://img.shields.io/badge/ICML-2024-A84111) [TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
 
-Lichao Sun \*, **Yue Huang** \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
+**Yue Huang** \*, Lichao Sun \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
 
 
 [**Toolkit & Code**](https://github.com/HowieHwong/TrustLLM) [![](https://img.shields.io/github/stars/HowieHwong/TrustLLM)](https://github.com/HowieHwong/TrustLLM)
