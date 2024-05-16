@@ -38,6 +38,7 @@ Passionate about fostering trust in Large Language Models (LLMs), I lead the [Tr
 
 
 # 🔥 News
+- *2024.05.16*: &nbsp;🎉🎉One paper has been accepted by main conference of ACL 2024!
 - *2024.05.02*: &nbsp;🎉🎉 [TrustLLM](https://trustllmbenchmark.github.io/TrustLLM-Website/) has been accepted by ICML 2024! Thanks to all the collaborators. See you in Vienna!
 - *2024.03.14*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://mask-hui.github.io/), [Chujie](https://flossiee.github.io/) and [Dongping](https://dongping-chen.github.io/)!
 - *2024.03.05*: &nbsp;🎉🎉 One paper has been accepted as a short paper of WWW 2024!
