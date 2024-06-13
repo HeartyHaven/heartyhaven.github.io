@@ -24,11 +24,12 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hello, I'm Yue Huang (黄跃, Yue pronounced similar to your), an upcoming PhD student at the [University of Notre Dame](https://www.nd.edu/). Currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/), I am deeply passionate about exploring the realms of academia and research.
+Hello, I'm Yue Huang (黄跃, Yue pronounced similar to "your"), an upcoming PhD student at the [University of Notre Dame](https://www.nd.edu/). I am currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/), with a strong passion for academia and research.
 
-Presently, I am honored to serve as a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the esteemed guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This invaluable experience has provided me with profound insights, complemented by mentorship from the distinguished [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Prior to this, I had the privilege of working under the mentorship of [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University, where I collaborated closely with [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN), enriching my academic journey. Additionally, I have engaged in collaborative efforts with [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University, further broadening my perspective.
+Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience is enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Previously, I worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN), and collaborated with [Prof. Cheng Huang](https://chenghuang.org/index.html) at Sichuan University.
 
-Passionate about fostering trust in Large Language Models (LLMs), I lead the [TrustLLM](https://github.com/HowieHwong/TrustLLM) project alongside [Prof. Lichao Sun](https://lichao-sun.github.io/). We extend a warm invitation to researchers, developers, and practitioners intrigued by trustworthy LLMs to join our endeavor. Please feel free to [contact me](mailto:howiehwong@gmail.com) for further details.
+I lead the [TrustLLM](https://github.com/HowieHwong/TrustLLM) project, focused on trust in Large Language Models (LLMs), along with [Prof. Lichao Sun](https://lichao-sun.github.io/). We invite interested researchers, developers, and practitioners to join us. For more details, please feel free to [contact me](mailto:howiehwong@gmail.com).
+
 
 # 💡 Research Interest
 
