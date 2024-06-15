@@ -30,7 +30,7 @@ Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://ww
 
 [//]: # (I lead the [TrustLLM]&#40;https://github.com/HowieHwong/TrustLLM&#41; project, focused on trust in Large Language Models &#40;LLMs&#41;, along with [Prof. Lichao Sun]&#40;https://lichao-sun.github.io/&#41;. We invite interested researchers, developers, and practitioners to join us. For more details, please feel free to [contact me]&#40;mailto:howiehwong@gmail.com&#41;.)
 
-> I am seeking potential research collaborations. If you are interested, please [contact me]&#40;mailto:howiehwong@gmail.com&#41;.
+> I am seeking potential research collaborations. If you are interested, please [contact me](&#40;mailto:howiehwong@gmail.com&#41;).
 
 
 # 💡 Research Interest
