@@ -24,11 +24,13 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hello, I'm Yue Huang (黄跃, Yue pronounced similar to "your"), an upcoming PhD student at the [University of Notre Dame](https://www.nd.edu/). I am currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/), with a strong passion for academia and research.
+Hello, I'm Yue Huang (黄跃, Yue pronounced similar to "your"), an upcoming PhD student at the [University of Notre Dame](https://www.nd.edu/), supervised by [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en). I am currently in my fourth year of undergraduate studies at [Sichuan University](https://www.scu.edu.cn/), with a strong passion for academia and research.
 
-Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience is enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Previously, I worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) at Tsinghua University and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN).
+Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience is enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Previously, I worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University .
 
-I lead the [TrustLLM](https://github.com/HowieHwong/TrustLLM) project, focused on trust in Large Language Models (LLMs), along with [Prof. Lichao Sun](https://lichao-sun.github.io/). We invite interested researchers, developers, and practitioners to join us. For more details, please feel free to [contact me](mailto:howiehwong@gmail.com).
+[//]: # (I lead the [TrustLLM]&#40;https://github.com/HowieHwong/TrustLLM&#41; project, focused on trust in Large Language Models &#40;LLMs&#41;, along with [Prof. Lichao Sun]&#40;https://lichao-sun.github.io/&#41;. We invite interested researchers, developers, and practitioners to join us. For more details, please feel free to [contact me]&#40;mailto:howiehwong@gmail.com&#41;.)
+
+> I am seeking potential research collaborations. If you are interested, please [contact me]&#40;mailto:howiehwong@gmail.com&#41;.
 
 
 # 💡 Research Interest
