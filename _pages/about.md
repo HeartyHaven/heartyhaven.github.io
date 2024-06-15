@@ -36,8 +36,8 @@ Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://ww
 # 💡 Research Interest
 
 - Trustworthy AI: safety, truthfulness, fairness, robustness, privacy and machine ethics of AI model.
-- LLM-based Agents: tool usage, efficiency and utility.
-- Applied ML/DL: knowledge graph, AI for X (*e.g.,* computational social science, cybersecurity & human computer interaction)
+- Data-Centric and Human-Centered LLMs: Evaluation of LLMs, synthetic data for LLMs and LLM-based agents.
+- XAI: Computational social science, cybersecurity, and human computer interaction.
 
 
 # 🔥 News
