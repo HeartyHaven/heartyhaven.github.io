@@ -24,7 +24,7 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hello, I'm Yue Huang (黄跃, Yue pronounced similar to "your"), an PhD student at Computer Science and Engineering (CSE) at [University of Notre Dame](https://www.nd.edu/) from 2024 Fall, supervised by [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en). I obtained my bachelor's degree at [Sichuan University](https://www.scu.edu.cn/).
+Hello, I'm Yue Huang (黄跃, Yue pronounced similar to "your"), a PhD student at Computer Science and Engineering (CSE) at [University of Notre Dame](https://www.nd.edu/) from 2024 Fall, supervised by [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en). I obtained my bachelor's degree at [Sichuan University](https://www.scu.edu.cn/).
 
 Lately, I was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience is enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Previously, I worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University .
 
