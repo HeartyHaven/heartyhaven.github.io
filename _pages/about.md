@@ -141,4 +141,4 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 
 # 💻 Internships
 
-- *2023.09 - 2024.01*, Research Intern at Tsinghua University KEG & Zhipu AI Inc.
+- *2023.09 - 2024.01*, Research Intern at <img src='images/thu.png' style='width: 1.2em;'> Tsinghua University KEG & Zhipu AI Inc.
