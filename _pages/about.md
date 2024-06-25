@@ -144,4 +144,4 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 - *2023.09 - 2024.01*, Research Intern at <img src='images/thu.png' style='width: 1.2em;'> Tsinghua University KEG & Zhipu AI Inc.
 
 
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=lBioPFJ68Ll3Pfg0nRZezoC8XLmhCf3c2x7iKLxjabE"></script>
+<a href="https://mapmyvisitors.com/web/1bw5t"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=SMKWP8kMQ7_OcRboy6QXkVzuFECqnAdtI6Q_GNsItFk&cl=ffffff" /></a>
