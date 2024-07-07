@@ -36,7 +36,7 @@ Yue has published papers at several top conferences in computer science, includi
 # 💡 Research Interest
 
 - Trustworthy AI: safety, truthfulness, fairness, robustness, privacy and machine ethics of AI model.
-- Data-Centric and Human-Centered LLMs: Evaluation of LLMs, synthetic data for LLMs and LLM-based agents.
+- Data-Centric and Human-Centered LLMs: Evaluation of LLMs, synthetic data for LLMs, LLM-based agents and LLM alignment.
 - XAI: Computational social science, cybersecurity, and human computer interaction.
 
 
