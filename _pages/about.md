@@ -28,9 +28,9 @@ Yue Huang (黄跃, Yue pronounced similar to "your") is an upcoming PhD student 
 
 Previously, Yue was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience was enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Earlier before, Yue worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University.
 
-Yue has published papers at several top conferences in computer science, including ICML, ICLR, ACL, NAACL, WWW and others. Additionally, Yue has served as a reviewer for several journals and conferences.
+[//]: # (Yue has published papers at several top conferences in computer science, including ICML, ICLR, ACL, NAACL, WWW and others. Additionally, Yue has served as a reviewer for several journals and conferences.)
 
-> I am seeking potential research collaborations. If you are interested, please [contact me](&#40;mailto:howiehwong@gmail.com&#41;).
+> I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:howiehwong@gmail.com&#41;).
 
 
 # 💡 Research Interest
