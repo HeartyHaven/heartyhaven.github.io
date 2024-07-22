@@ -129,7 +129,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 
 # 🎤 Talk
 - *2024.02* Invited Talk: Trustworthiness in Large Language Models @ [IBM Research](https://research.ibm.com/)
-
+- *2024.07* Invited Talk: Bias of Large Language Models @ TUM
 
 # 🎖 Honors and Awards
 - *2024.01* Microsoft Accelerate Foundation Models Research is awarded (Project: [TrustLLM](https://github.com/HowieHwong/TrustLLM) & Lead PI: [Lichao Sun](https://lichao-sun.github.io/))
