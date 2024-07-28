@@ -41,6 +41,7 @@ Previously, Yue was a visiting student at the LAIR Lab, [Lehigh University](http
 
 
 # 🔥 News
+- *2024.07.28*: &nbsp;🎉🎉 OpenAI’s Researcher Access Program is Awarded.
 - *2024.05.16*: &nbsp;🎉🎉 One paper has been accepted by main conference of ACL 2024!
 - *2024.05.02*: &nbsp;🎉🎉 [TrustLLM](https://trustllmbenchmark.github.io/TrustLLM-Website/) has been accepted by ICML 2024! Thanks to all the collaborators. See you in Vienna!
 - *2024.03.14*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://mask-hui.github.io/), [Chujie](https://flossiee.github.io/) and [Dongping](https://dongping-chen.github.io/)!
@@ -132,6 +133,7 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 - *2024.07* Invited Talk: Bias of Large Language Models @ TUM
 
 # 🎖 Honors and Awards
+- *2024.07* OpenAI’s Researcher Access Program and API
 - *2024.01* Microsoft Accelerate Foundation Models Research is awarded (Project: [TrustLLM](https://github.com/HowieHwong/TrustLLM) & Lead PI: [Lichao Sun](https://lichao-sun.github.io/))
 
 # 📖 Educations
