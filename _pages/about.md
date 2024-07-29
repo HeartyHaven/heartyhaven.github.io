@@ -17,85 +17,60 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-[//]: # (Hello, I'm Yue Huang, currently a fourth-year undergraduate student at [Sichuan University]&#40;https://www.scu.edu.cn/&#41;.)
-
-[//]: # ()
-[//]: # (I am currently a visiting student at LAIR LAB, [Lehigh University]&#40;https://www.lehighuniversity.cn/&#41;, under the supervision of [Prof. Lichao Sun]&#40;https://lichao-sun.github.io/&#41;. During this time, I also receive guidance from Prof. [Philip S. Yu]&#40;https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en&#41;. Before this, I received guidance from [Prof. Tang Jie]&#40;https://keg.cs.tsinghua.edu.cn/jietang/&#41; of Tsinghua University and collaborated with [Dr. Xiao Liu]&#40;https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN&#41;. I was fortunate to collaborate with [Prof. Cheng Huang]&#40;https://chenghuang.org/index.html&#41; at Sichuan University.)
-
 [//]: # ()
 [//]: # ()
-Yue Huang (黄跃, Yue pronounced similar to "your") is an upcoming PhD student in Computer Science and Engineering (CSE) at the [University of Notre Dame](https://www.nd.edu/) starting Fall 2024, supervised by [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en). Yue obtained a bachelor's degree from [Sichuan University](https://www.scu.edu.cn/) in 2024.
+Hi 👋,I'm an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
 
-Previously, Yue was a visiting student at the LAIR Lab, [Lehigh University](https://www.lehighuniversity.cn/), under the guidance of [Prof. Lichao Sun](https://lichao-sun.github.io/). This experience was enhanced by mentorship from [Prof. Philip S. Yu](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en). Earlier before, Yue worked under [Prof. Tang Jie](https://keg.cs.tsinghua.edu.cn/jietang/) and [Dr. Xiao Liu](https://scholar.google.com.hk/citations?user=VKI8EhUAAAAJ&hl=zh-CN) at Tsinghua University.
+I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://www.nd.edu/),under the guidance of [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/).Before that,I worked under [Prof.Yuyin Zhou](https://yuyinzhou.github.io/) at University of California,Santa Cruz(UCSC) and [Prof.Ruixuan Li](https://scholar.google.com/citations?user=scAIu2MAAAAJ&hl=en) of HUST.
 
-[//]: # (Yue has published papers at several top conferences in computer science, including ICML, ICLR, ACL, NAACL, WWW and others. Additionally, Yue has served as a reviewer for several journals and conferences.)
-
-> I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:howiehwong@gmail.com&#41;).
+> I am currently actively seeking PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
 
 
 # 💡 Research Interest
 
-- Trustworthy AI: safety, truthfulness, fairness, robustness, privacy and machine ethics of AI model.
-- Data-Centric and Human-Centered LLMs: Evaluation of LLMs, synthetic data for LLMs, LLM-based agents and LLM alignment.
-- XAI: Computational social science, cybersecurity, and human computer interaction.
-
-
-# 🔥 News
-- *2024.07.28*: &nbsp;🎉🎉 OpenAI’s Researcher Access Program is Awarded.
-- *2024.05.16*: &nbsp;🎉🎉 One paper has been accepted by main conference of ACL 2024!
-- *2024.05.02*: &nbsp;🎉🎉 [TrustLLM](https://trustllmbenchmark.github.io/TrustLLM-Website/) has been accepted by ICML 2024! Thanks to all the collaborators. See you in Vienna!
-- *2024.03.14*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://mask-hui.github.io/), [Chujie](https://flossiee.github.io/) and [Dongping](https://dongping-chen.github.io/)!
-- *2024.03.05*: &nbsp;🎉🎉 One paper has been accepted as a short paper of WWW 2024!
-- *2024.02.08*: &nbsp;🎉🎉 Thanks for the invited talk on TrustLLM Project! @ [IBM Research](https://research.ibm.com/)
-- *2024.01.27*: &nbsp;🎉🎉 This fall, I will be pursuing my Ph.D. at the University of Notre Dame, with [Prof. Xiangliang Zhang](https://scholar.google.com/citations?user=BhRJe4wAAAAJ&hl=en) as my advisor!
-- *2024.01.15*: &nbsp;🎉🎉 [MetaTool](https://arxiv.org/abs/2310.03128) has been accepted by ICLR 2024!
-- *2024.01.13*: &nbsp;🎉🎉 Finish research internship at Tsinghua University KEG & Zhipu Inc.!
+- Large Language Models(LLMs)
+  - Application on various domains:LLM for healthcare,security,and scientific research.
+  - Data-Centric Solutions:Constructing high-quality benchmarks and datasets to evaluate and improve LLMs on various tasks.
+  - Multimodal Large Language Models(MLLMs).
+- Trustworthy and Explanable AI(XAI)
+  - Building self-explaining deep-learning models and workflows to provide faithful and trustworthy predictions.
 
 
 # 📝 Selected Publications 
 
-See more publications in my [Google Scholar](https://scholar.google.com/citations?user=HvzvvqQAAAAJ&hl=en)
+![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://yunfeixie233.github.io/MedTrinity-25M/)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/metatool_00.png' alt="sym" width="100%"></div></div>
+Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
+(*: first co-authors)
+
+
+*A comprehensive, large-scale multimodal dataset for medical vision-language models.*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-![ICLR 2024](https://img.shields.io/badge/ICLR-2024-7740bd) [MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use](https://arxiv.org/abs/2310.03128)
+![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
 
-**Yue Huang**, Jiawen Shi, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun
+Yu Liu\*,**Lang Gao\***,Mingxin Yang\*,Yu Xie,Ping Chen,Xiaojin Zhang, and Wei Chen 
+(*: first co-authors)
 
-[**Code**](https://github.com/HowieHwong/MetaTool) [![](https://img.shields.io/github/stars/HowieHwong/MetaTool)](https://github.com/HowieHwong/MetaTool)
+*A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
+of LLMs.*
 
-</div>
-</div>
+[**Toolkit & Code**](https://github.com/Sweetaroo/VulDetectBench) [![](https://img.shields.io/github/stars/Sweetaroo/VulDetectBench)](https://github.com/Sweetaroo/VulDetectBench)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/trustllm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-![ICML 2024](https://img.shields.io/badge/ICML-2024-A84111) [TrustLLM: Trustworthiness in Large Language Models](https://arxiv.org/abs/2401.05561)
-
-**Yue Huang** \*, Lichao Sun \*, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, et al. (*: co-corresponding authors)
-
-
-[**Toolkit & Code**](https://github.com/HowieHwong/TrustLLM) [![](https://img.shields.io/github/stars/HowieHwong/TrustLLM)](https://github.com/HowieHwong/TrustLLM)
-[![ibm](https://img.shields.io/badge/Invited%20Talk-IBM%20Research-blue)](https://research.ibm.com/)
-[![huggingface](https://img.shields.io/badge/huggingface-Daily%20Paper-yellow)]()
-[![report](https://img.shields.io/badge/Reported%20By-机器之心-brown)](https://mp.weixin.qq.com/s/iah6Wz0VsMsJx_wCtgirBw) 
-[![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue)](https://trustllmbenchmark.github.io/TrustLLM-Website/)
-[![Dataset](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)](https://huggingface.co/datasets/TrustLLM/TrustLLM-dataset)
-[![Data Map](https://img.shields.io/badge/Data%20Map-%F0%9F%8D%9F-orange)](https://atlas.nomic.ai/map/f64e87d3-c769-4a90-b15d-9dc833acc8ba/8e9d7045-503b-4ba0-bc64-7201cb7aacee?xs=-16.14086&xf=-1.88776&ys=-7.54937&yf=3.88213)
-[![Leaderboard](https://img.shields.io/badge/Leaderboard-%F0%9F%9A%80-brightgreen)](https://trustllmbenchmark.github.io/TrustLLM-Website/leaderboard.html)
-[![Toolkit Document](https://img.shields.io/badge/Toolkit%20Document-%F0%9F%93%9A-blueviolet)](https://howiehwong.github.io/TrustLLM/)
 
 </div>
 </div>
 
 
-- ![ACL 2024](https://img.shields.io/badge/ACL-2024-e87213) [AlignBench: Benchmarking Chinese Alignment of Large Language Models](https://arxiv.org/abs/2311.18743) Xiao Liu, Xuanyu Lei, Shengyuan Wang, **Yue Huang**, Zhuoer Feng, et al.
-- ![NAACL 2024](https://img.shields.io/badge/NAACL-2024-f24b2e) [LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?](https://arxiv.org/abs/2401.05952) Qihui Zhang, Chujie Gao, Dongping Chen, **Yue Huang**, et al.
-- ![WWW 2024](https://img.shields.io/badge/WWW-2024-c7be87) [From Creation to Clarification: ChatGPT's Journey Through the Fake News Quagmire]() **Yue Huang**, Kai Shu, Philip S. Yu, Lichao Sun
-- ![ScureComm 2023](https://img.shields.io/badge/SecureComm-2023-87acc7) [CyberEA: An Efficient Entity Alignment Framework for Cybersecurity Knowledge Graph](https://securecomm.eai-conferences.org/2023/full-program-2/) **Yue Huang**, Yongyan Guo, Cheng Huang
 
+- ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange)  **Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
 
+*An interpretable causal model framework aimed at correctly learning useful
+information from data with spurious correlations.*
 
 [//]: # (# ⚙️ Project)
 
@@ -128,22 +103,17 @@ See more publications in my [Google Scholar](https://scholar.google.com/citation
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 
-# 🎤 Talk
-- *2024.02* Invited Talk: Trustworthiness in Large Language Models @ [IBM Research](https://research.ibm.com/)
-- *2024.07* Invited Talk: Bias of Large Language Models @ TUM
 
-# 🎖 Honors and Awards
-- *2024.07* OpenAI’s Researcher Access Program and API
-- *2024.01* Microsoft Accelerate Foundation Models Research is awarded (Project: [TrustLLM](https://github.com/HowieHwong/TrustLLM) & Lead PI: [Lichao Sun](https://lichao-sun.github.io/))
+# 🏆 Honors and Awards
+- **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
+- **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
+- **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
+- **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
 
 # 📖 Educations
 
-- *2024.09 - 2029.06 (Expected)*, Ph.D, <img src='images/Notre_Dame.png' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
-- *2020.09 - now*, BEng., <img src='images/scu.png' style='width: 1.2em;'> [Sichuan University](https://www.scu.edu.cn/) 
+- *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
 
-# 💻 Internships
-
-- *2023.09 - 2024.01*, Research Intern at <img src='images/thu.png' style='width: 1.2em;'> Tsinghua University KEG & Zhipu AI Inc.
 
 
 <a href="https://mapmyvisitors.com/web/1bw5t"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=SMKWP8kMQ7_OcRboy6QXkVzuFECqnAdtI6Q_GNsItFk&cl=ffffff" /></a>
