@@ -72,7 +72,7 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
 ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://yunfeixie233.github.io/MedTrinity-25M/)
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
-(*: first co-authors)
+(\*: first co-authors)
 [**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) & [**Code**](https://github.com/HowieHwong/TrustLLM) 
 [![Static Badge](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)
 ](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M)[![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue)](https://yunfeixie233.github.io/MedTrinity-25M/)
@@ -90,7 +90,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
 
 Yu Liu\*,**Lang Gao\***,Mingxin Yang\*,Yu Xie,Ping Chen,Xiaojin Zhang, and Wei Chen 
-(*: first co-authors)
+(\*: first co-authors)
 
 *"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
 of LLMs."*
