@@ -42,6 +42,7 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
 ### Proficiencies
       
   **GPA:4.34/5.00** (or 3.75/4.00 according to [WES](https://www.wes.org/))
+
   |Course|Result|
   |:---:|:---:|
   |Calculus|97|
@@ -62,9 +63,7 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
   Fine-tune techniques(**PEFT**,full-parameter training;large-scale distributed training on server cluster),**Deepspeed**, **Transformers**
   - Strong Data Management and Processing Skills: **deduplication, cleaning, formatting**, and **statical analysis**. 
   - Programming Languages: Proficient in **Python, Linux,C and C++.**
-    
 
-    </details>
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
