@@ -19,7 +19,7 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hi 👋,I'm an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
+Hi 👋,I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
 
 I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://www.nd.edu/),under the guidance of [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/).Before that,I worked under [Prof.Yuyin Zhou](https://yuyinzhou.github.io/) at University of California,Santa Cruz(UCSC) and [Prof.Ruixuan Li](https://scholar.google.com/citations?user=scAIu2MAAAAJ&hl=en) of HUST.
 
@@ -37,10 +37,9 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
 
 # 📖 Educations
 
-- *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+  *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
 
-  <details>
-      <summary>Proficiencies</summary>
+### Proficiencies
       
   **GPA:4.34/5.00** (or 3.75/4.00 according to [WES](https://www.wes.org/))
   |Course|Result|
@@ -56,16 +55,13 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
   |...|...|
 
 
-  </details>
-  <details>
-        <summary>Skills</summary>
-        
-    - Deep Learning Framework: Proficient in **Pytorch**, **Tensorflow**
-    - Large Language Models:
-    Proficient in Prompt Engineering(Chain-of-Thought,In-Context-Learning and few-shot learning)
-    Fine-tune techniques(**PEFT**,full-parameter training;large-scale distributed training on server cluster),**Deepspeed**, **Transformers**
-    - Strong Data Management and Processing Skills: **deduplication, cleaning, formatting**, and **statical analysis**. 
-    - Programming Languages: Proficient in **Python, Linux,C and C++.**
+### Skills
+  - Deep Learning Framework: Proficient in **Pytorch**, **Tensorflow**
+  - Large Language Models:
+  Proficient in Prompt Engineering(Chain-of-Thought,In-Context-Learning and few-shot learning)
+  Fine-tune techniques(**PEFT**,full-parameter training;large-scale distributed training on server cluster),**Deepspeed**, **Transformers**
+  - Strong Data Management and Processing Skills: **deduplication, cleaning, formatting**, and **statical analysis**. 
+  - Programming Languages: Proficient in **Python, Linux,C and C++.**
     
 
     </details>
@@ -157,6 +153,6 @@ For more works,please refer to my [Github](https://github.com/HeartyHaven).
 
 # 📜 References
 
-You can find my [full CV](docs/CV_langgao) and an [English Transcript](docs/Eng_transcript) here.
+You can find my [full CV](docs/CV_langgao.pdf) and an [English Transcript](docs/Eng_transcript.pdf) here.
 
-<a href="https://mapmyvisitors.com/web/1bw5t"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=SMKWP8kMQ7_OcRboy6QXkVzuFECqnAdtI6Q_GNsItFk&cl=ffffff" /></a>
+<a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
