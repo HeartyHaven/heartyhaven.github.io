@@ -23,7 +23,7 @@ Hi 👋,I'm an undergraduate student of Computer Science and Technology at Huazh
 
 I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://www.nd.edu/),under the guidance of [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/).Before that,I worked under [Prof.Yuyin Zhou](https://yuyinzhou.github.io/) at University of California,Santa Cruz(UCSC) and [Prof.Ruixuan Li](https://scholar.google.com/citations?user=scAIu2MAAAAJ&hl=en) of HUST.
 
-> I am currently actively seeking PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
+> I am currently actively seeking for PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
 
 
 # 💡 Research Interest
@@ -35,42 +35,81 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
 - Trustworthy and Explanable AI(XAI)
   - Building self-explaining deep-learning models and workflows to provide faithful and trustworthy predictions.
 
+# 📖 Educations
 
-# 📝 Selected Publications 
+- *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+
+  <details>
+      <summary>Proficiencies</summary>
+      
+  **GPA:4.34/5.00** (or 3.75/4.00 according to [WES](https://www.wes.org/))
+  |Course|Result|
+  |:---:|:---:|
+  |Calculus|97|
+  |Software Engineering|97|
+  |Algorithmic Design & Analysis|97|
+  |Advanced Programming Language|94|
+  |Computer Vision|94|
+  |Principles of Imperative Computation|94|
+  |Operating System|91|
+  |Machine Learning|91|
+  |...|...|
+
+
+  </details>
+  <details>
+        <summary>Skills</summary>
+        
+    - Deep Learning Framework: Proficient in **Pytorch**, **Tensorflow**
+    - Large Language Models:
+    Proficient in Prompt Engineering(Chain-of-Thought,In-Context-Learning and few-shot learning)
+    Fine-tune techniques(**PEFT**,full-parameter training;large-scale distributed training on server cluster),**Deepspeed**, **Transformers**
+    - Strong Data Management and Processing Skills: **deduplication, cleaning, formatting**, and **statical analysis**. 
+    - Programming Languages: Proficient in **Python, Linux,C and C++.**
+    
+
+    </details>
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://yunfeixie233.github.io/MedTrinity-25M/)
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (*: first co-authors)
+[**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) & [**Code**](https://github.com/HowieHwong/TrustLLM) 
+[![Static Badge](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)
+](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M)[![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue)](https://yunfeixie233.github.io/MedTrinity-25M/)
+[![Static ](https://img.shields.io/badge/Expert_Evaluation-%F0%9F%A7%91%E2%80%8D%E2%9A%95%EF%B8%8F-gold)](https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform)
 
 
-*A comprehensive, large-scale multimodal dataset for medical vision-language models.*
+*"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
 
 Yu Liu\*,**Lang Gao\***,Mingxin Yang\*,Yu Xie,Ping Chen,Xiaojin Zhang, and Wei Chen 
 (*: first co-authors)
 
-*A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
-of LLMs.*
+*"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
+of LLMs."*
 
 [**Toolkit & Code**](https://github.com/Sweetaroo/VulDetectBench) [![](https://img.shields.io/github/stars/Sweetaroo/VulDetectBench)](https://github.com/Sweetaroo/VulDetectBench)
-
-
 </div>
 </div>
 
 
 
-- ![nips24](https://img.shields.io/badge/NIPS24-submitted-orange)  **Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
+![nips24](https://img.shields.io/badge/NIPS24-submitted-orange)  **Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
 
-*An interpretable causal model framework aimed at correctly learning useful
-information from data with spurious correlations.*
+*"An interpretable causal model framework aimed at correctly learning useful
+information from data with spurious correlations."*
 
 [//]: # (# ⚙️ Project)
 
@@ -102,7 +141,11 @@ information from data with spurious correlations.*
 
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
-
+#	⚙️ Other Works
+For more works,please refer to my [Github](https://github.com/HeartyHaven).
+- **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](docs/grammargpt-rp.pdf))
+- **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
+- **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 
 # 🏆 Honors and Awards
 - **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
@@ -110,10 +153,10 @@ information from data with spurious correlations.*
 - **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
 - **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
 
-# 📖 Educations
-
-- *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
 
 
+# 📜 References
+
+You can find my [full CV](docs/CV_langgao) and an [English Transcript](docs/Eng_transcript) here.
 
 <a href="https://mapmyvisitors.com/web/1bw5t"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=SMKWP8kMQ7_OcRboy6QXkVzuFECqnAdtI6Q_GNsItFk&cl=ffffff" /></a>
