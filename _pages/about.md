@@ -139,7 +139,7 @@ information from data with spurious correlations."*
 
 #	⚙️ Other Works
 For more works,please refer to my [Github](https://github.com/HeartyHaven).
-- **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](docs/grammargpt-rp.pdf))
+- **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](images/grammargpt-rp.pdf))
 - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
 - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 
@@ -153,6 +153,6 @@ For more works,please refer to my [Github](https://github.com/HeartyHaven).
 
 # 📜 References
 
-You can find my [full CV](docs/CV_langgao.pdf) and an [English Transcript](docs/Eng_transcript.pdf) here.
+You can find my [full CV](images/CV_langgao.pdf) and an [English Transcript](images/Eng_transcript.pdf) here.
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
