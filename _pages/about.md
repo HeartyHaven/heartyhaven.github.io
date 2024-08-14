@@ -136,19 +136,17 @@ information from data with spurious correlations."*
 
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
-#	⚙️ Other Works
-For more works,please refer to my [Github](https://github.com/HeartyHaven).
-- **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](images/grammargpt-rp.pdf))
-- **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
-- **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
+[//]: #	⚙️ Other Works
+[//]: For more works,please refer to my [Github](https://github.com/HeartyHaven).
+[//]: - **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](images/grammargpt-rp.pdf))
+[//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
+[//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 
 # 🏆 Honors and Awards
 - **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
 - **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
 - **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
 - **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
-
-
 
 # 📜 References
 
