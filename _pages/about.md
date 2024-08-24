@@ -21,7 +21,7 @@ redirect_from:
 [//]: # ()
 Hi 👋,I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
 
-I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://www.nd.edu/),under the guidance of [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/)(topic:LLM for optimization).Before that,I worked under [Prof.Yuyin Zhou](https://yuyinzhou.github.io/) at University of California,Santa Cruz(UCSC) and [Prof.Ruixuan Li](https://scholar.google.com/citations?user=scAIu2MAAAAJ&hl=en) of HUST.
+I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://www.nd.edu/),under the guidance of [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/)(topic:LLM for Bayesian Optimization).Before that,I worked under [Prof.Yuyin Zhou](https://yuyinzhou.github.io/) at University of California,Santa Cruz(UCSC) and [Prof.Ruixuan Li](https://scholar.google.com/citations?user=scAIu2MAAAAJ&hl=en) of HUST.
 
 > I am currently actively seeking for PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
 
@@ -41,7 +41,7 @@ I'm currently a visiting student at MINE Lab,[University of Notre Dame](https://
 
 ### Proficiencies
       
-  **GPA:4.34/5.00** (or 3.75/4.00 according to [WES](https://www.wes.org/))
+  **GPA:4.28/5.00** (or 3.70/4.00 according to [WES](https://www.wes.org/))
 
   |Course|Result|
   |:---:|:---:|
@@ -152,6 +152,6 @@ information from data with spurious correlations."*
 
 # 📜 References
 
-You can find my [full CV](images/CV_langgao.pdf) and an [English Transcript](images/Eng_transcript.pdf) here.
+You can find my [full CV](images/CV_langgao.pdf) and an [English Transcript](images/Eng_transcript.pdf) here (Latest update:**Aug 14th**).
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
