@@ -144,11 +144,11 @@ information from data with spurious correlations."*
 [//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 
 # 🏆 Honors and Awards
-- **National Second Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
+- **National First Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
 - **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
+- **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
 - **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
 - **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
-- **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
 
 # 📜 References
 
