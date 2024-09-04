@@ -142,9 +142,9 @@ of LLMs."*
 [//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
 [//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 # 💼 Expeiences
-- \[2024.07 - 2024.09\] <img src='images/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:Xiangliang Zhang,topic:LLMs for Bayesian Optimization)
-- \[2024.01 - 2024.06\] <img src='images/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:Yuyin Zhou,topic:Visual-Language models for healthcare)
-- \[2023.10 - 2023.12\] <img src='images/hust.png' style='width: 1.2em;'> HUST (Supervisor:Ruixuan Li,topic:Interpretable deep learning frameworks)
+- \[2024.07 - 2024.09\] <img src='images/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:[Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic:LLMs for Bayesian Optimization)
+- \[2024.01 - 2024.06\] <img src='images/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:[Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic:Visual-Language models for healthcare)
+- \[2023.10 - 2023.12\] <img src='images/hust.png' style='width: 1.2em;'> HUST (Supervisor:[Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic:Interpretable deep learning frameworks)
 
 # 🏆 Honors and Awards
 - **National First Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
