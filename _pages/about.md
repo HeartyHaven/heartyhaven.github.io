@@ -21,7 +21,7 @@ redirect_from:
 [//]: # ()
 Hi 👋,I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
 
-I am about to join MBZUAI as an research assistant this autumn with a focus on the explainability of medical large language models. 
+I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/).It is a nice place for research.
 
 > I am currently actively seeking for PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
 
@@ -69,7 +69,7 @@ I am about to join MBZUAI as an research assistant this autumn with a focus on t
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://arxiv.org/abs/2408.02900)
+ [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://arxiv.org/abs/2408.02900)
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
@@ -88,7 +88,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 <div class='paper-box-text' markdown="1">
 
 
-![nips24](https://img.shields.io/badge/NIPS24-submitted-orange) [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
+ [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
 
 Yu Liu\*,**Lang Gao\***,Mingxin Yang\*,Yu Xie,Ping Chen,Xiaojin Zhang, and Wei Chen 
 (\*: first co-authors)
@@ -102,7 +102,7 @@ of LLMs."*
 
 
 
-![nips24](https://img.shields.io/badge/NIPS24-submitted-orange)  **Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
+**Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
 
 *"An improved interpretable causal model architecture that can simultaneously avoid spurious correlations in data and those caused by insufficient training in traditional self-interpretable models."*
 
@@ -142,6 +142,7 @@ of LLMs."*
 [//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
 [//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 # 💼 Expeiences
+- \[2024.10 - now\] <img src='images/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor:[Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
 - \[2024.07 - 2024.09\] <img src='images/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:[Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic:LLMs for Bayesian Optimization)
 - \[2024.01 - 2024.06\] <img src='images/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:[Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic:Visual-Language models for healthcare)
 - \[2023.10 - 2023.12\] <img src='images/hust.png' style='width: 1.2em;'> HUST (Supervisor:[Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic:Interpretable deep learning frameworks)
