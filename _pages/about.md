@@ -148,7 +148,6 @@ of LLMs."*
 ### Insights
 - Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
 - Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
-- Article: Mamba:The Easy Way \[[Link](https://jackcook.com/2024/02/23/mamba.html?continueFlag=33aafab34a9456ecb724f2a2e6d848dd)\]
 
 
 ### Blogs
@@ -157,13 +156,9 @@ of LLMs."*
 - \[03/24\] \[Chinese\] Negative Transfer. \[[Link](https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh)\] 
 - \[03/24\] \[Chinese\] Mixture of Experts Explained. \[[Link](https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb)\] 
 - \[01/24\] \[Chinese\] EMNLP2020 Tutorial Notes (Topic: Explainable AI). \[[Link](https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze)\] 
-- \[Earlier\] \[Chinese\] Notes of various AI papers. \[[Link](https://github.com/HeartyHaven/AI-learning-track/tree/main)\] 
 
 
 
-### Others
-
-- A tutorial on Python crawler \[[Link](https://github.com/HeartyHaven/Python_Crawler_Practice)\]
 
 
 # 📜 References
