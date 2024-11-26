@@ -145,16 +145,13 @@ of LLMs."*
 - 🥉 **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
 
 # 📚 Resources
-<details>
-    <summary>Insights</summary>
+### Insights
+- Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
+- Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
+- Article: Mamba:The Easy Way \[[Link](https://jackcook.com/2024/02/23/mamba.html?continueFlag=33aafab34a9456ecb724f2a2e6d848dd)\]
 
-#### Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
-#### Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
-#### Article: Mamba:The Easy Way \[[Link](https://jackcook.com/2024/02/23/mamba.html?continueFlag=33aafab34a9456ecb724f2a2e6d848dd)\]
-</details>
 
-<details>
-    <summary>Blogs</summary>
+### Blogs
 
 - \[05/24\] \[Chinese\] National Undergraduate Innovation Project Documentation. \[[Link](files/grammargpt-rp.pdf)\] 
 - \[03/24\] \[Chinese\] Negative Transfer. \[[Link](https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh)\] 
@@ -162,13 +159,12 @@ of LLMs."*
 - \[01/24\] \[Chinese\] EMNLP2020 Tutorial Notes (Topic: Explainable AI). \[[Link](https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze)\] 
 - \[Earlier\] \[Chinese\] Notes of various AI papers. \[[Link](https://github.com/HeartyHaven/AI-learning-track/tree/main)\] 
 
-</details>
 
-<details>
-    <summary>Others</summary>
 
-#### A tutorial on Python crawler \[[Link](https://github.com/HeartyHaven/Python_Crawler_Practice)\]
-</details>
+### Others
+
+- A tutorial on Python crawler \[[Link](https://github.com/HeartyHaven/Python_Crawler_Practice)\]
+
 
 # 📜 References
 
