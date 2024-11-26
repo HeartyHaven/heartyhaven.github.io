@@ -27,13 +27,8 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/).It is a n
 
 
 # 💡 Research Interest
-
-- Large Language Models(LLMs)
-  - Application on various domains:LLM for healthcare,security,and scientific research.
-  - Data-Centric Solutions:Constructing high-quality benchmarks and datasets to evaluate and improve LLMs on various tasks.
-  - Multimodal Large Language Models(MLLMs).
-- Trustworthy and Explanable AI(XAI)
-  - Building self-explaining deep-learning models and workflows to provide faithful and trustworthy predictions.
+- **Explainable AI**: My current research goal is to understand why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures*, and to propose data-efficient solutions to these problems.
+- **AI for Healthcare**: In addition, I am highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the healthcare domains.
 
 # 📖 Educations
 
@@ -57,12 +52,7 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/).It is a n
 
 
 ### Skills
-  - Deep Learning Framework: Proficient in **Pytorch**, **Tensorflow**
-  - Large Language Models:
-  Proficient in Prompt Engineering(Chain-of-Thought,In-Context-Learning and few-shot learning)
-  Fine-tune techniques(**PEFT**,full-parameter training;large-scale distributed training on server cluster),**Deepspeed**, **Transformers**
-  - Strong Data Management and Processing Skills: **deduplication, cleaning, formatting**, and **statical analysis**. 
-  - Programming Languages: Proficient in **Python, Linux,C and C++.**
+I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
 
 # 📝 Publications 
 
@@ -159,3 +149,6 @@ of LLMs."*
 You can find my [full CV](images/CV_langgao.pdf) and an [English Transcript](images/Eng_transcript.pdf) here (Latest update:**Aug 14th**).
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
+
+# 📚 Resources
+
