@@ -32,7 +32,7 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/).It is a n
 
 # 📖 Educations
 
-  *2021.09 - now* : B.E.(expected),<img src='images/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+  *2021.09 - now* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
 
 ### Proficiencies
       
@@ -56,7 +56,7 @@ I have the necessary theoretical foundation and skills in AI/NLP research, inclu
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/medtrinity.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://arxiv.org/abs/2408.02900)
@@ -74,7 +74,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/vuldetectbench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -128,27 +128,52 @@ of LLMs."*
 
 [//]: #	⚙️ Other Works
 [//]: For more works,please refer to my [Github](https://github.com/HeartyHaven).
-[//]: - **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](images/grammargpt-rp.pdf))
+[//]: - **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](files/grammargpt-rp.pdf))
 [//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
 [//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
 # 💼 Expeiences
-- \[2024.10 - now\] <img src='images/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor:[Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
-- \[2024.07 - 2024.09\] <img src='images/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:[Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic:LLMs for Bayesian Optimization)
-- \[2024.01 - 2024.06\] <img src='images/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:[Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic:Visual-Language models for healthcare)
-- \[2023.10 - 2023.12\] <img src='images/hust.png' style='width: 1.2em;'> HUST (Supervisor:[Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic:Interpretable deep learning frameworks)
+- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor:[Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
+- \[2024.07 - 2024.09\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:[Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic:LLMs for Bayesian Optimization)
+- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:[Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic:Visual-Language models for healthcare)
+- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor:[Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic:Interpretable deep learning frameworks)
 
 # 🏆 Honors and Awards
-- **National First Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
-- **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
-- **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
-- **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
-- **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
+- 🥇 **National First Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
+- 🥈 **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
+- 🥈 **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
+- 🥉 **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
+- 🥉 **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
+
+# 📚 Resources
+<details>
+    <summary>Insights</summary>
+
+#### Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
+#### Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
+#### Article: Mamba:The Easy Way \[[Link](https://jackcook.com/2024/02/23/mamba.html?continueFlag=33aafab34a9456ecb724f2a2e6d848dd)\]
+</details>
+
+<details>
+    <summary>Blogs</summary>
+
+- \[05/24\] \[Chinese\] National Undergraduate Innovation Project Documentation. \[[Link](files/grammargpt-rp.pdf)\] 
+- \[03/24\] \[Chinese\] Negative Transfer. \[[Link](https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh)\] 
+- \[03/24\] \[Chinese\] Mixture of Experts Explained. \[[Link](https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb)\] 
+- \[01/24\] \[Chinese\] EMNLP2020 Tutorial Notes (Topic: Explainable AI). \[[Link](https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze)\] 
+- \[Earlier\] \[Chinese\] Notes of various AI papers. \[[Link](https://github.com/HeartyHaven/AI-learning-track/tree/main)\] 
+
+</details>
+
+<details>
+    <summary>Others</summary>
+
+#### A tutorial on Python crawler \[[Link](https://github.com/HeartyHaven/Python_Crawler_Practice)\]
+</details>
 
 # 📜 References
 
-You can find my [full CV](images/CV_langgao.pdf) and an [English Transcript](images/Eng_transcript.pdf) here (Latest update:**Aug 14th**).
+You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update:**Aug 14th**).
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
 
-# 📚 Resources
 
