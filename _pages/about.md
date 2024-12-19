@@ -19,16 +19,16 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hi 👋,I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST),expected to graduate in July 2025.
+Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST), expected to graduate in July 2025.
 
-I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/).It is a nice place for research.
+I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a nice place for research.
 
-> I am currently actively seeking for PhD opportunities.If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
+> I am currently actively seeking for PhD opportunities. If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
 
 
 # 💡 Research Interest
-- **Explainable AI**: My current research goal is to understand why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures*, and to propose data-efficient solutions to these problems.
-- **AI for Healthcare**: In addition, I am highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the healthcare domains.
+- **Explainable AI**: My current research goal is to understand why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures* and proposing data-efficient solutions to these problems.
+- **AI for Healthcare**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the healthcare domains.
 
 # 📖 Educations
 
@@ -78,9 +78,9 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 <div class='paper-box-text' markdown="1">
 
 
- [VulDetectBench:Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
+ [VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models](https://arxiv.org/pdf/2406.07595)
 
-Yu Liu\*,**Lang Gao\***,Mingxin Yang\*,Yu Xie,Ping Chen,Xiaojin Zhang, and Wei Chen 
+Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and Wei Chen 
 (\*: first co-authors)
 
 *"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
@@ -94,7 +94,7 @@ of LLMs."*
 
 **Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
 
-*"An improved interpretable causal model architecture that can simultaneously avoid spurious correlations in data and those caused by insufficient training in traditional self-interpretable models."*
+*"An improved interpretable causal model architecture that simultaneously avoids spurious correlations in data and those caused by insufficient training in traditional self-interpretable models."*
 
 [//]: # (# ⚙️ Project)
 
@@ -127,26 +127,27 @@ of LLMs."*
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 [//]: #	⚙️ Other Works
-[//]: For more works,please refer to my [Github](https://github.com/HeartyHaven).
+[//]: For more work, please refer to my [Github](https://github.com/HeartyHaven).
 [//]: - **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](files/grammargpt-rp.pdf))
 [//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
 [//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
-# 💼 Expeiences
-- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor:[Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
-- \[2024.07 - 2024.09\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> Univerisy of Notre Dame,Research Intern (Supervisor:[Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic:LLMs for Bayesian Optimization)
-- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz,Research Intern (Supervisor:[Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic:Visual-Language models for healthcare)
-- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor:[Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic:Interpretable deep learning frameworks)
+# 💼 Experiences
+- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
+- \[2024.07 - 2024.09\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic: LLMs for Bayesian Optimization)
+- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic: Visual-Language models for healthcare)
+- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic: Interpretable deep learning frameworks)
 
 # 🏆 Honors and Awards
-- 🥇 **National First Price**,RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
-- 🥈 **National Second Price**,15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition,2024
+- 🥇 **National First Price**, RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
+- 🥈 **National Second Price**, 15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition, 2024
 - 🥈 **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
-- 🥉 **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition,2023. 
+- 🥉 **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition, 2023. 
 - 🥉 **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
 
 # 📚 Resources
 ### Insights
 - Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
+- Book: Interpretable Machine Learning \[[Link](https://christophm.github.io/interpretable-ml-book/index.html)\]
 - Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
 
 
