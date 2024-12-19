@@ -23,7 +23,7 @@ Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Scien
 
 I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a nice place for research.
 
-> I am currently actively seeking for PhD opportunities. If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@hust.edu.cn). I am very excited to discuss potential collaborations.
+> I am currently actively seeking for PhD opportunities. If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@outlook.com). I am very excited to discuss potential collaborations.
 
 
 # 💡 Research Interest
@@ -126,11 +126,8 @@ of LLMs."*
 
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
-[//]: #	⚙️ Other Works
-[//]: For more work, please refer to my [Github](https://github.com/HeartyHaven).
-[//]: - **GrammarGPT**:A Chinese Text Correction System Based on Large Language Models([Technical Report](files/grammargpt-rp.pdf))
-[//]: - **NewsGPT**:Daily News Summarizer and Q&A([Code](https://github.com/HeartyHaven/NewsGPT))
-[//]: - **SoC-Analyser**:A U-net based SoC static IR drop estimation system.([Code](https://github.com/HeartyHaven/soc-analyser))
+
+
 # 💼 Experiences
 - \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
 - \[2024.07 - 2024.09\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic: LLMs for Bayesian Optimization)
@@ -164,7 +161,7 @@ of LLMs."*
 
 # 📜 References
 
-You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update:**Aug 14th**).
+You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update: **Aug 14th**).
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
 
