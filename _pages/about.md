@@ -61,18 +61,20 @@ I am also familiar with the architectures of large foundational models such as *
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models](https://arxiv.org/abs/2412.17034) 
+  [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/ARR2025-submission-green)
+
 
   **Lang Gao**, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
-*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space, and propose an efficient defense method.”"*
+*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space, and propose an efficient defense method.”"* 
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** 
+  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** ![Static Badge](https://img.shields.io/badge/ARR2025-submission-green)
+
   
   Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
 
@@ -85,7 +87,8 @@ I am also familiar with the architectures of large foundational models such as *
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
- [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://arxiv.org/abs/2408.02900)
+ [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://arxiv.org/abs/2408.02900) ![Static Badge](https://img.shields.io/badge/ICLR2025-submission-red)
+
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
