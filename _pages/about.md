@@ -52,7 +52,9 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
 
 
 ### Skills
-I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
+I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. 
+
+I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
 
 # 📝 Publications 
 ## 🧑‍🔬 Explainable AI
