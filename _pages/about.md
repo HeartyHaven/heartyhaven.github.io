@@ -27,8 +27,8 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
 
 
 # 💡 Research Interest
-- **Explainable AI**: My current research goal is to understand why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures* and proposing data-efficient solutions to these problems.
-- **AI for Healthcare**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the healthcare domains.
+- **Explainable AI**: My current research goal is to **interpret** why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures* and proposing **data-efficient solutions** to these problems.
+- **Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **security & healthcare** domains.
 
 # 📖 Educations
 
@@ -55,6 +55,30 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
 I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
 
 # 📝 Publications 
+## 🧑‍🔬 Explainable AI
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+  [Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models](https://arxiv.org/abs/2412.17034) 
+
+  **Lang Gao**, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
+
+*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space, and propose an efficient defense method.”"*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** 
+  
+  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
+
+*"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
+</div>
+</div>
+
+## 👨‍🔧 Application of AI
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -92,9 +116,7 @@ of LLMs."*
 
 
 
-**Attacking for Inspection and Instruction: The Risk of Spurious Correlations in Even Clean Datasets** Wei Liu, Zhiying Deng, Zhongyu Niu, **Lang Gao**, Jun Wang, Haozhao Wang, and Ruixuan Li
 
-*"An improved interpretable causal model architecture that simultaneously avoids spurious correlations in data and those caused by insufficient training in traditional self-interpretable models."*
 
 [//]: # (# ⚙️ Project)
 
@@ -130,7 +152,7 @@ of LLMs."*
 
 # 💼 Experiences
 - \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
-- \[2024.07 - 2024.09\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic: LLMs for Bayesian Optimization)
+- \[2024.07 - 2024.10\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic: LLMs for Bayesian Optimization)
 - \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic: Visual-Language models for healthcare)
 - \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic: Interpretable deep learning frameworks)
 
