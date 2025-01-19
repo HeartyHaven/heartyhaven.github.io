@@ -172,6 +172,7 @@ of LLMs."*
 ### Insights
 - Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
 - Book: Interpretable Machine Learning \[[Link](https://christophm.github.io/interpretable-ml-book/index.html)\]
+- Book: Trustworthy Machine Learning \[[Link](https://arxiv.org/pdf/2310.08215)\]
 - Book: 大语言模型 \(The Chinese Book for Large Language Models\) \[[Link](https://llmbook-zh.github.io/LLMBook.pdf)\]
 - Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
 
