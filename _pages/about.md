@@ -87,7 +87,8 @@ I am also familiar with the architectures of large foundational models such as *
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
- [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://arxiv.org/abs/2408.02900) ![Static Badge](https://img.shields.io/badge/ICLR2025-submission-red)
+ [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://arxiv.org/abs/2408.02900) ![Static Badge](https://img.shields.io/badge/ICLR'2025-red
+d)
 
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
