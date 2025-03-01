@@ -28,7 +28,7 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
 
 # 💡 Research Interest
 - **Mechanistic Interpretability of AI**: My current research goal is to **interpret** why large foundational models suffer from issues such as **hallucinations and vulnerabilities** by investigating their abnormal *intrinsic behaviors and structures* and proposing **data-efficient solutions** to these problems.
-- **Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **Biomedical** domain.
+- **Reliable Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **Biomedical** domain.
 
 # 📖 Educations
 
@@ -73,7 +73,7 @@ I am also familiar with the architectures of large foundational models such as *
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** ![Static Badge](https://img.shields.io/badge/ARR2025-submission-green)
+  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** ![Static Badge](https://img.shields.io/badge/ICML2025-submission-green)
 
   
   Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
@@ -156,10 +156,10 @@ of LLMs."*
 
 
 # 💼 Experiences
-- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
-- \[2024.07 - 2024.10\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
-- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
-- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
+- \[10 / 2024 - now      \] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
+- \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
+- \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
+- \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
 
 # 🏆 Honors and Awards
 - 🥇 **National First Price**, RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
@@ -190,7 +190,7 @@ of LLMs."*
 
 # 📜 References
 
-You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update: **Aug 14th**).
+You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update: **March 1st, 2025**).
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
 
