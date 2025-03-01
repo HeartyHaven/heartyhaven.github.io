@@ -27,14 +27,14 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
 
 
 # 💡 Research Interest
-- **Explainable AI**: My current research goal is to **interpret** why large foundational models suffer from *trustworthiness* issues, such as hallucinations and vulnerabilities, by investigating their abnormal *intrinsic behaviors and structures* and proposing **data-efficient solutions** to these problems.
-- **Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **security & healthcare** domains.
+- **Mechanistic Interpretability of AI**: My current research goal is to **interpret** why large foundational models suffer from issues such as **hallucinations and vulnerabilities** by investigating their abnormal *intrinsic behaviors and structures* and proposing **data-efficient solutions** to these problems.
+- **Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **Biomedical** domain.
 
 # 📖 Educations
 
-  *2021.09 - now* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+  *09 / 2021 - 07 / 2025* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
 
-### Proficiencies
+<!-- ### Proficiencies
       
   **GPA:4.28/5.00** (or 3.70/4.00 according to [WES](https://www.wes.org/))
 
@@ -49,7 +49,7 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
   |Operating System|91|
   |Machine Learning|91|
   |...|...|
-
+-->
 
 ### Skills
 I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. 
@@ -57,7 +57,7 @@ I have the necessary theoretical foundation and skills in AI/NLP research, inclu
 I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
 
 # 📝 Publications 
-## 🧑‍🔬 Explainable AI
+## 🧑‍🔬 Interpretable AI
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -66,7 +66,7 @@ I am also familiar with the architectures of large foundational models such as *
 
   **Lang Gao**, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
-*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space, and propose an efficient defense method.”"* 
+*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
 </div>
 </div>
 
@@ -82,7 +82,7 @@ I am also familiar with the architectures of large foundational models such as *
 </div>
 </div>
 
-## 👨‍🔧 Application of AI
+## 👨‍🔧 Reliable Application of AI
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -156,10 +156,10 @@ of LLMs."*
 
 
 # 💼 Experiences
-- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/),topic:Interpretability in LLMs)
-- \[2024.07 - 2024.10\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/),topic: LLMs for Bayesian Optimization)
-- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/),topic: Visual-Language models for healthcare)
-- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm),topic: Interpretable deep learning frameworks)
+- \[2024.10 - now\] <img src='files/mbzuai.png' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
+- \[2024.07 - 2024.10\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
+- \[2024.01 - 2024.06\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
+- \[2023.10 - 2023.12\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
 
 # 🏆 Honors and Awards
 - 🥇 **National First Price**, RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
