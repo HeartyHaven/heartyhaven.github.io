@@ -187,11 +187,6 @@ of LLMs."*
 
 
 
-
-# 📜 References
-
-You can find my [full CV](files/CV_langgao.pdf) and an [English Transcript](files/Eng_transcript.pdf) here (Latest update: **March 1st, 2025**).
-
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
 
 
