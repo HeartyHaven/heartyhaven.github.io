@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Lang Gao"
   avatar           : "images/profile.png"
-  bio              : "Huazhong University of Science and Technology"
-  location         : "Wuhan,Hubei,  China"
+  bio              : "MBZUAI"
+  location         : "Masdar City, Abu Dhabi, UAE"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=LzKcdl8AAAAJ&hl=en"
-  email            : "gaolang1643@outlook.com"
+  email            : "Lang.Gao@mbzuai.ac.ae"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
