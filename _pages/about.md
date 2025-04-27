@@ -19,20 +19,21 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
-Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology(HUST), expected to graduate in July 2025.
+Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
-I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a nice place for research.
-
-> I am currently actively seeking for PhD opportunities. If you have any relevant opportunities or suggestions, please feel free to [contact me](gaolang1643@outlook.com). I am very excited to discuss potential collaborations.
+I am currently a research associate and incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/). It is a nice place for research.
 
 
-# 💡 Research Interest
-- **Mechanistic Interpretability of AI**: My current research goal is to **interpret** why large foundational models suffer from issues such as **hallucinations and vulnerabilities** by investigating their abnormal *intrinsic behaviors and structures* and proposing **data-efficient solutions** to these problems.
-- **Reliable Application of AI**: I am also highly interested and experienced in exploring the *reliable application* of large foundational models (like Large Language Models and Vision-Language Models), particularly in the **Biomedical** domain.
 
-# 📖 Educations
 
-  *09 / 2021 - 07 / 2025* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+# 💡 What I want to do
+- **Mechanistic Interpretability**: Empirically or theoretically interpret behaviors of LLMs / provide empirically or theoretically interpretable approaches to enhance LLMs.
+- **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models, particularly in the **Biomedical** domains.
+  - *Currently, although I am not particularly drawn to trend-driven application work, I do not reject it, simply because I see it as a potential platform to extend and prove the usefulness of interpretability (Useful XAI).*
+
+> I’m always happy to connect with anyone interested in interpretability. It's a field full of different sparks, and I'm eager to learn from new perspectives. Feel free to reach out!
+
+
 
 <!-- ### Proficiencies
       
@@ -51,13 +52,12 @@ I am currently a research assistant at [MBZUAI](https://mbzuai.ac.ae/). It is a 
   |...|...|
 -->
 
-### Skills
-I have the necessary theoretical foundation and skills in AI/NLP research, including proficiency in deep learning frameworks (**PyTorch**, **TensorFlow**), training and evaluation techniques, and large-scale data management. 
-
-I am also familiar with the architectures of large foundational models such as **GPT**, **Llama**, and **LLaVA**. I enjoy manipulating activations and neurons within these models and am eager to observe how changes affect their output.
+# ⚙️ Skills
+- Deep learning frameworks like Transformers, PyTorch, etc.
+- Mechanistic Interpretability toolkits: NNsight, TransformerLens, SAELens.
 
 # 📝 Publications 
-## 🧑‍🔬 Interpretable AI
+## 🧑‍🔬 Mechanistic Interpretability
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -82,7 +82,7 @@ I am also familiar with the architectures of large foundational models such as *
 </div>
 </div>
 
-## 👨‍🔧 Reliable Application of AI
+## 👨‍🔧 Applications
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -153,22 +153,30 @@ of LLMs."*
 
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
+# 🧐 Service
+- 2025, Reviewer: ARR.
 
 
 # 💼 Experiences
-- \[10 / 2024 - now      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof.Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
-- \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof.Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
-- \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof.Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
-- \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof.Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
+- \[10 / 2024 - now      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof. Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
+- \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
+- \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
+- \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof. Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
 
-# 🏆 Honors and Awards
+# 📖 Educations
+  *09 / 2021 - 07 / 2025* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+
+<!-- # 🏆 Honors and Awards
 - 🥇 **National First Price**, RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
 - 🥈 **National Second Price**, 15th China College Students' Service Outsourcing Innovation and Entrepreneurship Competition, 2024
 - 🥈 **National Second Prize**, The 5th Integrated Circuit EDA Design Elite Challenge (Deep Learning Track), 2023
 - 🥉 **National Third Prize**, The 5th Global Campus Artificial Intelligence Algorithm Elite Competition, 2023. 
 - 🥉 **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
+-->
 
-# 📚 Resources
+
+# 🧩Miscellaneous
+## 📚 Resources
 ### Insights
 - Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
 - Book: Interpretable Machine Learning \[[Link](https://christophm.github.io/interpretable-ml-book/index.html)\]
@@ -184,7 +192,8 @@ of LLMs."*
 - \[03/24\] \[Chinese\] Mixture of Experts Explained. \[[Link](https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb)\] 
 - \[01/24\] \[Chinese\] EMNLP2020 Tutorial Notes (Topic: Explainable AI). \[[Link](https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze)\] 
 
-
+## Other Stuff
+I also like photography. Sometimes I take good photos by accident. So I might upload a few here someday, along with some unnecessary commentary, but feel free to pretend you're looking forward to it.🙃
 
 
 <a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
