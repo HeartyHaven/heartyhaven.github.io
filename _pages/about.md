@@ -73,7 +73,7 @@ I am currently a research associate and incoming PhD student at [MBZUAI](https:/
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** ![Static Badge](https://img.shields.io/badge/ICML2025-submission-green)
+  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
   
   Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
