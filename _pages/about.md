@@ -73,10 +73,12 @@ I am currently a research associate and incoming PhD student at [MBZUAI](https:/
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
+  [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://www.arxiv.org/abs/2505.02118)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
   
-  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
+  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Ruixuan Li
+  
+[**Code**](https://github.com/jugechengzi/Rationalization-A2I) [![](https://img.shields.io/github/stars/jugechengzi/Rationalization-A2I)](https://github.com/jugechengzi/Rationalization-A2I)
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
 </div>
@@ -92,6 +94,7 @@ I am currently a research associate and incoming PhD student at [MBZUAI](https:/
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
+
 [**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) & [**Code**](https://github.com/UCSC-VLAA/MedTrinity-25M) ![](https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M)
 
 [![Static Badge](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)
