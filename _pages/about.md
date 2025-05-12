@@ -21,7 +21,7 @@ redirect_from:
 [//]: # ()
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
-I am currently a research associate and incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/). It is a nice place for research.
+I am currently a research associate and an incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I’m fortunate to be supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
 
 
 
@@ -73,10 +73,12 @@ I am currently a research associate and incoming PhD student at [MBZUAI](https:/
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  **Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets** ![Static Badge](https://img.shields.io/badge/ICML2025-submission-green)
+  [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://www.arxiv.org/abs/2505.02118)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
   
-  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Zhigang Zeng, and Ruixuan Li
+  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Ruixuan Li
+  
+[**Code**](https://github.com/jugechengzi/Rationalization-A2I) [![](https://img.shields.io/github/stars/jugechengzi/Rationalization-A2I)](https://github.com/jugechengzi/Rationalization-A2I)
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
 </div>
@@ -92,6 +94,7 @@ I am currently a research associate and incoming PhD student at [MBZUAI](https:/
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
+
 [**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) & [**Code**](https://github.com/UCSC-VLAA/MedTrinity-25M) ![](https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M)
 
 [![Static Badge](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)
@@ -158,10 +161,11 @@ of LLMs."*
 
 
 # 💼 Experiences
-- \[10 / 2024 - now      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof. Xiuying Chen](https://mbzuai.ac.ae/study/faculty/xiuying-chen/), topic: Mechanistic Interpretability of LLMs)
+- \[10 / 2024 - now      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Prof. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
 - \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Prof. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
 - \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof. Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
+> 💬 I am deeply grateful to all the mentors and collaborators who have guided and supported me along the way. Your encouragement, trust, and inspiration have made all the difference in my journey.
 
 # 📖 Educations
   *09 / 2021 - 07 / 2025* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
