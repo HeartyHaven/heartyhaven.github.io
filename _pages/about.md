@@ -61,7 +61,9 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/ARR2025-submission-green)
+  [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/Main-ACL'2025-red)
+
+
 
 
   **Lang Gao**, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
