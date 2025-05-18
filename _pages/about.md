@@ -19,6 +19,14 @@ redirect_from:
 
 [//]: # ()
 [//]: # ()
+
+<div>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lexend&size=25&pause=1000&color=000000&center=true&vCenter=true&random=true&height=64&lines=Mechanistic+Interpretability;Natural+Language+Processing" alt="Typing SVG"></a>
+  <img src="files/The_2025_MBZUAI_logo.png" alt="MBZUAI Logo" height="64">
+
+  
+</div>
+
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
 I am currently a research associate and an incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I’m fortunate to be supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
@@ -72,15 +80,31 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+  [**Word Form Matters: LLMs’ Semantic Reconstruction under Typoglycemia**](https://arxiv.org/pdf/2503.01714) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
+
+
+
+
+  Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
+
+  [**Code**](https://github.com/Aurora-cx/TypoLLM) 
+
+*"How do LLMs make sense of scrambled input words—and why do they trust word form more than context?"* 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
   [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://www.arxiv.org/abs/2505.02118)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
   
-  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, Ruixuan Li
+  Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ruixuan Li
   
-[**Code**](https://github.com/jugechengzi/Rationalization-A2I) [![](https://img.shields.io/github/stars/jugechengzi/Rationalization-A2I)](https://github.com/jugechengzi/Rationalization-A2I)
+[**Code**](https://github.com/jugechengzi/Rationalization-A2I) 
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
 </div>
@@ -202,7 +226,10 @@ of LLMs."*
 ## Other Stuff
 I also like photography. Sometimes I take good photos by accident. So I might upload a few here someday, along with some unnecessary commentary, but feel free to pretend you're looking forward to it.🙃
 
+---
 
-<a href="https://mapmyvisitors.com/web/1bw95"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&cl=ffffff" /></a>
+<div style="text-align: center;">
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=600&t=n&d=RJ-9BpR3nPPhm7slE3OgXRPbI71Yo8jKNdXiKoeSQUw&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+</div>
 
 
