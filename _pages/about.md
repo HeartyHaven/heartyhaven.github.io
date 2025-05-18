@@ -20,12 +20,6 @@ redirect_from:
 [//]: # ()
 [//]: # ()
 
-<div>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lexend&size=25&pause=1000&color=000000&center=true&vCenter=true&random=true&height=64&lines=Mechanistic+Interpretability;Natural+Language+Processing" alt="Typing SVG"></a>
-  <img src="files/The_2025_MBZUAI_logo.png" alt="MBZUAI Logo" height="16">
-
-  
-</div>
 
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
