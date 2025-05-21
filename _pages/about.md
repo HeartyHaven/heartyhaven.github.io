@@ -20,12 +20,6 @@ redirect_from:
 [//]: # ()
 [//]: # ()
 
-<div>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Lexend&size=25&pause=1000&color=000000&center=true&vCenter=true&random=true&height=64&lines=Mechanistic+Interpretability;Natural+Language+Processing" alt="Typing SVG"></a>
-  <img src="files/The_2025_MBZUAI_logo.png" alt="MBZUAI Logo" height="64">
-
-  
-</div>
 
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
@@ -80,7 +74,7 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
   [**Word Form Matters: LLMs’ Semantic Reconstruction under Typoglycemia**](https://arxiv.org/pdf/2503.01714) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
