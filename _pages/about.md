@@ -60,7 +60,7 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 
 # 📝 Publications 
 ## 🧑‍🔬 Mechanistic Interpretability
-<div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/biaslens.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
   [**Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs**](https://arxiv.org/abs/2505.15524) ![Static Badge](https://img.shields.io/badge/Submission-NeurIPS'2025-green)
