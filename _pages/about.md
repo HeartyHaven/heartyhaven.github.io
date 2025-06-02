@@ -63,12 +63,31 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+  [**Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs**](https://arxiv.org/abs/2505.15524) ![Static Badge](https://img.shields.io/badge/Submission-NeurIPS'2025-green)
+
+
+
+
+  **Lang Gao**, Kaiyang Wan, Wei Liu, Chenxi Wang, Zirui Song, Zixiang Xu, Yanbo Wang, Veselin Stoyanov, and Xiuying Chen
+
+*"BiasLens is a new interpretable method that directly examines concept representations inside LLMs to detect hidden biases, without relying on any human-labeled data.
+"* 
+
+[**Code**](https://anonymous.4open.science/r/BiasLens-1ECE/) 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
   [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/Main-ACL'2025-red)
 
 
 
 
-  **Lang Gao**, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
+  **Lang Gao**, Jiahui Geng, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
 *"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
 </div>
