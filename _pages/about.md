@@ -23,7 +23,7 @@ redirect_from:
 
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
-I am currently a research associate and an incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I’m fortunate to be supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
+I am currently a research associate and an incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
 
 
 
@@ -33,7 +33,7 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 - **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models, particularly in the **Biomedical** domains.
   - *Currently, although I am not particularly drawn to trend-driven application work, I do not reject it, simply because I see it as a potential platform to extend and prove the usefulness of interpretability (Useful XAI).*
 
-> I’m always happy to connect with anyone interested in interpretability. It's a field full of different sparks, and I'm eager to learn from new perspectives. Feel free to reach out!
+> I'm always happy to connect with anyone interested in interpretability. It's a field full of different sparks, and I'm eager to learn from new perspectives. Feel free to reach out!
 
 
 
@@ -65,13 +65,9 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 
   [**Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs**](https://arxiv.org/abs/2505.15524) ![Static Badge](https://img.shields.io/badge/Submission-NeurIPS'2025-green)
 
-
-
-
   **Lang Gao**, Kaiyang Wan, Wei Liu, Chenxi Wang, Zirui Song, Zixiang Xu, Yanbo Wang, Veselin Stoyanov, and Xiuying Chen
 
-*"BiasLens is a new interpretable method that directly examines concept representations inside LLMs to detect hidden biases, without relying on any human-labeled data.
-"* 
+*"BiasLens is a new interpretable method that directly examines concept representations inside LLMs to detect hidden biases, without relying on any human-labeled data."* 
 
 [**Code**](https://anonymous.4open.science/r/BiasLens-1ECE/) 
 
@@ -84,9 +80,6 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 
   [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/Main-ACL'2025-red)
 
-
-
-
   **Lang Gao**, Jiahui Geng, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
 *"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
@@ -96,16 +89,13 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [**Word Form Matters: LLMs’ Semantic Reconstruction under Typoglycemia**](https://arxiv.org/pdf/2503.01714) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
-
-
-
+  [**Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia**](https://arxiv.org/pdf/2503.01714) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
 
   Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
 
-  [**Code**](https://github.com/Aurora-cx/TypoLLM) 
-
 *"How do LLMs make sense of scrambled input words—and why do they trust word form more than context?"* 
+
+[**Code**](https://github.com/Aurora-cx/TypoLLM) 
 </div>
 </div>
 
@@ -114,12 +104,11 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 
   [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://www.arxiv.org/abs/2505.02118)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
-  
   Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ruixuan Li
-  
-[**Code**](https://github.com/jugechengzi/Rationalization-A2I) 
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
+
+[**Code**](https://github.com/jugechengzi/Rationalization-A2I) 
 </div>
 </div>
 
@@ -130,32 +119,28 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 
  [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://arxiv.org/abs/2408.02900) ![Static Badge](https://img.shields.io/badge/ICLR'2025-red)
 
-
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
+
+*"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
 
 [**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) & [**Code**](https://github.com/UCSC-VLAA/MedTrinity-25M) ![](https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M)
 
 [![Static Badge](https://img.shields.io/badge/Dataset-%F0%9F%92%BE-green)
 ](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M)[![Website](https://img.shields.io/badge/Website-%F0%9F%8C%8D-blue)](https://yunfeixie233.github.io/MedTrinity-25M/)
 [![Static ](https://img.shields.io/badge/Expert_Evaluation-%F0%9F%A7%91%E2%80%8D%E2%9A%95%EF%B8%8F-gold)](https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform)
-
-
-*"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-
  [**VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models**](https://arxiv.org/pdf/2406.07595)
 
 Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and Wei Chen 
 (\*: first co-authors)
 
-*"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities
-of LLMs."*
+*"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities of LLMs."*
 
 [**Toolkit & Code**](https://github.com/Sweetaroo/VulDetectBench) [![](https://img.shields.io/github/stars/Sweetaroo/VulDetectBench)](https://github.com/Sweetaroo/VulDetectBench)
 </div>
