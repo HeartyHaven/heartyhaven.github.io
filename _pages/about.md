@@ -23,15 +23,16 @@ redirect_from:
 
 Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
 
-I am currently a research associate and an incoming PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
+I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
 
 
 
 
 # 💡 What I want to do
-- **Mechanistic Interpretability**: Empirically or theoretically interpret behaviors of LLMs / provide empirically or theoretically interpretable approaches to enhance LLMs.
+- **Mechanistic Interpretability (MI)**: Empirically or theoretically interpret behaviors of LLMs / provide empirically or theoretically interpretable approaches to enhance LLMs. 
+  - *Recently I am trying to use MI to address various trustworthiness issues (jailbreaking, bias, etc.) in LLMs. This often yield highly efficient and effective solutions!*
 - **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models, particularly in the **Biomedical** domains.
-  - *Currently, although I am not particularly drawn to trend-driven application work, I do not reject it, simply because I see it as a potential platform to extend and prove the usefulness of interpretability (Useful XAI).*
+  - *I see these as  potential platforms to extend and prove the usefulness of MI.*
 
 > I'm always happy to connect with anyone interested in interpretability. It's a field full of different sparks, and I'm eager to learn from new perspectives. Feel free to reach out!
 
@@ -78,7 +79,7 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://arxiv.org/abs/2412.17034) ![Static Badge](https://img.shields.io/badge/Main-ACL'2025-red)
+  [**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**](https://aclanthology.org/2025.acl-long.1233/) ![Static Badge](https://img.shields.io/badge/Main-ACL'2025-red)
 
   **Lang Gao**, Jiahui Geng, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
@@ -117,7 +118,7 @@ I am currently a research associate and an incoming PhD student at [MBZUAI](http
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
- [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://arxiv.org/abs/2408.02900) ![Static Badge](https://img.shields.io/badge/ICLR'2025-red)
+ [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://iclr.cc/virtual/2025/poster/30141) ![Static Badge](https://img.shields.io/badge/ICLR'2025-red)
 
 Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: first co-authors)
@@ -192,7 +193,8 @@ Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and 
 > 💬 I am deeply grateful to all the mentors and collaborators who have guided and supported me along the way. Your encouragement, trust, and inspiration have made all the difference in my journey.
 
 # 📖 Educations
-  *09 / 2021 - 07 / 2025* : B.E.(expected),<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology(HUST)
+  *08 / 2024 -* : Ph.D.,<img src='files/mbzuai.jpeg' style='width: 1.2em;'> Mohamed bin Zayed University of Artificial Intelligence 
+  *09 / 2021 - 07 / 2025* : B.E.,<img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology
 
 <!-- # 🏆 Honors and Awards
 - 🥇 **National First Price**, RAICOM Robotics Developer Contest - CAIR Engineering Competition National Finals，2024
