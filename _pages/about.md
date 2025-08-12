@@ -30,7 +30,7 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 
 # 💡 Interests
 - **Mechanistic Interpretability (MI)**: Empirically or theoretically interpret behaviors of LLMs / provide empirically or theoretically interpretable approaches to enhance LLMs. 
-  - *Recently I am trying to use MI to address various trustworthiness issues (jailbreaking, bias, etc.) in LLMs. This often yield highly efficient and effective solutions!*
+  - *Recently I am trying to use MI to address various trustworthiness issues (jailbreaking, bias, etc.) in LLMs. This often yields highly efficient and effective solutions!*
 - **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models, particularly in the **Biomedical** domains.
   - *I see these as  potential platforms to extend and prove the usefulness of MI.*
 
