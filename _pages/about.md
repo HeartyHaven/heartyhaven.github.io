@@ -21,14 +21,14 @@ redirect_from:
 [//]: # ()
 
 
-Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/), an undergraduate student of Computer Science and Technology at Huazhong University of Science and Technology (HUST), expected to graduate in July 2025.
+Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/).
 
 I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor.
 
 
 
 
-# 💡 What I want to do
+# 💡 Interests
 - **Mechanistic Interpretability (MI)**: Empirically or theoretically interpret behaviors of LLMs / provide empirically or theoretically interpretable approaches to enhance LLMs. 
   - *Recently I am trying to use MI to address various trustworthiness issues (jailbreaking, bias, etc.) in LLMs. This often yield highly efficient and effective solutions!*
 - **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models, particularly in the **Biomedical** domains.
