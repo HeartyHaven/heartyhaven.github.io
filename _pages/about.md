@@ -90,7 +90,7 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [**Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia**](https://arxiv.org/pdf/2503.01714) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
+  [**Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia**](https://aclanthology.org/2025.findings-acl.866/) ![Static Badge](https://img.shields.io/badge/Findings-ACL'2025-red)
 
   Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
 
@@ -103,7 +103,7 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-  [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://www.arxiv.org/abs/2505.02118)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
+  [**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**](https://icml.cc/virtual/2025/poster/44947)  ![Static Badge](https://img.shields.io/badge/ICML'2025-red)
 
   Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ruixuan Li
 
