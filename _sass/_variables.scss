@@ -14,7 +14,7 @@ $indent-var                 : 0.5em;
 
 /* system typefaces */
 $serif                      : "Times New Roman", Times, Georgia, Cambria, "Hoefler Text", serif;
-$sans-serif                 : "Times New Roman", Times, Georgia, Cambria, "Hoefler Text", serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -28,9 +28,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $serif;
-$header-font-family         : $serif;
-$caption-font-family        : $serif;
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
