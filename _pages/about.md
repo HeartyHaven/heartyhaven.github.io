@@ -193,9 +193,9 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 <td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://iclr.cc/virtual/2025/poster/30141">Paper</a></td>
 <td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/HeartyHaven/DataProcessingSystem">Toolkit</a></td>
 <td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/UCSC-VLAA/MedTrinity-25M">Code <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M" alt="stars"></a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M">Dataset 💾</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://yunfeixie233.github.io/MedTrinity-25M/">Website 🌍</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform">Expert Evaluation 🧑‍⚕️</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M">Dataset</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://yunfeixie233.github.io/MedTrinity-25M/">Website</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform">Expert Eval</a></td>
 </tr>
 </table>
 
