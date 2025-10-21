@@ -66,7 +66,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 ## 🧑‍🔬 Mechanistic Interpretability
 
 <details>
-<summary><img src="https://img.shields.io/badge/Preprint-green" alt="Preprint"> <strong>When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -75,7 +75,12 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"What if I say your AI detector can still have high AUC in random tokens? The first work on revealing the weak transferability of machine-generated text detectors in personalized contents, and its mechanistic interpretation."* 
 
-[**Paper**](https://arxiv.org/abs/2510.12476) | [**Data & Code**](https://github.com/mbzuai-nlp/Personalized_MGT_Detect) 
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2510.12476">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/mbzuai-nlp/Personalized_MGT_Detect">Data & Code</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -83,7 +88,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/Preprint-green" alt="Preprint"> <strong>Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/biaslens.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -92,7 +97,12 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"BiasLens is a new interpretable method that directly examines concept representations inside LLMs to detect hidden biases, without relying on any human-labeled data."* 
 
-[**Paper**](https://arxiv.org/abs/2505.15524) | [**Code**](https://anonymous.4open.science/r/BiasLens-1ECE/) 
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2505.15524">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://anonymous.4open.science/r/BiasLens-1ECE/">Code</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -101,7 +111,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 
 <details>
-<summary><img src="https://img.shields.io/badge/ACL'2025-red" alt="ACL 2025"> <strong>Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></span> Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -110,7 +120,11 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
 
-[**Paper**](https://aclanthology.org/2025.acl-long.1233/)
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://aclanthology.org/2025.acl-long.1233/">Paper</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -118,7 +132,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/ACL'2025-red" alt="ACL 2025"> <strong>Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></span> Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -127,7 +141,12 @@ Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
 
 *"How do LLMs make sense of scrambled input words—and why do they trust word form more than context?"* 
 
-[**Paper**](https://aclanthology.org/2025.findings-acl.866/) | [**Code**](https://github.com/Aurora-cx/TypoLLM) 
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://aclanthology.org/2025.findings-acl.866/">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/Aurora-cx/TypoLLM">Code</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -135,7 +154,7 @@ Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/ICML'2025-red" alt="ICML 2025"> <strong>Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ICML-2025-gray?labelColor=blue" alt="ICML 2025"></span> Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -144,7 +163,12 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
 
-[**Paper**](https://icml.cc/virtual/2025/poster/44947) | [**Code**](https://github.com/jugechengzi/Rationalization-A2I) 
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://icml.cc/virtual/2025/poster/44947">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/jugechengzi/Rationalization-A2I">Code</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -154,7 +178,7 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 ## 👨‍🔧 Applications
 
 <details>
-<summary><img src="https://img.shields.io/badge/ICLR'2025-red" alt="ICLR 2025"> <strong>MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025"></span> MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -164,7 +188,16 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 
 *"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
 
-[**Paper**](https://iclr.cc/virtual/2025/poster/30141) | [**Toolkit**](https://github.com/HeartyHaven/DataProcessingSystem) | [**Code**](https://github.com/UCSC-VLAA/MedTrinity-25M) ![](https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M) | [**Dataset** 💾](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M) | [**Website** 🌍](https://yunfeixie233.github.io/MedTrinity-25M/) | [**Expert Evaluation** 🧑‍⚕️](https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform)
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://iclr.cc/virtual/2025/poster/30141">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/HeartyHaven/DataProcessingSystem">Toolkit</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/UCSC-VLAA/MedTrinity-25M">Code <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M" alt="stars"></a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M">Dataset 💾</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://yunfeixie233.github.io/MedTrinity-25M/">Website 🌍</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform">Expert Evaluation 🧑‍⚕️</a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -172,7 +205,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/Preprint-green" alt="Preprint"> <strong>VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -182,7 +215,12 @@ Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and 
 
 *"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities of LLMs."*
 
-[**Paper**](https://arxiv.org/pdf/2406.07595) | [**Toolkit & Code**](https://github.com/Sweetaroo/VulDetectBench) [![](https://img.shields.io/github/stars/Sweetaroo/VulDetectBench)](https://github.com/Sweetaroo/VulDetectBench)
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/pdf/2406.07595">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/Sweetaroo/VulDetectBench">Toolkit & Code <img src="https://img.shields.io/github/stars/Sweetaroo/VulDetectBench" alt="stars"></a></td>
+</tr>
+</table>
 
 </div>
 </div>
@@ -190,7 +228,7 @@ Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and 
 </details>
 
 <details>
-<summary><img src="https://img.shields.io/badge/NeurIPS'2025-red" alt="NIPS 2025"> <strong>DyFlow: Dynamic Workflow Framework for Agentic Reasoning</strong></summary>
+<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025"></span> DyFlow: Dynamic Workflow Framework for Agentic Reasoning</summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -199,7 +237,12 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 *"DyFlow is a dynamic workflow framework for LLM-based agents, that adapts its reasoning steps in real-time using intermediate feedback, enabling better generalisation across diverse tasks."*
 
-[**Paper**](https://arxiv.org/abs/2509.26062) | [**Code**](https://github.com/wyf23187/DyFlow)
+<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
+<tr>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2509.26062">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/wyf23187/DyFlow">Code</a></td>
+</tr>
+</table>
 
 </div>
 </div>
