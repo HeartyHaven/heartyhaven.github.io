@@ -66,7 +66,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 ## 🧑‍🔬 Mechanistic Interpretability
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection</summary>
+<summary>When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -88,7 +88,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </details>
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs</summary>
+<summary>Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/biaslens.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -111,7 +111,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></span> Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models</summary>
+<summary>Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -132,7 +132,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </details>
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></span> Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia</summary>
+<summary>Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -154,7 +154,7 @@ Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
 </details>
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ICML-2025-gray?labelColor=blue" alt="ICML 2025"></span> Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets</summary>
+<summary>Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets  <img src="https://img.shields.io/badge/ICML-2025-gray?labelColor=blue" alt="ICML 2025"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -178,7 +178,7 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 ## 👨‍🔧 Applications
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025"></span> MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine</summary>
+<summary>MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine  <img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -205,7 +205,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 </details>
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></span> VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models</summary>
+<summary>VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -228,7 +228,7 @@ Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and 
 </details>
 
 <details>
-<summary><span style="display: inline-block; min-width: 100px;"><img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025"></span> DyFlow: Dynamic Workflow Framework for Agentic Reasoning</summary>
+<summary>DyFlow: Dynamic Workflow Framework for Agentic Reasoning  <img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025"></summary>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
