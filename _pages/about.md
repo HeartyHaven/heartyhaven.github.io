@@ -130,7 +130,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 Kaiyang Wan, **Lang Gao**, Honglin Mu, Preslav Nakov, Yuxia Wang, Xiuying Chen
 
-*"LLM's accuracy will hit a hard ceiling once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
+*"LLM's accuracy will have a severe performance breakdown once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
 
 <table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
 <tr>
