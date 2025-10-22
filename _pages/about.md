@@ -192,7 +192,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 
 **DyFlow: Dynamic Workflow Framework for Agentic Reasoning**  <img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025">
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/dyflow.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenxi Wang, Xiangru Tang, Yue Zhao, Arman Cohan, Xiangliang Zhang, and Xiuying Chen
