@@ -116,6 +116,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 <table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
 <tr>
 <td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://aclanthology.org/2025.acl-long.1233/">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://mbzuai.ac.ae/news/how-jailbreak-attacks-work-and-a-new-way-to-stop-them/">MBZUAI News</a></td>
 </tr>
 </table>
 
