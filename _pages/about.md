@@ -65,8 +65,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
-<details>
-<summary>When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
+**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -85,10 +84,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </div>
 </div>
 
-</details>
-
-<details>
-<summary>Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
+**Evaluate Bias without Manual Test Sets: A Concept Representation Perspective for LLMs**  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/biaslens.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -107,11 +103,8 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </div>
 </div>
 
-</details>
 
-
-<details>
-<summary>Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></summary>
+**Shaping the Safety Boundaries: Understanding and Defending Against Jailbreaks in Large Language Models**  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/abd-pre.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -129,32 +122,27 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </div>
 </div>
 
-</details>
+**A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA**  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint">
 
-<details>
-<summary>Word Form Matters: LLMs' Semantic Reconstruction under Typoglycemia  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ACL 2025"></summary>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='files/typo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/fano.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Chenxi Wang, Tianle Gu, Zhongyu Wei, **Lang Gao**, Zirui Song, and Xiuying Chen
+Kaiyang Wan, **Lang Gao**, Honglin Mu, Preslav Nakov, Yuxia Wang, Xiuying Chen
 
-*"How do LLMs make sense of scrambled input words—and why do they trust word form more than context?"* 
+*"LLM's accuracy will hit a hard ceiling once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
 
 <table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
 <tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://aclanthology.org/2025.findings-acl.866/">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/Aurora-cx/TypoLLM">Code</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/pdf/2509.21199">Paper</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/KaiyangWan/InfoQA">Code</a></td>
+<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://www.mittrchina.com/news/detail/15356">MIT Tech Review CN</a></td>
 </tr>
 </table>
 
 </div>
 </div>
 
-</details>
-
-<details>
-<summary>Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets  <img src="https://img.shields.io/badge/ICML-2025-gray?labelColor=blue" alt="ICML 2025"></summary>
+**Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets**  <img src="https://img.shields.io/badge/ICML-2025-gray?labelColor=blue" alt="ICML 2025">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/a2i.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -173,12 +161,9 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 </div>
 </div>
 
-</details>
-
 ## 👨‍🔧 Applications
 
-<details>
-<summary>MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine  <img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025"></summary>
+**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**  <img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -202,33 +187,9 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 </div>
 </div>
 
-</details>
 
-<details>
-<summary>VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint"></summary>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Yu Liu\*, **Lang Gao\***, Mingxin Yang\*, Yu Xie, Ping Chen, Xiaojin Zhang, and Wei Chen 
-(\*: Joint first authors)
-
-*"A novel, comprehensive benchmark, specifically designed to assess the code vulnerability detection capabilities of LLMs."*
-
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/pdf/2406.07595">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/Sweetaroo/VulDetectBench">Toolkit & Code <img src="https://img.shields.io/github/stars/Sweetaroo/VulDetectBench" alt="stars"></a></td>
-</tr>
-</table>
-
-</div>
-</div>
-
-</details>
-
-<details>
-<summary>DyFlow: Dynamic Workflow Framework for Agentic Reasoning  <img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025"></summary>
+**DyFlow: Dynamic Workflow Framework for Agentic Reasoning**  <img src="https://img.shields.io/badge/NeurIPS-2025-gray?labelColor=blue" alt="NeurIPS 2025">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/vuldetectbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -246,8 +207,6 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 </div>
 </div>
-
-</details>
 
 
 
