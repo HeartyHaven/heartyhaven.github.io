@@ -21,7 +21,7 @@ redirect_from:
 [//]: # ()
 
 
-Hi 👋, I'm Lang Gao(/læŋ ɡaʊ/).
+**Hi 👋, I'm Lang (/læŋ/).**
 
 I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
@@ -30,6 +30,8 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 
 # 💡 Interests
 - **Mechanistic Interpretability (MI)**: To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with the goal of making them more interpretable, controllable, and trustworthy.
+
+  > (Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.)
   
 - **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models.
   
