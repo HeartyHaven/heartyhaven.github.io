@@ -127,7 +127,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </div>
 </div>
 
-**A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA**  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ICLR 2026">
+**A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA**  <img src="https://img.shields.io/badge/ICLR-2026-gray?labelColor=blue" alt="ICLR 2026">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/fano.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
