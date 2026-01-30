@@ -25,7 +25,7 @@ redirect_from:
 
 I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
-Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/)) in 2025.
+Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/) ) in 2025.
 
 
 
