@@ -25,6 +25,8 @@ redirect_from:
 
 I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
+Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/)) in 2025.
+
 
 
 
@@ -33,10 +35,10 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 
   > (Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.)
   
-- **Reliable Application of AI (secondary)**: Explore the reliable application of machine learning models.
+- **Trustworthy AI (secondary)**: Explore the reliable application of AI.
   
 
-> I'm always happy to connect with anyone interested in interpretability. It's a field full of different sparks, and I'm eager to learn from new perspectives. Feel free to reach out!
+> I warmly welcome all kinds of collaborations, especially on topics related to interpretability and trustworthy AI. If you are interested, feel free to reach out and start a conversation!
 
 
 
@@ -125,7 +127,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 </div>
 </div>
 
-**A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA**  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint">
+**A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA**  <img src="https://img.shields.io/badge/ACL-2025-gray?labelColor=blue" alt="ICLR 2026">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/fano.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
