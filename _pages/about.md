@@ -23,7 +23,7 @@ redirect_from:
 
 **Hi 👋, I'm Lang (/læŋ/).**
 
-I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research. I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
+I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
 Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/) ) in 2025.
 
@@ -35,7 +35,7 @@ Previously, I got my bachelor's degree in Computer Science and Technology from H
 
   > (Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.)
   
-- **Trustworthy AI (secondary)**: Explore the reliable application of AI.
+- **Trustworthy AI (secondary)**: Investigate the safety, fairness, and reliability of LLMs, including defending against jailbreak attacks, detecting and mitigating social biases within model representations, and improving the robustness of machine-generated text detection.
   
 
 > I warmly welcome all kinds of collaborations, especially on topics related to interpretability and trustworthy AI. If you are interested, feel free to reach out and start a conversation!
@@ -69,7 +69,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
-**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/Preprint-gray" alt="Preprint">
+**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -248,10 +248,12 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 # 🧐 Service
-- 2025, Reviewer: ACL, EMNLP, NLPCC.
+- 2026, Reviewer: ACL, ICML. Journal Reviewer: HISS.
+- 2025, Reviewer: ACL, NeurIPS, EMNLP, NLPCC. Journal Reviewer: ICLR, HISS.
 
 
 # 💼 Experiences
+- \[04 / 2026 - Now\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
 - \[10 / 2024 - 07 / 2025      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
 - \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
