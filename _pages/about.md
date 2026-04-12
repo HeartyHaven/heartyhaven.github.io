@@ -66,7 +66,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
-**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026"> <img src="https://img.shields.io/badge/Oral-red" alt="Oral">
+**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026"> <img alt="Static Badge" src="https://img.shields.io/badge/Oral-red">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
