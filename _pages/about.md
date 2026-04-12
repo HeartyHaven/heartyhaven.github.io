@@ -80,10 +80,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 
 # 📝 Selected Publications 
 
-<a href="https://scholar.google.com/citations?user=LzKcdl8AAAAJ&hl=en" class="gs-link">
-<svg class="gs-icon" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;height:20px;min-width:20px;flex-shrink:0;"><path fill="#4285F4" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269z"/><circle fill="#356AC3" cx="12" cy="17" r="5.5"/></svg>
-View Full Publication List on Google Scholar
-</a>
+<a href="https://scholar.google.com/citations?user=LzKcdl8AAAAJ&hl=en" class="gs-link">View Full Publication List on Google Scholar</a>
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
