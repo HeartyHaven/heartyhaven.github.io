@@ -228,8 +228,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 # 🧐 Service
-- 2026, Reviewer: ACL, ICML. Journal Reviewer: HISS.
-- 2025, Reviewer: ACL, NeurIPS, EMNLP, NLPCC. Journal Reviewer: ICLR, HISS.
+- 2026, Reviewer: ACL, ICML, EMNLP. Journal Reviewer: HISS.
+- 2025, Reviewer: ACL, NeurIPS, EMNLP, NLPCC, ICLR. Journal Reviewer: HISS.
 
 
 # 💼 Experiences
