@@ -46,54 +46,81 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border-bottom: 1px #e8e8e8 solid;
+    padding: 1.8em 0;
 
-    .paper-box-image{
+    .paper-box-image {
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.12);
             object-fit: cover;
+            border-radius: 4px;
         }
     }
-    
-    .paper-box-text{
+
+    .paper-box-text {
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
+        .paper-box-image {
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
             order: 1;
         }
-        
-        .paper-box-text{
+
+        .paper-box-text {
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
+}
 
+.paper-links {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
 
+    a {
+        display: inline-block;
+        padding: 3px 12px;
+        font-size: 0.85em;
+        color: #2a6496 !important;
+        background: #f0f4f8;
+        border: 1px solid #d0d7de;
+        border-radius: 4px;
+        text-decoration: none !important;
+        transition: all 0.2s ease;
+
+        &:hover {
+            background: #dce6f0;
+            border-color: #a8b8c8;
+            color: #1a4a72 !important;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+    }
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 

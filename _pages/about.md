@@ -27,9 +27,6 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 
 Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/) ) in 2025.
 
-
-
-
 # 💡 Interests
 - **Mechanistic Interpretability (MI)**: To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with the goal of making them more interpretable, controllable, and trustworthy.
 
@@ -69,7 +66,7 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
-**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026">
+**When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026"> <img src="https://img.shields.io/badge/Oral-red" alt="Oral">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -78,12 +75,10 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"What if I say your AI detector can still have high AUC in random tokens? The first work on revealing the weak transferability of machine-generated text detectors in personalized contents, and its mechanistic interpretation."* 
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2510.12476">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/mbzuai-nlp/Personalized_MGT_Detect">Data & Code</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2510.12476">Paper</a>
+<a href="https://github.com/mbzuai-nlp/Personalized_MGT_Detect">Data & Code</a>
+</div>
 
 </div>
 </div>
@@ -97,12 +92,10 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"BiasLens is a new interpretable method that directly examines concept representations inside LLMs to detect hidden biases, without relying on any human-labeled data."* 
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2505.15524">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://anonymous.4open.science/r/BiasLens-1ECE/">Code</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2505.15524">Paper</a>
+<a href="https://anonymous.4open.science/r/BiasLens-1ECE/">Code</a>
+</div>
 
 </div>
 </div>
@@ -117,12 +110,10 @@ Please refer to my [Google Scholar](https://scholar.google.com/citations?user=Lz
 
 *"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://aclanthology.org/2025.acl-long.1233/">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://mbzuai.ac.ae/news/how-jailbreak-attacks-work-and-a-new-way-to-stop-them/">MBZUAI News</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://aclanthology.org/2025.acl-long.1233/">Paper</a>
+<a href="https://mbzuai.ac.ae/news/how-jailbreak-attacks-work-and-a-new-way-to-stop-them/">MBZUAI News</a>
+</div>
 
 </div>
 </div>
@@ -136,13 +127,11 @@ Kaiyang Wan, **Lang Gao**, Honglin Mu, Preslav Nakov, Yuxia Wang, Xiuying Chen
 
 *"LLM's accuracy will have a severe performance breakdown once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/pdf/2509.21199">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/KaiyangWan/InfoQA">Code</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://www.mittrchina.com/news/detail/15356">MIT Tech Review CN</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://arxiv.org/pdf/2509.21199">Paper</a>
+<a href="https://github.com/KaiyangWan/InfoQA">Code</a>
+<a href="https://www.mittrchina.com/news/detail/15356">MIT Tech Review CN</a>
+</div>
 
 </div>
 </div>
@@ -156,12 +145,10 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 
 *"An interpretable, causal learning paradigm that simultaneously avoids spurious correlations in data and traditional self-interpretable models."*
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://icml.cc/virtual/2025/poster/44947">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/jugechengzi/Rationalization-A2I">Code</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://icml.cc/virtual/2025/poster/44947">Paper</a>
+<a href="https://github.com/jugechengzi/Rationalization-A2I">Code</a>
+</div>
 
 </div>
 </div>
@@ -178,16 +165,14 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 
 *"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://iclr.cc/virtual/2025/poster/30141">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/HeartyHaven/DataProcessingSystem">Toolkit</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/UCSC-VLAA/MedTrinity-25M">Code <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M" alt="stars"></a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M">Dataset</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://yunfeixie233.github.io/MedTrinity-25M/">Website</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform">Expert Eval</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://iclr.cc/virtual/2025/poster/30141">Paper</a>
+<a href="https://github.com/HeartyHaven/DataProcessingSystem">Toolkit</a>
+<a href="https://github.com/UCSC-VLAA/MedTrinity-25M">Code <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedTrinity-25M" alt="stars"></a>
+<a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M">Dataset</a>
+<a href="https://yunfeixie233.github.io/MedTrinity-25M/">Website</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfjNvzyo2LRpAvLfGpj6XmNI_OHaVDRtV0ON2pcz1dUYC5Itg/viewform">Expert Eval</a>
+</div>
 
 </div>
 </div>
@@ -203,18 +188,13 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 *"DyFlow is a dynamic workflow framework for LLM-based agents, that adapts its reasoning steps in real-time using intermediate feedback, enabling better generalisation across diverse tasks."*
 
-<table style="border: 1px solid #ddd; border-collapse: collapse; margin-top: 10px;">
-<tr>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://arxiv.org/abs/2509.26062">Paper</a></td>
-<td style="border: 1px solid #ddd; padding: 5px 10px;"><a href="https://github.com/wyf23187/DyFlow">Code</a></td>
-</tr>
-</table>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2509.26062">Paper</a>
+<a href="https://github.com/wyf23187/DyFlow">Code</a>
+</div>
 
 </div>
 </div>
-
-
-
 
 
 [//]: # (# ⚙️ Project)
@@ -254,7 +234,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 # 💼 Experiences
 - \[04 / 2026 - Now\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
-- \[10 / 2024 - 07 / 2025      \] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
+- \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
 - \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
 - \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof. Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
