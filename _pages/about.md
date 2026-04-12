@@ -28,14 +28,32 @@ I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a gr
 Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/) ) in 2025.
 
 # 💡 Interests
-- **Mechanistic Interpretability (MI)**: To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with the goal of making them more interpretable, controllable, and trustworthy.
 
-  > (Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.)
-  
-- **Trustworthy AI (secondary)**: Investigate the safety, fairness, and reliability of LLMs, including defending against jailbreak attacks, detecting and mitigating social biases within model representations, and improving the robustness of machine-generated text detection.
-  
+<div class="interest-cards">
+<div class="interest-card interest-card--primary">
+<div class="interest-card__badge">Primary</div>
+<div class="interest-card__title">🔬 Mechanistic Interpretability</div>
+<div class="interest-card__body">
+To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with the goal of making them more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>.
+</div>
+<div class="interest-card__note">
+Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.
+</div>
+</div>
 
-> I warmly welcome all kinds of collaborations, especially on topics related to interpretability and trustworthy AI. If you are interested, feel free to reach out and start a conversation!
+<div class="interest-card interest-card--secondary">
+<div class="interest-card__badge">Secondary</div>
+<div class="interest-card__title">🛡️ Trustworthy AI</div>
+<div class="interest-card__body">
+Investigate the safety, fairness, and reliability of LLMs, including defending against <strong>jailbreak attacks</strong>, detecting and mitigating <strong>social biases</strong> within model representations, and improving the robustness of <strong>machine-generated text detection</strong>.
+</div>
+</div>
+</div>
+
+<div class="collab-banner">
+<span class="collab-banner__icon">💬</span>
+<span>I warmly welcome all kinds of collaborations, especially on topics related to interpretability and trustworthy AI. If you are interested, feel free to reach out and start a conversation!</span>
+</div>
 
 
 
@@ -231,8 +249,24 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
 # 🧐 Service
-- 2026, Reviewer: ACL, ICML, EMNLP. Journal Reviewer: HISS.
-- 2025, Reviewer: ACL, NeurIPS, EMNLP, NLPCC, ICLR. Journal Reviewer: HISS.
+
+<div class="service-year">
+<span class="service-year__label">2026</span>
+<span class="service-tag">ACL</span>
+<span class="service-tag">ICML</span>
+<span class="service-tag">EMNLP</span>
+<span class="service-tag service-tag--journal">HISS</span>
+</div>
+
+<div class="service-year">
+<span class="service-year__label">2025</span>
+<span class="service-tag">ACL</span>
+<span class="service-tag">NeurIPS</span>
+<span class="service-tag">EMNLP</span>
+<span class="service-tag">NLPCC</span>
+<span class="service-tag">ICLR</span>
+<span class="service-tag service-tag--journal">HISS</span>
+</div>
 
 
 # 💼 Experiences
@@ -257,23 +291,83 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 -->
 
 
-# 🧩Miscellaneous
+# 🧩 Miscellaneous
+
 ## 📚 Resources
-### Insights
-- Book: Interpretability in Deep Learning \[[Link](files/XAI.pdf)\]
-- Book: Interpretable Machine Learning \[[Link](https://christophm.github.io/interpretable-ml-book/index.html)\]
-- Book: Trustworthy Machine Learning \[[Link](https://arxiv.org/pdf/2310.08215)\]
-- Book: 大语言模型 \(The Chinese Book for Large Language Models\) \[[Link](https://llmbook-zh.github.io/LLMBook.pdf)\]
-- Article: The Bitter Lesson \[[Link](files/bitter_lesson.pdf)\]
-- Article: The Urgency of Interpretability \[[Link](https://www.darioamodei.com/post/the-urgency-of-interpretability)\]
 
+<div class="resource-section">
+<h3 class="resource-section__title">Insights</h3>
+<div class="resource-grid">
 
-### Blogs
+<a href="files/XAI.pdf" class="resource-card">
+<span class="resource-card__icon">📖</span>
+<span class="resource-card__label">Book</span>
+<span class="resource-card__name">Interpretability in Deep Learning</span>
+</a>
 
-- \[05/24\] \[Chinese\] National Undergraduate Innovation Project Documentation. \[[Link](files/grammargpt-rp.pdf)\] 
-- \[03/24\] \[Chinese\] Negative Transfer. \[[Link](https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh)\] 
-- \[03/24\] \[Chinese\] Mixture of Experts Explained. \[[Link](https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb)\] 
-- \[01/24\] \[Chinese\] EMNLP2020 Tutorial Notes (Topic: Explainable AI). \[[Link](https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze)\] 
+<a href="https://christophm.github.io/interpretable-ml-book/index.html" class="resource-card">
+<span class="resource-card__icon">📖</span>
+<span class="resource-card__label">Book</span>
+<span class="resource-card__name">Interpretable Machine Learning</span>
+</a>
+
+<a href="https://arxiv.org/pdf/2310.08215" class="resource-card">
+<span class="resource-card__icon">📖</span>
+<span class="resource-card__label">Book</span>
+<span class="resource-card__name">Trustworthy Machine Learning</span>
+</a>
+
+<a href="https://llmbook-zh.github.io/LLMBook.pdf" class="resource-card">
+<span class="resource-card__icon">📖</span>
+<span class="resource-card__label">Book</span>
+<span class="resource-card__name">大语言模型 (LLM Chinese)</span>
+</a>
+
+<a href="files/bitter_lesson.pdf" class="resource-card">
+<span class="resource-card__icon">📄</span>
+<span class="resource-card__label">Article</span>
+<span class="resource-card__name">The Bitter Lesson</span>
+</a>
+
+<a href="https://www.darioamodei.com/post/the-urgency-of-interpretability" class="resource-card">
+<span class="resource-card__icon">📄</span>
+<span class="resource-card__label">Article</span>
+<span class="resource-card__name">The Urgency of Interpretability</span>
+</a>
+
+</div>
+</div>
+
+<div class="resource-section">
+<h3 class="resource-section__title">Blogs</h3>
+<div class="blog-list">
+
+<a href="files/grammargpt-rp.pdf" class="blog-entry">
+<span class="blog-entry__date">05/24</span>
+<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__title">National Undergraduate Innovation Project Documentation</span>
+</a>
+
+<a href="https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh" class="blog-entry">
+<span class="blog-entry__date">03/24</span>
+<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__title">Negative Transfer</span>
+</a>
+
+<a href="https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb" class="blog-entry">
+<span class="blog-entry__date">03/24</span>
+<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__title">Mixture of Experts Explained</span>
+</a>
+
+<a href="https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze" class="blog-entry">
+<span class="blog-entry__date">01/24</span>
+<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__title">EMNLP2020 Tutorial Notes (Explainable AI)</span>
+</a>
+
+</div>
+</div>
 
 ## Other Stuff
 I also like photography. Sometimes I take good photos by accident. So I might upload a few here someday, along with some unnecessary commentary, but feel free to pretend you're looking forward to it.🙃
