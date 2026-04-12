@@ -40,6 +40,139 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ==========================================================================
+   Geometric Background Decorations
+   ========================================================================== */
+
+.page__content {
+    position: relative;
+}
+
+/* Floating geometric shapes - subtle page decoration */
+.page__content::before {
+    content: '';
+    position: fixed;
+    top: 120px;
+    right: 30px;
+    width: 180px;
+    height: 180px;
+    border: 1.5px solid rgba(34, 75, 141, 0.06);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+    animation: geo-float 20s ease-in-out infinite;
+}
+
+.page__content::after {
+    content: '';
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    border: 1.5px solid rgba(34, 75, 141, 0.05);
+    transform: rotate(45deg);
+    pointer-events: none;
+    z-index: -1;
+    animation: geo-float 25s ease-in-out infinite reverse;
+}
+
+@keyframes geo-float {
+    0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.6; }
+    25% { transform: translateY(-15px) rotate(5deg); opacity: 1; }
+    50% { transform: translateY(8px) rotate(-3deg); opacity: 0.7; }
+    75% { transform: translateY(-10px) rotate(2deg); opacity: 0.9; }
+}
+
+/* Additional geometric accents via page-level wrapper */
+#main::before {
+    content: '';
+    position: fixed;
+    top: 280px;
+    right: 80px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid rgba(34, 75, 141, 0.03);
+    pointer-events: none;
+    z-index: -1;
+    animation: geo-float 18s ease-in-out infinite 3s;
+}
+
+#main::after {
+    content: '';
+    position: fixed;
+    top: 60%;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(34, 75, 141, 0.04) 0%, transparent 60%);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    pointer-events: none;
+    z-index: -1;
+    animation: geo-spin 30s linear infinite;
+}
+
+@keyframes geo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Section Heading — Geometric Gradient Underline
+   ========================================================================== */
+
+.page__content h1 {
+    position: relative;
+    border-bottom: none !important;
+    padding-bottom: 0.6em;
+    margin-bottom: 0.6em;
+
+    /* Gradient underline with diamond start-point */
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(
+            90deg,
+            #224b8d 0%,
+            #4a90d9 30%,
+            rgba(74, 144, 217, 0.2) 70%,
+            transparent 100%
+        );
+        border-radius: 1px;
+    }
+}
+
+/* Sub-section h2 — lighter geometric accent */
+.page__content h2 {
+    position: relative;
+    padding-bottom: 0.35em;
+    margin-top: 1.5em;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: 1px;
+        background: linear-gradient(
+            90deg,
+            rgba(34, 75, 141, 0.3) 0%,
+            transparent 100%
+        );
+    }
+}
+
+/* ==========================================================================
+   Paper Box — Geometric Card Enhancement
+   ========================================================================== */
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -48,6 +181,33 @@
     flex-wrap: wrap;
     border-bottom: 1px #e8e8e8 solid;
     padding: 1.8em 0;
+    position: relative;
+    transition: all 0.3s ease;
+
+    /* Subtle left accent bar */
+    &::before {
+        content: '';
+        position: absolute;
+        left: -12px;
+        top: 1.8em;
+        bottom: 1.8em;
+        width: 3px;
+        background: linear-gradient(180deg, #224b8d, rgba(74, 144, 217, 0.2));
+        border-radius: 2px;
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: scaleY(0.5);
+    }
+
+    &:hover {
+        background: rgba(34, 75, 141, 0.015);
+        border-radius: 6px;
+
+        &::before {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
 
     .paper-box-image {
         justify-content: center;
@@ -59,7 +219,13 @@
             box-shadow: 2px 2px 8px rgba(0,0,0,0.12);
             object-fit: cover;
             border-radius: 4px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+    }
+
+    &:hover .paper-box-image img {
+        transform: translateY(-2px);
+        box-shadow: 3px 5px 15px rgba(0,0,0,0.15);
     }
 
     .paper-box-text {
@@ -84,6 +250,10 @@
     }
 }
 
+/* ==========================================================================
+   Paper Links — Pill Buttons
+   ========================================================================== */
+
 .paper-links {
     margin-top: 8px;
     display: flex;
@@ -100,11 +270,30 @@
         border-radius: 4px;
         text-decoration: none !important;
         transition: all 0.2s ease;
+        position: relative;
+        overflow: hidden;
+
+        /* Geometric hover sweep */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(34,75,141,0.06), transparent);
+            transition: left 0.4s ease;
+        }
 
         &:hover {
             background: #dce6f0;
             border-color: #a8b8c8;
             color: #1a4a72 !important;
+            transform: translateY(-1px);
+
+            &::before {
+                left: 100%;
+            }
         }
 
         img {
@@ -113,6 +302,75 @@
         }
     }
 }
+
+/* ==========================================================================
+   Blockquote — Geometric Corner Accent
+   ========================================================================== */
+
+blockquote {
+    position: relative;
+
+    /* Top-right geometric corner */
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(
+            225deg,
+            rgba(34, 75, 141, 0.08) 0%,
+            rgba(34, 75, 141, 0.08) 50%,
+            transparent 50%
+        );
+        border-radius: 0 4px 0 0;
+    }
+}
+
+/* ==========================================================================
+   Experience & Education — Timeline Dot
+   ========================================================================== */
+
+.page__content > ul > li {
+    position: relative;
+}
+
+/* ==========================================================================
+   Miscellaneous Section Geometric Separator
+   ========================================================================== */
+
+.page__content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(34, 75, 141, 0.15) 15%,
+        rgba(34, 75, 141, 0.3) 50%,
+        rgba(34, 75, 141, 0.15) 85%,
+        transparent 100%
+    );
+    position: relative;
+    margin: 2em 0;
+
+    /* Center diamond on the hr */
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 8px;
+        height: 8px;
+        background: #fff;
+        border: 1.5px solid rgba(34, 75, 141, 0.3);
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+/* ==========================================================================
+   Scroll Offset & Badge
+   ========================================================================== */
 
 $scroll_offset : 2em;
 h1:before, .anchor:before {
@@ -133,4 +391,13 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* ==========================================================================
+   Dot Grid Background Accent (subtle)
+   ========================================================================== */
+
+body {
+    background-image: radial-gradient(circle, rgba(34, 75, 141, 0.03) 1px, transparent 1px);
+    background-size: 28px 28px;
 }
