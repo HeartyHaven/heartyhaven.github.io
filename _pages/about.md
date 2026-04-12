@@ -174,6 +174,8 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 </div>
 </div>
 
+<div class="geo-deco geo-deco--cross-left" aria-hidden="true"></div>
+
 ## 👨‍🔧 Applications
 
 **MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**  <img src="https://img.shields.io/badge/ICLR-2025-gray?labelColor=blue" alt="ICLR 2025">
@@ -248,6 +250,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 [//]: # (- Improvements to the [trustllm toolkit]&#40;https://github.com/HowieHwong/TrustLLM&#41;)
 
+<div class="geo-deco geo-deco--hexagon-right" aria-hidden="true"></div>
+
 # 🧐 Service
 
 <div class="service-year">
@@ -269,6 +273,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 </div>
 
 
+<div class="geo-deco geo-deco--circle-left" aria-hidden="true"></div>
+
 # 💼 Experiences
 - \[04 / 2026 - Now\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
 - \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
@@ -276,6 +282,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 - \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
 - \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof. Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
 > 💬 I am deeply grateful to all the mentors and collaborators who have guided and supported me along the way. Your encouragement, trust, and inspiration have made all the difference in my journey.
+
+<div class="geo-deco geo-deco--triangle-right" aria-hidden="true"></div>
 
 # 📖 Educations
   *08 / 2025 - Now* : Ph.D. student, <img src='files/mbzuai.jpeg' style='width: 1.2em;'> Mohamed bin Zayed University of Artificial Intelligence 
@@ -290,6 +298,9 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 - 🥉 **National Third Prize**, iFlytek Developer Competition, NLP Track, 2023
 -->
 
+
+<div class="geo-deco geo-deco--diamond-left" aria-hidden="true"></div>
+<div class="geo-deco geo-deco--dots-right" aria-hidden="true"></div>
 
 # 🧩 Miscellaneous
 
@@ -368,6 +379,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 </div>
 </div>
+
+<div class="geo-deco geo-deco--ring-right" aria-hidden="true"></div>
 
 ## Other Stuff
 I also like photography. Sometimes I take good photos by accident. So I might upload a few here someday, along with some unnecessary commentary, but feel free to pretend you're looking forward to it.🙃

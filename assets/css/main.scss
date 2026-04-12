@@ -132,6 +132,161 @@
 }
 
 /* ==========================================================================
+   Inline Geometric Decorations (div-based, unlimited count)
+   ========================================================================== */
+
+.geo-deco {
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: visible;
+    pointer-events: none;
+
+    &::before {
+        content: '';
+        position: absolute;
+        pointer-events: none;
+        z-index: 0;
+    }
+}
+
+/* Hexagon floating right */
+.geo-deco--hexagon-right::before {
+    right: -60px;
+    top: -20px;
+    width: 90px;
+    height: 90px;
+    background: rgba(34, 75, 141, 0.07);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    animation: geo-float 22s ease-in-out infinite 2s;
+}
+
+/* Circle floating left */
+.geo-deco--circle-left::before {
+    left: -50px;
+    top: -30px;
+    width: 130px;
+    height: 130px;
+    border: 2.5px solid rgba(34, 75, 141, 0.14);
+    border-radius: 50%;
+    animation: geo-float 19s ease-in-out infinite 1s;
+}
+
+/* Triangle floating right */
+.geo-deco--triangle-right::before {
+    right: -30px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-bottom: 76px solid rgba(34, 75, 141, 0.08);
+    background: none;
+    animation: geo-float 21s ease-in-out infinite 4s;
+}
+
+/* Diamond floating left */
+.geo-deco--diamond-left::before {
+    left: -40px;
+    top: -15px;
+    width: 70px;
+    height: 70px;
+    border: 2.5px solid rgba(34, 75, 141, 0.12);
+    animation: geo-float-sq 23s ease-in-out infinite 2s;
+}
+
+/* Dot cluster floating right */
+.geo-deco--dots-right::before {
+    right: -50px;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    background-image:
+        radial-gradient(circle, rgba(34,75,141,0.18) 3px, transparent 3px),
+        radial-gradient(circle, rgba(34,75,141,0.12) 3px, transparent 3px),
+        radial-gradient(circle, rgba(34,75,141,0.15) 3px, transparent 3px),
+        radial-gradient(circle, rgba(34,75,141,0.10) 3px, transparent 3px),
+        radial-gradient(circle, rgba(34,75,141,0.14) 3px, transparent 3px),
+        radial-gradient(circle, rgba(34,75,141,0.08) 3px, transparent 3px);
+    background-position:
+        10px 10px,
+        50px 5px,
+        85px 30px,
+        25px 55px,
+        65px 65px,
+        10px 85px;
+    background-size: 6px 6px;
+    background-repeat: no-repeat;
+    animation: geo-float 24s ease-in-out infinite 5s;
+}
+
+/* Ring (double circle) floating right */
+.geo-deco--ring-right::before {
+    right: -45px;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border: 2.5px solid rgba(34, 75, 141, 0.12);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 15px transparent, inset 0 0 0 17px rgba(34, 75, 141, 0.07);
+    animation: geo-float 17s ease-in-out infinite 3s;
+}
+
+/* Cross / plus floating left */
+.geo-deco--cross-left::before {
+    left: -45px;
+    top: -10px;
+    width: 60px;
+    height: 60px;
+    background: rgba(34, 75, 141, 0.06);
+    clip-path: polygon(
+        35% 0%, 65% 0%, 65% 35%, 100% 35%, 100% 65%, 65% 65%,
+        65% 100%, 35% 100%, 35% 65%, 0% 65%, 0% 35%, 35% 35%
+    );
+    animation: geo-spin 35s linear infinite;
+}
+
+/* Additional pseudo for some deco divs */
+.geo-deco--hexagon-right::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(34, 75, 141, 0.10);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: geo-float 15s ease-in-out infinite 6s;
+}
+
+.geo-deco--diamond-left::after {
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 35px solid rgba(34, 75, 141, 0.06);
+    pointer-events: none;
+    animation: geo-float 20s ease-in-out infinite 7s;
+}
+
+.geo-deco--ring-right::after {
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgba(34, 75, 141, 0.09);
+    pointer-events: none;
+    animation: geo-float-sq 18s ease-in-out infinite 4s;
+}
+
+/* ==========================================================================
    Section Heading — Geometric Gradient Underline
    ========================================================================== */
 
@@ -775,6 +930,84 @@ h1:before, .anchor:before {
     &__title {
         font-size: 0.9em;
         font-weight: 500;
+    }
+}
+
+/* ==========================================================================
+   Sidebar / Author Profile Enhancement
+   ========================================================================== */
+
+@include breakpoint($large) {
+    .sidebar {
+        .profile_box {
+            position: relative;
+            padding: 16px 12px;
+            background: linear-gradient(180deg, #f6f9fd 0%, #ffffff 100%);
+            border: 1px solid #dce4f0;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(34, 75, 141, 0.06);
+
+            /* Geometric corner accent */
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 30px;
+                height: 30px;
+                background: linear-gradient(225deg, rgba(34,75,141,0.06) 0%, rgba(34,75,141,0.06) 50%, transparent 50%);
+                border-radius: 0 0 12px 0;
+            }
+        }
+
+        .author__avatar img {
+            border-radius: 10px !important;
+            border: 2px solid #dce4f0 !important;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(34, 75, 141, 0.08);
+
+            &:hover {
+                transform: scale(1.03);
+                box-shadow: 0 5px 18px rgba(34, 75, 141, 0.14);
+                border-color: #b0c4de !important;
+            }
+        }
+
+        .author__name {
+            position: relative;
+            padding-bottom: 8px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 40px;
+                height: 2px;
+                background: linear-gradient(90deg, #224b8d, rgba(74,144,217,0.3));
+                border-radius: 1px;
+            }
+        }
+    }
+
+    .author__urls.social-icons {
+        li {
+            margin-bottom: 2px;
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                background: rgba(34, 75, 141, 0.06);
+                transform: translateX(3px);
+            }
+        }
     }
 }
 
