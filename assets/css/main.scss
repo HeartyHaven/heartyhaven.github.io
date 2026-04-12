@@ -55,9 +55,9 @@
     position: absolute;
     top: 200px;
     right: -40px;
-    width: 200px;
-    height: 200px;
-    border: 2px solid rgba(34, 75, 141, 0.10);
+    width: 220px;
+    height: 220px;
+    border: 2.5px solid rgba(34, 75, 141, 0.16);
     border-radius: 50%;
     pointer-events: none;
     z-index: 0;
@@ -69,9 +69,9 @@
     position: absolute;
     top: 900px;
     left: -30px;
-    width: 140px;
-    height: 140px;
-    border: 2px solid rgba(34, 75, 141, 0.08);
+    width: 160px;
+    height: 160px;
+    border: 2.5px solid rgba(34, 75, 141, 0.13);
     pointer-events: none;
     z-index: 0;
     animation: geo-float-sq 25s ease-in-out infinite;
@@ -103,9 +103,9 @@
     right: -20px;
     width: 0;
     height: 0;
-    border-left: 45px solid transparent;
-    border-right: 45px solid transparent;
-    border-bottom: 78px solid rgba(34, 75, 141, 0.05);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 86px solid rgba(34, 75, 141, 0.09);
     pointer-events: none;
     z-index: 0;
     animation: geo-float 18s ease-in-out infinite 3s;
@@ -117,9 +117,9 @@
     position: absolute;
     top: 1600px;
     right: -10px;
-    width: 70px;
-    height: 70px;
-    background: rgba(34, 75, 141, 0.04);
+    width: 80px;
+    height: 80px;
+    background: rgba(34, 75, 141, 0.08);
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     pointer-events: none;
     z-index: 0;
@@ -405,6 +405,77 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* ==========================================================================
+   Google Scholar Banner Link
+   ========================================================================== */
+
+.gs-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 22px;
+    margin: 0.5em 0 1em;
+    background: linear-gradient(135deg, #f0f4f8 0%, #e4ecf5 100%);
+    border: 1px solid #c8d6e5;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #224b8d !important;
+    font-weight: 500;
+    font-size: 0.95em;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.35s ease;
+
+    /* Animated gradient sweep on hover */
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(34, 75, 141, 0.08) 25%,
+            rgba(74, 144, 217, 0.12) 50%,
+            rgba(34, 75, 141, 0.08) 75%,
+            transparent 100%
+        );
+        transition: left 0.6s ease;
+    }
+
+    /* Right arrow indicator */
+    &::after {
+        content: '\2192';
+        font-size: 1.1em;
+        transition: transform 0.3s ease;
+        opacity: 0.6;
+    }
+
+    &:hover {
+        background: linear-gradient(135deg, #e4ecf5 0%, #d4e0f0 100%);
+        border-color: #a8bdd4;
+        box-shadow: 0 3px 12px rgba(34, 75, 141, 0.12);
+        transform: translateY(-2px);
+
+        &::before {
+            left: 100%;
+        }
+
+        &::after {
+            transform: translateX(4px);
+            opacity: 1;
+        }
+    }
+
+    .gs-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
 }
 
 /* ==========================================================================

@@ -62,7 +62,10 @@ Previously, I got my bachelor's degree in Computer Science and Technology from H
 
 # 📝 Selected Publications 
 
-Please refer to my [Google Scholar](https://scholar.google.com/citations?user=LzKcdl8AAAAJ&hl=en) for full list of publications.
+<a href="https://scholar.google.com/citations?user=LzKcdl8AAAAJ&hl=en" class="gs-link">
+<svg class="gs-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285F4" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269z"/><circle fill="#356AC3" cx="12" cy="17" r="5.5"/></svg>
+View Full Publication List on Google Scholar
+</a>
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
