@@ -84,6 +84,24 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 
 ## 🧑‍🔬 Mechanistic Interpretability
 
+**The Cylindrical Representation Hypothesis for Language Model Steering**  <img src="https://img.shields.io/badge/ICML-2026-gray?labelColor=blue" alt="ICML 2026">
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='files/crh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Lang Gao**, Jinghui Zhang, Wei Liu, Fengxian Ji, Chenxi Wang, Zirui Song, Akash Ghosh, Youssef Mohamed, Preslav Nakov, and Xiuying Chen
+
+*"By relaxing the orthogonality assumption in the Linear Representation Hypothesis, we introduce a cylindrical structure that explains why steering directions often interact and lead to unstable behaviors."*
+
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2605.01844">Paper</a>
+<a href="https://github.com/mbzuai-nlp/CRH">Code</a>
+<a href="https://huggingface.co/datasets/LangGao/CRH_Data">Dataset</a>
+</div>
+
+</div>
+</div>
+
 **When Personalization Tricks Detectors: The Feature-Inversion Trap in Machine-Generated Text Detection**  <img src="https://img.shields.io/badge/ACL-2026-gray?labelColor=blue" alt="ACL 2026"> <img alt="Static Badge" src="https://img.shields.io/badge/Oral-red">
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/stylo.png' alt="sym" width="100%"></div></div>
