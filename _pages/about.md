@@ -97,6 +97,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 <a href="https://arxiv.org/abs/2605.01844">Paper</a>
 <a href="https://github.com/mbzuai-nlp/CRH">Code</a>
 <a href="https://huggingface.co/datasets/LangGao/CRH_Data">Dataset</a>
+<a href="https://www.youtube.com/watch?v=mR4wNRnlPaQ">Talk@Cohere.ai <img src="files/cohere.svg" alt="Cohere" width="14" height="14"></a>
 </div>
 
 </div>
