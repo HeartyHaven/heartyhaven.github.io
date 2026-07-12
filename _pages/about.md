@@ -34,7 +34,11 @@ Previously, I got my bachelor's degree in Computer Science and Technology from H
 <div class="interest-card__badge">Primary</div>
 <div class="interest-card__title">🔬 Mechanistic Interpretability</div>
 <div class="interest-card__body">
-To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with a particular focus on <strong>representation geometry</strong> and <strong>representation learning</strong>. The goal is to make models more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>, while offering new perspectives and application logic for humans to explore AI.
+To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with a particular focus on <strong>representation geometry</strong> and <strong>representation learning</strong>. This line of research is valuable in two ways:
+<ul>
+<li>Making foundation models more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>;</li>
+<li>Offering new perspectives and application logic for humans to explore AI.</li>
+</ul>
 </div>
 <div class="interest-card__note">
 Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.
@@ -115,7 +119,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2510.12476">Paper</a>
 <a href="https://github.com/mbzuai-nlp/Personalized_MGT_Detect">Data & Code</a>
-<a href="https://b23.tv/lzknZjg">Talk@<img src="files/jiqizhixin.png" alt="机器之心" height="14" style="height:14px;width:auto;vertical-align:-2px;"></a>
+<a href="https://b23.tv/lzknZjg">Talk@<img src="files/jiqizhixin.png" alt="机器之心" height="20" style="height:20px;width:auto;vertical-align:-5px;"></a>
 </div>
 
 </div>
@@ -306,10 +310,10 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 <div class="geo-deco geo-deco--triangle-right" aria-hidden="true"></div>
 
 # 🏆 Honors and Awards
-- **ACL Travel Grant** (~11,018 AED), 2026
-- **ICML Travel Grant** (~11,018 AED), 2026
+- **ACL Travel Grant**, 2026
+- **ICML Travel Grant**, 2026
 - **Outstanding Research Contribution in NLP Award** (Student Award Category, ~top 2%), 2025
-- **ACL Travel Grant** (~16,515 AED), 2025
+- **ACL Travel Grant**, 2025
 
 # 📖 Educations
   *08 / 2025 - Now* : Ph.D. student, <img src='files/mbzuai.jpeg' style='width: 1.2em;'> Mohamed bin Zayed University of Artificial Intelligence 

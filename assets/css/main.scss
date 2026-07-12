@@ -1020,21 +1020,27 @@ body {
 h1.hero-intro,
 .page__content h1.hero-intro {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-size: clamp(1.9rem, 4.5vw, 2.7rem);
+    font-size: clamp(1.6rem, 3.6vw, 2.2rem);
     font-weight: 700;
     line-height: 1.25;
     margin: 0.4em 0 0.7em;
     padding-bottom: 0;
     color: #2b2b2b;
     border-bottom: none;
+
+    &::after {
+        display: none;
+    }
 }
 
 .hero-intro__name {
     font-style: italic;
     color: rgb(34, 75, 141);
-    background: linear-gradient(120deg, rgba(34, 75, 141, 0.14), rgba(34, 75, 141, 0) 70%);
-    border-radius: 4px;
-    padding: 0 0.12em;
+    background: linear-gradient(110deg, #224b8d 10%, #4a90d9 55%, #7cb8ec 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 0.08em; /* keep the italic overhang inside the clipped area */
 }
 
 .hero-intro__ipa {
