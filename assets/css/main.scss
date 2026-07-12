@@ -1034,13 +1034,7 @@ h1.hero-intro,
 }
 
 .hero-intro__name {
-    font-style: italic;
-    color: rgb(34, 75, 141);
-    background: linear-gradient(110deg, #224b8d 10%, #4a90d9 55%, #7cb8ec 95%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-right: 0.08em; /* keep the italic overhang inside the clipped area */
+    color: #3b5b8f;
 }
 
 .hero-intro__ipa {
