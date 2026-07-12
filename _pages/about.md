@@ -23,9 +23,9 @@ redirect_from:
 
 <h1 class="hero-intro">Hi 👋, I'm <span class="hero-intro__name">Lang</span> <span class="hero-intro__ipa">/læŋ/</span></h1>
 
-I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
+I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
-Previously, I got my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ( [HUST](https://english.hust.edu.cn/) ) in 2025.
+Previously, I received my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ([HUST](https://english.hust.edu.cn/)) in 2025.
 
 # 💡 Interests
 
@@ -34,14 +34,14 @@ Previously, I got my bachelor's degree in Computer Science and Technology from H
 <div class="interest-card__badge">Primary</div>
 <div class="interest-card__title">🔬 Mechanistic Interpretability</div>
 <div class="interest-card__body">
-To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with a particular focus on <strong>representation geometry</strong> and <strong>representation learning</strong>. This line of research is valuable in two ways:
+To know the mechanistic reasons why foundation models can do some things and cannot do others, and how to make them do what we want by utilizing their nature, with a particular focus on <strong>representation geometry</strong> and <strong>representation learning</strong>. This line of research is valuable in two ways:
 <ul>
 <li>Making foundation models more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>;</li>
 <li>Offering new perspectives and application logic for humans to explore AI.</li>
 </ul>
 </div>
 <div class="interest-card__note">
-Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.
+Recently, I have been particularly into the geometrical features of latent spaces and ways to escape from the Linear Representation Hypothesis.
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Recently, I am particularly into the geometrical features of latent spaces and w
 <div class="interest-card__badge">Secondary</div>
 <div class="interest-card__title">🛡️ Trustworthy AI</div>
 <div class="interest-card__body">
-Investigate the safety, fairness, and reliability of LLMs, including defending against <strong>jailbreak attacks</strong>, detecting and mitigating <strong>social biases</strong> within model representations, and improving the robustness of <strong>machine-generated text detection</strong>.
+Investigating the safety, fairness, and reliability of LLMs, including defending against <strong>jailbreak attacks</strong>, detecting and mitigating <strong>social biases</strong> within model representations, and improving the robustness of <strong>machine-generated text detection</strong>.
 </div>
 </div>
 </div>
@@ -114,7 +114,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 
 **Lang Gao**, Xuhui Li, Chenxi Wang, Mingzhe Li, Wei Liu, Zirui Song, Jinghui Zhang, Rui Yan, Preslav Nakov, and Xiuying Chen
 
-*"What if I say your AI detector can still have high AUC in random tokens? The first work on revealing the weak transferability of machine-generated text detectors in personalized contents, and its mechanistic interpretation."* 
+*"What if I told you your AI detector can still achieve a high AUC on random tokens? The first work to reveal the weak transferability of machine-generated text detectors on personalized content, along with its mechanistic interpretation."* 
 
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2510.12476">Paper</a>
@@ -150,7 +150,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 
 **Lang Gao**, Jiahui Geng, Xiangliang Zhang, Preslav Nakov, and Xiuying Chen
 
-*"Try to interpret common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
+*"We interpret the common mechanisms of diverse LLM jailbreak attacks in the activation space and propose an efficient defense method."* 
 
 <div class="paper-links">
 <a href="https://aclanthology.org/2025.acl-long.1233/">Paper</a>
@@ -167,7 +167,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 
 Kaiyang Wan, **Lang Gao**, Honglin Mu, Preslav Nakov, Yuxia Wang, Xiuying Chen
 
-*"LLM's accuracy will have a severe performance breakdown once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
+*"An LLM's accuracy suffers a severe breakdown once the required information exceeds its internal capacity in complex multi-hop reasoning scenarios."* 
 
 <div class="paper-links">
 <a href="https://arxiv.org/pdf/2509.21199">Paper</a>
@@ -204,7 +204,7 @@ Wei Liu, Zhongyu Niu, **Lang Gao**, Zhiying Deng, Jun Wang, Haozhao Wang, and Ru
 <div class='paper-box'><div class='paper-box-image'><div><img src='files/medtrinity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
+Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu\*, Xianhang Li, Hong-Yu Zhou, Sheng Liu, Lei Xing, James Zou, Cihang Xie, and Yuyin Zhou 
 (\*: Joint first authors)
 
 *"A comprehensive, large-scale multimodal dataset for medical vision-language models."*
@@ -230,7 +230,7 @@ Yunfei Xie\*, Ce Zhou\*, **Lang Gao\***, Juncheng Wu*, Xianhang Li, Hong-Yu Zhou
 
 Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenxi Wang, Xiangru Tang, Yue Zhao, Arman Cohan, Xiangliang Zhang, and Xiuying Chen
 
-*"DyFlow is a dynamic workflow framework for LLM-based agents, that adapts its reasoning steps in real-time using intermediate feedback, enabling better generalisation across diverse tasks."*
+*"DyFlow is a dynamic workflow framework for LLM-based agents that adapts its reasoning steps in real time using intermediate feedback, enabling better generalization across diverse tasks."*
 
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2509.26062">Paper</a>
@@ -303,7 +303,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 - \[02 / 2026 - 08 / 2026\] <img src='files/Amazon_Logo_0.svg' style='height: 1em; width: auto; vertical-align: -0.15em;'> Amazon, Remote Research Collaboration (topic: LLM Jailbreak & Information Security)
 - \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
-- \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
+- \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Vision-Language Models for healthcare)
 - \[10 / 2023 - 12 / 2023\] <img src='files/hust.png' style='width: 1.2em;'> HUST (Supervisor: [Prof. Ruixuan Li](https://faculty.hust.edu.cn/rxli/zh_CN/index/1784505/list/index.htm), topic: Interpretable deep learning frameworks)
 > 💬 I am deeply grateful to all the mentors and collaborators who have guided and supported me along the way. Your encouragement, trust, and inspiration have made all the difference in my journey.
 
@@ -315,7 +315,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 - **Outstanding Research Contribution in NLP Award** (Student Award Category, ~top 2%), 2025
 - **ACL Travel Grant**, 2025
 
-# 📖 Educations
+# 📖 Education
   *08 / 2025 - Now* : Ph.D. student, <img src='files/mbzuai.jpeg' style='width: 1.2em;'> Mohamed bin Zayed University of Artificial Intelligence 
 
   *09 / 2021 - 07 / 2025* : B.E., <img src='files/hust.png' style='width: 1.2em;'> Huazhong University of Science and Technology
