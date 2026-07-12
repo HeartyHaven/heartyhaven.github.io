@@ -21,7 +21,7 @@ redirect_from:
 [//]: # ()
 
 
-**Hi 👋, I'm Lang (/læŋ/).**
+<h1 class="hero-intro">Hi 👋, I'm <span class="hero-intro__name">Lang</span> <span class="hero-intro__ipa">/læŋ/</span></h1>
 
 I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent professor [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
@@ -34,7 +34,7 @@ Previously, I got my bachelor's degree in Computer Science and Technology from H
 <div class="interest-card__badge">Primary</div>
 <div class="interest-card__title">🔬 Mechanistic Interpretability</div>
 <div class="interest-card__body">
-To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with the goal of making them more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>.
+To know the mechanistic reasons why foundation models can do something and cannot do something, and how to make them do something by utilizing its nature, with a particular focus on <strong>representation geometry</strong> and <strong>representation learning</strong>. The goal is to make models more <strong>interpretable</strong>, <strong>controllable</strong>, and <strong>trustworthy</strong>, while offering new perspectives and application logic for humans to explore AI.
 </div>
 <div class="interest-card__note">
 Recently, I am particularly into the geometrical features of latent spaces and ways to escape from Linear Representation Hypothesis.
@@ -115,6 +115,7 @@ Investigate the safety, fairness, and reliability of LLMs, including defending a
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2510.12476">Paper</a>
 <a href="https://github.com/mbzuai-nlp/Personalized_MGT_Detect">Data & Code</a>
+<a href="https://b23.tv/lzknZjg">Talk@<img src="files/jiqizhixin.png" alt="机器之心" height="14" style="height:14px;width:auto;vertical-align:-2px;"></a>
 </div>
 
 </div>
@@ -275,6 +276,8 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 <span class="service-tag">ACL</span>
 <span class="service-tag">ICML</span>
 <span class="service-tag">EMNLP</span>
+<span class="service-tag">NeurIPS</span>
+<span class="service-tag service-tag--journal">TMLR</span>
 <span class="service-tag service-tag--journal">HISS</span>
 </div>
 
@@ -293,6 +296,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 # 💼 Experiences
 - \[04 / 2026 - Now\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
+- \[02 / 2026 - 08 / 2026\] <img src='files/Amazon_Logo_0.svg' style='height: 1em; width: auto; vertical-align: -0.15em;'> Amazon, Remote Research Collaboration (topic: LLM Jailbreak & Information Security)
 - \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
 - \[01 / 2024 - 06 / 2024\] <img src='files/ucsc.png' style='width: 1.2em;'> UC Santa Cruz, Research Intern (Supervisor: [Dr. Yuyin Zhou](https://yuyinzhou.github.io/), topic: Visual-Language models for healthcare)
@@ -300,6 +304,12 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 > 💬 I am deeply grateful to all the mentors and collaborators who have guided and supported me along the way. Your encouragement, trust, and inspiration have made all the difference in my journey.
 
 <div class="geo-deco geo-deco--triangle-right" aria-hidden="true"></div>
+
+# 🏆 Honors and Awards
+- **ACL Travel Grant** (~11,018 AED), 2026
+- **ICML Travel Grant** (~11,018 AED), 2026
+- **Outstanding Research Contribution in NLP Award** (Student Award Category, ~top 2%), 2025
+- **ACL Travel Grant** (~16,515 AED), 2025
 
 # 📖 Educations
   *08 / 2025 - Now* : Ph.D. student, <img src='files/mbzuai.jpeg' style='width: 1.2em;'> Mohamed bin Zayed University of Artificial Intelligence 
@@ -371,25 +381,25 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 
 <a href="files/grammargpt-rp.pdf" class="blog-entry">
 <span class="blog-entry__date">05/24</span>
-<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__lang">Mandarin</span>
 <span class="blog-entry__title">National Undergraduate Innovation Project Documentation</span>
 </a>
 
 <a href="https://k034sybliz3.feishu.cn/wiki/GX7Vw4IfBiYq6okUDf7cAGCJnHh" class="blog-entry">
 <span class="blog-entry__date">03/24</span>
-<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__lang">Mandarin</span>
 <span class="blog-entry__title">Negative Transfer</span>
 </a>
 
 <a href="https://k034sybliz3.feishu.cn/wiki/MjBFwFm9giBTg3kQ9v6cJ7uQnFb" class="blog-entry">
 <span class="blog-entry__date">03/24</span>
-<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__lang">Mandarin</span>
 <span class="blog-entry__title">Mixture of Experts Explained</span>
 </a>
 
 <a href="https://k034sybliz3.feishu.cn/wiki/Mo2xwR6B4iDV7nk4CZ5clwymnze" class="blog-entry">
 <span class="blog-entry__date">01/24</span>
-<span class="blog-entry__lang">Chinese</span>
+<span class="blog-entry__lang">Mandarin</span>
 <span class="blog-entry__title">EMNLP2020 Tutorial Notes (Explainable AI)</span>
 </a>
 

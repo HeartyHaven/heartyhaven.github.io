@@ -1012,3 +1012,36 @@ body {
     background-image: radial-gradient(circle, rgba(34, 75, 141, 0.06) 1px, transparent 1px);
     background-size: 24px 24px;
 }
+
+/* ==========================================================================
+   Hero Intro Heading
+   ========================================================================== */
+
+h1.hero-intro,
+.page__content h1.hero-intro {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: clamp(1.9rem, 4.5vw, 2.7rem);
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0.4em 0 0.7em;
+    padding-bottom: 0;
+    color: #2b2b2b;
+    border-bottom: none;
+}
+
+.hero-intro__name {
+    font-style: italic;
+    color: rgb(34, 75, 141);
+    background: linear-gradient(120deg, rgba(34, 75, 141, 0.14), rgba(34, 75, 141, 0) 70%);
+    border-radius: 4px;
+    padding: 0 0.12em;
+}
+
+.hero-intro__ipa {
+    font-size: 0.45em;
+    font-weight: 400;
+    font-style: normal;
+    color: #8a8a8a;
+    letter-spacing: 0.03em;
+    vertical-align: 0.35em;
+}
