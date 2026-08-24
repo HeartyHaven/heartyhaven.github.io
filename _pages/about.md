@@ -23,7 +23,7 @@ redirect_from:
 
 <h1 class="hero-intro">Hi 👋, I'm <span class="hero-intro__name">Lang</span> <span class="hero-intro__ipa">/læŋ/</span></h1>
 
-I am currently a first-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
+I am currently a second-year PhD student at [MBZUAI](https://mbzuai.ac.ae/), a great place for research, and an algorithm intern at [ByteDance](https://www.bytedance.com/). I'm fortunate to be supervised by [Dr. Xiuying Chen](https://iriscxy.github.io/), an outstanding rising star and a truly supportive mentor. I am also co-supervised by the excellent [Prof. Preslav Nakov](https://mbzuai.ac.ae/study/faculty/preslav-nakov/).
 
 Previously, I received my bachelor's degree in Computer Science and Technology from Huazhong University of Science and Technology ([HUST](https://english.hust.edu.cn/)) in 2025.
 
@@ -299,7 +299,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 <div class="geo-deco geo-deco--circle-left" aria-hidden="true"></div>
 
 # 💼 Experiences
-- \[04 / 2026 - Now\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
+- \[04 / 2026 - 10 / 2026\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern
 - \[02 / 2026 - 08 / 2026\] <img src='files/Amazon_Logo_0.svg' style='height: 1em; width: auto; vertical-align: -0.15em;'> Amazon, Remote Research Collaboration (topic: LLM Jailbreak & Information Security)
 - \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
