@@ -299,7 +299,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 <div class="geo-deco geo-deco--circle-left" aria-hidden="true"></div>
 
 # 💼 Experiences
-- \[04 / 2026 - 10 / 2026\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern (topic: Controllable Text-To-speech Generation)
+- \[04 / 2026 - 10 / 2026\] <img src='files/bytedance-color.png' style='width: 1.2em;'> ByteDance, Algorithm Intern (topic: Controllable Text-To-Speech Generation)
 - \[02 / 2026 - 08 / 2026\] <img src='files/Amazon_Logo_0.svg' style='height: 1em; width: auto; vertical-align: -0.15em;'> Amazon, Remote Research Collaboration (topic: LLM Jailbreak & Information Security)
 - \[10 / 2024 - 07 / 2025\] <img src='files/mbzuai.jpeg' style='width: 1.2em;'> MBZUAI, Research Intern (Supervisor: [Dr. Xiuying Chen](https://iriscxy.github.io/), topic: Mechanistic Interpretability of LLMs)
 - \[07 / 2024 - 10 / 2024\] <img src='files/Notre_Dame.png' style='width: 1.2em;'> University of Notre Dame, Research Intern (Supervisor: [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/), topic: LLMs for Bayesian Optimization)
