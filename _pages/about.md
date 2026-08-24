@@ -276,17 +276,18 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 # 🧐 Service
 
 <div class="service-year">
-<span class="service-year__label">2026</span>
+<span class="service-year__label">2026 | Reviewer</span>
 <span class="service-tag">ACL</span>
 <span class="service-tag">ICML</span>
 <span class="service-tag">EMNLP</span>
 <span class="service-tag">NeurIPS</span>
+<span class="service-tag">AAAI</span>
 <span class="service-tag service-tag--journal">TMLR</span>
 <span class="service-tag service-tag--journal">HISS</span>
 </div>
 
 <div class="service-year">
-<span class="service-year__label">2025</span>
+<span class="service-year__label">2025 | Reviewer</span>
 <span class="service-tag">ACL</span>
 <span class="service-tag">NeurIPS</span>
 <span class="service-tag">EMNLP</span>
