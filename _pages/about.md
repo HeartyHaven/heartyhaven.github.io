@@ -313,6 +313,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 # 🏆 Honors and Awards
 - **ACL Travel Grant**, 2026
 - **ICML Travel Grant**, 2026
+- **ICML Silver Reviewer**, 2026
 - **Outstanding Research Contribution in NLP Award** (Student Award Category, ~top 2%), 2025
 - **ACL Travel Grant**, 2025
 
