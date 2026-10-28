@@ -1,6 +1,6 @@
 # 替代主页 · Lang Gao 高朗
 
-入口为 `alternative.html`，原主页 `_pages/about.md`、站点配置与原始素材保持独立。可直接用浏览器打开；本地 HTTP 预览可在仓库根目录运行 `python -m http.server 8000`，访问 `/alternative.html`。发布路径为 `https://heartyhaven.github.io/alternative.html`；新旧版导航分别提供 Old version / New version 入口。
+入口为 `alternative.html`，原主页 `_pages/about.md`、站点配置与原始素材保持独立。可直接用浏览器打开；本地 HTTP 预览可在仓库根目录运行 `python -m http.server 8000`，访问 `/alternative.html`。发布路径为 `https://heartyhaven.github.io/alternative.html`；新旧版导航分别提供 Old version / New personal homepage 入口，旧版入口使用细边框和圆点强调。
 
 ## 分页阅读
 

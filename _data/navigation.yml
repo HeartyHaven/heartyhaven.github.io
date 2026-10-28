@@ -6,8 +6,9 @@ main:
   - title: "Blog"
     url: "/blog/"
 
-  - title: "New version"
+  - title: "New personal homepage"
     url: "/alternative.html"
+    highlight: true
 #
 #  - title: "News"
 #    url: "/#-news"

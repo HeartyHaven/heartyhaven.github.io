@@ -62,3 +62,36 @@
 }
 
 
+
+/* A quiet invitation to the new personal homepage. */
+.masthead .greedy-nav .masthead__menu-item--featured > a {
+  display: inline-flex;
+  align-items: center;
+  gap: .45em;
+  padding: .3rem .6rem;
+  margin-left: .65rem;
+  border: 1px solid #cbb58b;
+  border-radius: 5px;
+  background: #faf6ee;
+  color: #78551f;
+  font-size: .82em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.masthead .greedy-nav .masthead__menu-item--featured > a:before { display: none; }
+.masthead .greedy-nav .masthead__menu-item--featured > a:hover {
+  border-color: #a78449;
+  background: #f2e7d2;
+  color: #624218;
+}
+.masthead .greedy-nav .masthead__menu-item--featured > a:focus-visible {
+  outline: 2px solid #a78449;
+  outline-offset: 3px;
+}
+.masthead .greedy-nav .version-dot {
+  width: .4em;
+  height: .4em;
+  flex: 0 0 .4em;
+  border-radius: 50%;
+  background: currentColor;
+}
