@@ -54,7 +54,7 @@
 
 
 /* A darker interval for writing, with a clearer view into the landscape. */
-.miscellany-leaf{background:var(--dark);color:var(--cream)}
+.miscellany-leaf{--ink:#f0e3cb;--muted:#d1bd9d;--accent:#e2c196;--line:#cbb38a3d;background:var(--dark);color:var(--cream)}
 .miscellany-leaf:before{inset:0;height:100%;background:linear-gradient(90deg,#1b140ce8 0%,#1b140cb3 48%,#1b140c26 100%),url('../../images/elsewhere/deep-time-dawn.webp') 57% 50%/cover;opacity:1;mask-image:none}
 .miscellany-leaf .eyebrow,.miscellany-leaf .blog-entry__date,.miscellany-leaf .blog-entry__lang{color:#c1aa86}
 .miscellany-leaf .blog-entry{color:#ead9bb;border-color:#cbb38a3d;padding:18px 0}
@@ -66,3 +66,5 @@
 
 .miscellany-leaf .design-note h3{font:500 14px/1.5 var(--sans);color:#e2cfad;letter-spacing:.02em;margin:0 0 9px}.miscellany-leaf .design-note p{margin:0}
 @media(max-width:520px){.miscellany-leaf .design-note h3{font-size:13px}}
+
+.miscellany-leaf .resource-card:hover .resource-card__name{color:#fff3de}
