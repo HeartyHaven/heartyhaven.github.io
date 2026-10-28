@@ -311,6 +311,7 @@ Yanbo Wang, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, **Lang Gao**, Chenx
 <div class="geo-deco geo-deco--triangle-right" aria-hidden="true"></div>
 
 # 🏆 Honors and Awards
+- **ARR Great Reviewer**
 - **ACL Travel Grant**, 2026
 - **ICML Travel Grant**, 2026
 - **ICML Silver Reviewer**, 2026
