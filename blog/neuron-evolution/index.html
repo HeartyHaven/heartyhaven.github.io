@@ -118,8 +118,6 @@ html[data-lang="zh"] .spot .lbl b { font-family: "Noto Serif SC", serif; }
 html[data-lang="zh"] .kicker { letter-spacing: .3em; }
 .titleblock h1 { font-size: clamp(36px, 6.2vw, 72px); line-height: 1.04; margin: 18px 0 18px; font-weight: 560; }
 html[data-lang="zh"] .titleblock h1 { line-height: 1.25; font-weight: 700; }
-.titleblock h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
-html[data-lang="zh"] .titleblock h1 em { font-style: normal; }
 .dek { font: 400 clamp(18px, 2.2vw, 22px)/1.5 var(--serif); color: var(--ink-2); max-width: 36em; margin: 0 auto; }
 .authors { margin: 28px 0 4px; font-size: 17px; }
 .authors a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
@@ -357,6 +355,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
   <symbol id="i-explorer" viewBox="0 0 24 24"><path d="M3 18h4c3 0 3-6 6-6h8M7 18c3 0 3 3 6 3h8M13 12c3 0 3-7 6-7h2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="3.5" cy="18" r="1.8" fill="currentColor"/></symbol>
   <symbol id="i-github" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></symbol>
   <symbol id="i-data" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1C4.7 1 2 2.1 2 3.5v9C2 13.9 4.7 15 8 15s6-1.1 6-2.5v-9C14 2.1 11.3 1 8 1zm0 1.5c2.8 0 4.5.9 4.5 1s-1.7 1-4.5 1-4.5-.9-4.5-1 1.7-1 4.5-1zM3.5 5.6C4.8 6.2 6.3 6.5 8 6.5s3.2-.3 4.5-.9V8c0 .1-1.7 1-4.5 1S3.5 8.1 3.5 8V5.6zm0 4.5c1.3.6 2.8.9 4.5.9s3.2-.3 4.5-.9v2.4c0 .1-1.7 1-4.5 1s-4.5-.9-4.5-1v-2.4z"/></symbol>
+  <symbol id="i-substack" viewBox="0 0 24 24"><path fill="currentColor" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
   <symbol id="i-quote" viewBox="0 0 24 24"><path d="M5 18h4l2-6V6H5v6h3zm9 0h4l2-6V6h-6v6h3z" fill="currentColor"/></symbol>
 </svg>
@@ -367,6 +366,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <a class="ico" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-explorer"/></svg><span class="en">Explorer</span><span class="zh">浏览器</span></a>
     <a class="ico" href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-github"/></svg><span class="en">Code</span><span class="zh">代码</span></a>
     <a class="ico" href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-data"/></svg><span class="en">Dataset</span><span class="zh">数据集</span></a>
+    <a class="ico" href="https://langgao.substack.com/p/recursive-generalization-and-superposition" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-substack"/></svg><span>Substack</span></a>
     <a class="ico opt" href="/"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="en">Home</span><span class="zh">主页</span></a>
     <span class="langs" role="group" aria-label="Language"><button type="button" data-l="en">EN</button><button type="button" data-l="zh">中文</button></span>
   </div>
@@ -397,7 +397,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 </header>
 
 <div class="titleblock">
-  <h1 class="rv d1"><span class="en">Recursive Generalization <em>and</em> Superposition Are Both Right</span><span class="zh">递归泛化<em>与</em>重叠都是对的</span></h1>
+  <h1 class="rv d1"><span class="en">Recursive Generalization and Superposition Are Both Right</span><span class="zh">递归泛化与重叠都是对的</span></h1>
   <p class="dek rv d2"><span class="en">We tracked 240 neurons of Pythia-160M across 40 training checkpoints to see how their features appear and change.</span><span class="zh">我们在 40 个训练检查点上追踪了 Pythia-160M 的 240 个神经元，观察它们的特征如何出现和变化。</span></p>
   <div class="authors rv d2"><a href="/">Lang Gao</a>, Jinghui Zhang, Xiuying Chen</div>
   <div class="affil rv d2">MBZUAI</div><div class="affil rv d2"><span class="en">October 2026</span><span class="zh">2026 年 10 月</span></div>
@@ -405,6 +405,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <a class="pill" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg><use href="#i-explorer"/></svg><span class="en">Interactive Explorer</span><span class="zh">交互浏览器</span></a>
     <a class="pill" href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg><span class="en">Code</span><span class="zh">代码</span></a>
     <a class="pill" href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-data"/></svg><span class="en">Dataset</span><span class="zh">数据集</span></a>
+    <a class="pill" href="https://langgao.substack.com/p/recursive-generalization-and-superposition" target="_blank" rel="noopener"><svg><use href="#i-substack"/></svg><span class="en">Substack</span><span class="zh">Substack</span></a>
     <a class="pill ghost" href="#cite"><svg><use href="#i-quote"/></svg><span class="en">Cite</span><span class="zh">引用</span></a>
   </div>
 </div>
@@ -731,6 +732,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
       <a href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg><use href="#i-explorer"/></svg><span class="en">Interactive Explorer</span><span class="zh">交互浏览器</span></a>
       <a href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg><span class="en">Code on GitHub</span><span class="zh">GitHub 代码</span></a>
       <a href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-data"/></svg><span class="en">Dataset on Hugging Face</span><span class="zh">Hugging Face 数据集</span></a>
+      <a href="https://langgao.substack.com/p/recursive-generalization-and-superposition" target="_blank" rel="noopener"><svg><use href="#i-substack"/></svg><span class="en">Read on Substack</span><span class="zh">在 Substack 阅读</span></a>
       <a href="/blog/"><svg><use href="#i-home"/></svg><span class="en">Blog</span><span class="zh">博客</span></a>
     </div>
   </div>
