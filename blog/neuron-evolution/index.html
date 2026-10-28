@@ -71,7 +71,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .langs { display: inline-flex; border: 1px solid color-mix(in srgb, currentColor 35%, transparent); border-radius: 999px; padding: 2px; margin-left: 6px; }
 .langs button { border: 0; background: none; padding: 3px 10px; white-space: nowrap; border-radius: 999px; font: 600 12.5px/1.3 var(--sans); color: inherit; opacity: .75; }
 .langs button.on { background: var(--accent); color: #fff; opacity: 1; }
-#progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; transform-origin: 0 50%; transform: scaleX(0); background: linear-gradient(90deg, var(--gold), var(--accent)); }
 
 /* ---------- side chapter dots ---------- */
 #toc { position: fixed; right: 18px; top: 50%; transform: translateY(-50%); z-index: 30; display: flex; flex-direction: column; gap: 10px; opacity: 0; pointer-events: none; transition: opacity .4s; }
@@ -136,9 +135,6 @@ html[data-lang="zh"] .titleblock h1 em { font-style: normal; }
 .pill svg { width: 17px; height: 17px; }
 .pill.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); }
 .pill.ghost:hover { background: var(--bg-2); color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--accent); }
-.scrollcue { display: block; margin: 40px auto 0; width: 24px; height: 38px; border-radius: 12px; border: 1.5px solid var(--muted); position: relative; }
-.scrollcue::after { content: ""; position: absolute; left: 50%; top: 8px; width: 3px; height: 7px; border-radius: 2px; background: var(--muted); transform: translateX(-50%); animation: cue 1.8s infinite; }
-@keyframes cue { 0% { opacity: 0; transform: translate(-50%, 0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, 12px); } }
 
 /* ---------- text flow ---------- */
 main { padding-bottom: 40px; }
@@ -146,7 +142,6 @@ main { padding-bottom: 40px; }
 .text { max-width: var(--text-w); margin: 0 auto; }
 .wide { max-width: var(--wide-w); margin: 36px auto; }
 .chlabel { display: flex; align-items: center; gap: 12px; font: 600 12.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); margin-bottom: 14px; }
-.chlabel::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .chapter h2 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.1; margin: 0 0 22px; }
 html[data-lang="zh"] .chapter h2 { line-height: 1.3; }
 .chapter h3 { font-size: clamp(22px, 2.6vw, 28px); line-height: 1.2; margin: 48px 0 12px; }
@@ -172,10 +167,8 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 /* ---------- TL;DR ---------- */
 .tldr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .tldr .card { padding: 24px 22px 22px; position: relative; overflow: hidden; }
-.tldr .num { font: 600 13px/1 var(--sans); color: var(--muted); letter-spacing: .1em; }
-.tldr h3 { margin: 14px 0 8px; font-size: 22px; line-height: 1.2; }
+.tldr h3 { margin: 0 0 8px; font-size: 22px; line-height: 1.2; }
 .tldr p { font-size: 15.5px; line-height: 1.65; color: var(--ink-2); margin: 0; }
-.tldr svg.glyph { width: 64px; height: 64px; display: block; }
 @media (max-width: 860px) { .tldr { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------- two ideas ---------- */
@@ -202,23 +195,19 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .stat span { display: block; margin-top: 8px; font-size: 13.5px; line-height: 1.4; color: var(--ink-2); }
 @media (max-width: 700px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .pipe { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; counter-reset: s; position: relative; }
-.pipe::before { content: ""; position: absolute; left: 10%; right: 10%; top: 27px; height: 2px; background: linear-gradient(90deg, var(--gold), var(--accent)); transform-origin: 0 50%; transform: scaleX(0); transition: transform 1.6s cubic-bezier(.3, .6, .2, 1) .2s; }
-.pipe.in::before { transform: scaleX(1); }
 .step { border: 0; background: none; text-align: center; padding: 0 8px 8px; position: relative; }
-.step .n { display: grid; place-items: center; width: 56px; height: 56px; margin: 0 auto 12px; border-radius: 50%; background: var(--card); border: 2px solid var(--line); position: relative; z-index: 1; transition: .25s; }
-.step .n svg { width: 26px; height: 26px; color: var(--accent); }
+.step .n { display: grid; place-items: center; width: 44px; height: 44px; margin: 0 auto 12px; border-radius: 50%; background: var(--card); border: 1.5px solid var(--line); font: 600 17px/1 var(--serif); color: var(--ink-2); transition: .25s; }
+
 .step b { display: block; font: 600 15px/1.3 var(--sans); }
 .step small { display: block; font-size: 13px; color: var(--muted); line-height: 1.4; margin-top: 4px; }
 .step:hover .n, .step.on .n { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 20px var(--shadow); }
 .step.on .n { background: var(--accent); }
-.step.on .n svg { color: #fff; }
+.step.on .n { color: #fff; }
 .stepinfo { margin-top: 18px; padding: 18px 22px; font-size: 16px; line-height: 1.7; color: var(--ink-2); min-height: 92px; }
 .stepinfo b { color: var(--ink); }
 @media (max-width: 760px) {
   .pipe { grid-template-columns: minmax(0, 1fr); gap: 4px; }
-  .pipe::before { left: 27px; right: auto; top: 10px; bottom: 10px; width: 2px; height: auto; transform-origin: 50% 0; transform: scaleY(0); }
-  .pipe.in::before { transform: scaleY(1); }
-  .step { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 14px; text-align: left; align-items: center; padding: 4px 0; }
+  .step { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; text-align: left; align-items: center; padding: 4px 0; }
   .step .n { margin: 0; }
 }
 .rel { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 14px 0 6px; }
@@ -254,7 +243,6 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .chip span { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 22ch; }
 .chip:hover { border-color: var(--accent); }
 .hint { font-size: 13px; color: var(--muted); margin-top: 10px; display: flex; align-items: center; gap: 6px; }
-.hint::before { content: "↳"; color: var(--accent); }
 .split { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 18px; align-items: stretch; }
 @media (max-width: 860px) { .split { grid-template-columns: minmax(0, 1fr); } }
 .donut { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 20px; align-items: center; }
@@ -278,8 +266,6 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 @keyframes shimmer { to { background-position: -200% 0; } }
 .embedbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 10px; font-size: 13.5px; color: var(--muted); }
 .embedbar .live { display: inline-flex; align-items: center; gap: 6px; font: 600 11.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--m-coexist); }
-.embedbar .live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: blink 1.6s infinite; }
-@keyframes blink { 50% { opacity: .25; } }
 
 /* scrollytelling */
 .scrolly { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 34px; align-items: start; }
@@ -328,24 +314,20 @@ html[data-lang="zh"] .quote p em { font-style: normal; }
 .tab .ct small { font-size: 15px; color: var(--muted); margin-left: 4px; font-family: var(--sans); font-weight: 500; }
 .tab .nm { display: block; font: 600 15.5px/1.3 var(--sans); margin-top: 8px; }
 .tab .ds { display: block; font-size: 13px; color: var(--muted); line-height: 1.45; margin-top: 4px; }
-.tab .meter { position: absolute; left: 0; bottom: 0; height: 4px; width: 0; transition: width 1.3s cubic-bezier(.2, .7, .2, 1); }
 @media (max-width: 700px) { .tabs { grid-template-columns: minmax(0, 1fr); } .tab .ct { font-size: 30px; } }
 .exnote { padding: 18px 22px; margin-bottom: 16px; font-size: 16px; line-height: 1.7; color: var(--ink-2); }
 .exnote b { color: var(--ink); }
-.thirds { display: flex; height: 14px; border-radius: 999px; overflow: hidden; margin: 18px 0 8px; }
-.thirds div { height: 100%; }
 
 /* open questions */
 .qs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; counter-reset: q; }
 .q { padding: 22px 22px 20px; position: relative; }
-.q::before { counter-increment: q; content: counter(q, decimal-leading-zero); font: 500 40px/1 var(--serif); color: color-mix(in srgb, var(--accent) 35%, transparent); display: block; margin-bottom: 10px; }
+.q h4::before { counter-increment: q; content: counter(q) ". "; color: var(--muted); }
 .q h4 { margin: 0 0 8px; font: 600 19px/1.35 var(--serif); }
 html[data-lang="zh"] .q h4 { font-family: "Noto Serif SC", serif; }
 .q p { margin: 0; font-size: 15.5px; line-height: 1.7; color: var(--ink-2); }
 @media (max-width: 760px) { .qs { grid-template-columns: minmax(0, 1fr); } }
 .limits { list-style: none; padding: 0; margin: 0; }
-.limits li { padding: 14px 0 14px 34px; border-top: 1px solid var(--line); position: relative; font-size: 16px; color: var(--ink-2); }
-.limits li::before { content: "!"; position: absolute; left: 0; top: 16px; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--bg-2); color: var(--accent-ink); font: 700 12px/1 var(--sans); }
+.limits li { padding: 14px 0; border-top: 1px solid var(--line); position: relative; font-size: 16px; color: var(--ink-2); }
 
 /* footer */
 .notes { max-width: var(--text-w); margin: 70px auto 0; padding: 0 20px; font-size: 14.5px; color: var(--muted); }
@@ -392,7 +374,6 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <a class="ico opt" href="/" data-tip="Home" aria-label="Lang Gao's homepage"><svg><use href="#i-home"/></svg></a>
     <span class="langs" role="group" aria-label="Language"><button type="button" data-l="en">EN</button><button type="button" data-l="zh">中文</button></span>
   </div>
-  <div id="progress"></div>
 </nav>
 
 <nav id="toc" aria-label="Chapters"></nav>
@@ -431,7 +412,6 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <a class="pill" href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-data"/></svg><span class="en">Dataset</span><span class="zh">数据集</span></a>
     <a class="pill ghost" href="#cite"><svg><use href="#i-quote"/></svg><span class="en">Cite</span><span class="zh">引用</span></a>
   </div>
-  <a class="scrollcue" href="#tldr" aria-label="Scroll down"></a>
 </div>
 
 <main>
@@ -441,22 +421,16 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <div class="chlabel rv"><span>TL;DR</span></div>
     <div class="tldr">
       <article class="card rv">
-        <svg class="glyph" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 50 C24 50 22 32 34 32 M34 32 C44 32 44 18 54 18 M34 32 C44 32 46 42 54 42" fill="none" stroke="var(--m-branch)" stroke-width="3" stroke-linecap="round"/><path d="M10 14 H34" stroke="var(--m-coexist)" stroke-width="3" stroke-linecap="round"/><circle cx="10" cy="50" r="4" fill="var(--m-branch)"/><circle cx="10" cy="14" r="4" fill="none" stroke="var(--m-coexist)" stroke-width="2.5"/></svg>
-        <div class="num">01</div>
         <h3><span class="en">Both happen, together</span><span class="zh">两者同时发生</span></h3>
         <p class="en">By tracking neurons in Pythia-160M throughout training, we found that superposition and recursive generalization are not mutually exclusive. Instead, they happen together most of the time.</p>
         <p class="zh">我们在整个训练过程中追踪 Pythia-160M 的神经元，发现重叠和递归泛化并不互斥，反而在大多数时候同时发生。</p>
       </article>
       <article class="card rv d1">
-        <svg class="glyph" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 26 H30" stroke="var(--m-coexist)" stroke-width="3.5" stroke-linecap="round"/><path d="M30 26 H56" stroke="var(--m-replace)" stroke-width="3.5" stroke-linecap="round"/><path d="M30 18 V34" stroke="var(--ink)" stroke-width="2.2"/><circle cx="22" cy="46" r="3.5" fill="var(--m-sporadic)"/><circle cx="40" cy="50" r="2.5" fill="var(--m-sporadic)" opacity=".6"/></svg>
-        <div class="num">02</div>
         <h3><span class="en">Two new patterns</span><span class="zh">两种新模式</span></h3>
         <p class="en">We also observed two previously unreported learning patterns: replacement, where a neuron drops what it has learned and switches to something new, and sporadic features, where weak features appear only briefly.</p>
         <p class="zh">我们还观察到两种此前未被报道的学习模式：替换，即神经元放弃已经学会的东西，转向新的东西；以及零散特征，即微弱的特征只短暂出现。</p>
       </article>
       <article class="card rv d2">
-        <svg class="glyph" viewBox="0 0 64 64" aria-hidden="true"><g fill="var(--muted)" opacity=".55"><rect x="8" y="40" width="3" height="10"/><rect x="13" y="36" width="3" height="14"/><rect x="18" y="42" width="3" height="8"/><rect x="23" y="38" width="3" height="12"/></g><path d="M30 44 h6" stroke="var(--muted)" stroke-width="2"/><path d="M36 41 l3 3 -3 3" fill="none" stroke="var(--muted)" stroke-width="2"/><g fill="var(--m-blue)"><rect x="44" y="47" width="3" height="3"/><rect x="49" y="18" width="3" height="32"/><rect x="54" y="30" width="3" height="20"/><rect x="59" y="46" width="3" height="4"/></g></svg>
-        <div class="num">03</div>
         <h3><span class="en">A denoising picture</span><span class="zh">去噪图景</span></h3>
         <p class="en">One tentative explanation for neurons’ evolution is that neurons start out noisy and gradually settle on a few features—a process we call “denoising.”</p>
         <p class="zh">对神经元演化的一个初步解释是：神经元起初充满噪声，随后逐渐稳定在少数几个特征上，我们称这个过程为“去噪”。</p>
@@ -539,11 +513,11 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     </div>
     <div class="card rv" style="padding:28px clamp(14px,3vw,30px) 22px;margin-top:16px">
       <div class="pipe" id="pipe">
-        <button class="step on" type="button" data-s="0"><span class="n"><svg viewBox="0 0 24 24"><path d="M5 4h10l4 4v12H5z M8 11h8 M8 14h8 M8 17h5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></span><span><b class="en">Text</b><b class="zh">文本</b><small>Pile-10K</small></span></button>
-        <button class="step" type="button" data-s="1"><span class="n"><svg viewBox="0 0 24 24"><path d="M4 20V10M9 20V4M14 20v-7M19 20v-11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><span><b class="en">Top-10 contexts</b><b class="zh">最强 10 段</b><small class="en">per checkpoint</small><small class="zh">每个检查点</small></span></button>
-        <button class="step" type="button" data-s="2"><span class="n"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z M8 9h8 M8 12h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span><b class="en">Describe</b><b class="zh">描述</b><small>GPT-6 Luna</small></span></button>
-        <button class="step" type="button" data-s="3"><span class="n"><svg viewBox="0 0 24 24"><path d="M3 12h5c3 0 3-6 6-6h7M8 12c3 0 3 6 6 6h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span><b class="en">Link over time</b><b class="zh">按时间串联</b><small class="en">40 checkpoints</small><small class="zh">40 个检查点</small></span></button>
-        <button class="step" type="button" data-s="4"><span class="n"><svg viewBox="0 0 24 24"><path d="M4 7h7l9 9-4 4-9-9z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="8" cy="10" r="1.4" fill="currentColor"/></svg></span><span><b class="en">Label</b><b class="zh">标注</b><small class="en">generalization or not</small><small class="zh">是否泛化</small></span></button>
+        <button class="step on" type="button" data-s="0"><span class="n">1</span><span><b class="en">Text</b><b class="zh">文本</b><small>Pile-10K</small></span></button>
+        <button class="step" type="button" data-s="1"><span class="n">2</span><span><b class="en">Top-10 contexts</b><b class="zh">最强 10 段</b><small class="en">per checkpoint</small><small class="zh">每个检查点</small></span></button>
+        <button class="step" type="button" data-s="2"><span class="n">3</span><span><b class="en">Describe</b><b class="zh">描述</b><small>GPT-6 Luna</small></span></button>
+        <button class="step" type="button" data-s="3"><span class="n">4</span><span><b class="en">Link over time</b><b class="zh">按时间串联</b><small class="en">40 checkpoints</small><small class="zh">40 个检查点</small></span></button>
+        <button class="step" type="button" data-s="4"><span class="n">5</span><span><b class="en">Label</b><b class="zh">标注</b><small class="en">generalization or not</small><small class="zh">是否泛化</small></span></button>
       </div>
       <div class="stepinfo card" id="stepinfo" aria-live="polite"></div>
       <div class="hint"><span class="en">Click each step for details</span><span class="zh">点击每一步查看细节</span></div>
@@ -727,7 +701,6 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     </figure>
   </div>
   <div class="text" style="margin-top:44px">
-    <div class="thirds rv" id="thirds" aria-hidden="true"></div>
     <p class="rv en">The denoising picture fits only about a quarter of the neurons. About half undergo replacement, which we can observe but do not yet understand. For roughly a fifth, we cannot even identify a clear learning pattern. To us, this suggests that the debate over how neurons learn—and why they become polysemantic—is <b>far from settled</b>.</p>
     <p class="rv zh">去噪图景只适用于大约四分之一的神经元。约一半经历了替换，我们能观察到它，但还不理解它。约五分之一的神经元，我们甚至无法识别出清晰的学习模式。在我们看来，这说明关于神经元如何学习、以及为什么会变得多语义的争论<b>远未结束</b>。</p>
   </div>
@@ -822,15 +795,14 @@ function setLang(l, push) {
 }
 $$(".langs button").forEach(b => b.onclick = () => setLang(b.dataset.l, true));
 
-// ---------- nav, progress, toc ----------
-const nav = $("#nav"), prog = $("#progress"), toc = $("#toc"), hero = $(".hero");
+// ---------- nav, toc ----------
+const nav = $("#nav"), toc = $("#toc"), hero = $(".hero");
 const chapters = $$("[data-toc-en]");
 function buildToc() {
   toc.innerHTML = chapters.map(c => `<a href="#${c.id}" data-id="${c.id}"><span>${esc(tr(c.dataset.tocEn, c.dataset.tocZh))}</span><i></i></a>`).join("");
 }
 function onScroll() {
-  const y = scrollY, h = document.documentElement.scrollHeight - innerHeight;
-  prog.style.transform = `scaleX(${h > 0 ? y / h : 0})`;
+  const y = scrollY;
   const past = y > hero.offsetHeight - 70;
   nav.classList.toggle("solid", past);
   toc.classList.toggle("show", past);
@@ -902,7 +874,7 @@ const RG = [
   ["recursive_generalization", "Recursive generalization only", "仅递归泛化", "Starts from one core idea and later extends to related ideas.", "先有一个核心内容，之后逐渐延伸到相关的内容。", "var(--m-branch)"],
   ["superposition", "Superposition only", "仅重叠", "Holds several unrelated things at once, with no shared core.", "同时承载几样互不相关的东西，没有共同的核心。", "var(--m-coexist)"],
   ["replacement", "Replaced by something else", "被别的内容替换", "An early idea is dropped and an unrelated one takes its place.", "早期的内容被放弃，换成一个无关的内容。", "var(--m-replace)"],
-  ["mixed", "Mixed", "混合", "Shows several of these at once.", "同时表现出以上几种。", "linear-gradient(90deg, var(--m-branch), var(--m-replace) 50%, var(--m-coexist))"],
+  ["mixed", "Mixed", "混合", "Shows several of these at once.", "同时表现出以上几种。", "var(--plum)"],
   ["uninterpretable", "No clear pattern", "看不出规律", "At most stages the AI could not find a pattern.", "大多数阶段 AI 都找不出规律。", "var(--m-none)"],
 ];
 let rgOpen = null, rgShown = false;
@@ -1094,13 +1066,12 @@ function renderTabs() {
     const n = (ST.diff[x.k] || []).length;
     return `<button class="tab${i === exSel ? " on" : ""}" type="button" role="tab" aria-selected="${i === exSel}" data-i="${i}">
       <span class="ct" style="color:${x.col}">${n}<small>/ ${tot}</small></span><span class="nm">${tr(x.en, x.zh)}</span><span class="ds">${tr(...x.ds)} · ${tr("example", "例子")} ${nid(x.n)}</span>
-      <span class="meter" style="background:${x.col};width:${tabsShown ? n / tot * 100 : 0}%"></span></button>`;
+</button>`;
   }).join("");
   $$("#tabs .tab").forEach(b => b.onclick = () => { exSel = +b.dataset.i; renderTabs(); send("examples", { type: "nevo-select", neuron: EX[exSel].n }); });
   const x = EX[exSel];
   $("#exnote").innerHTML = tr(...x.note) + chipsFor(ST.diff[x.k] || [], 8);
   $("#excap").innerHTML = tr(...x.cap);
-  $("#thirds").innerHTML = EX.map(x => `<div style="flex:${(ST.diff[x.k] || []).length};background:${x.col}" title="${tr(x.en, x.zh)}"></div>`).join("");
 }
 watch($("#tabs"), () => { tabsShown = true; requestAnimationFrame(() => requestAnimationFrame(renderTabs)); });
 
