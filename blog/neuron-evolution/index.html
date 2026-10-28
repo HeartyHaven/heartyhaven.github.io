@@ -63,11 +63,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 #nav .home span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: 0; transform: translateY(4px); transition: .35s; }
 #nav.solid .home span { opacity: 1; transform: none; }
 #nav .tools { margin-left: auto; display: flex; align-items: center; gap: 4px; }
-.ico { display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; color: inherit; text-decoration: none; position: relative; transition: background .2s; }
+.ico { display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 10px; border-radius: 999px; color: inherit; text-decoration: none; font: 500 13.5px/1 var(--sans); white-space: nowrap; transition: background .2s; }
 .ico:hover { background: color-mix(in srgb, currentColor 14%, transparent); }
-.ico svg { width: 19px; height: 19px; }
-.ico[data-tip]:hover::after { content: attr(data-tip); position: absolute; top: 100%; margin-top: 6px; left: 50%; transform: translateX(-50%); white-space: nowrap; font: 500 12px/1 var(--sans);
-  background: var(--ink); color: var(--bg); padding: 6px 8px; border-radius: 6px; pointer-events: none; }
+.ico svg { width: 16px; height: 16px; flex: none; }
 .langs { display: inline-flex; border: 1px solid color-mix(in srgb, currentColor 35%, transparent); border-radius: 999px; padding: 2px; margin-left: 6px; }
 .langs button { border: 0; background: none; padding: 3px 10px; white-space: nowrap; border-radius: 999px; font: 600 12.5px/1.3 var(--sans); color: inherit; opacity: .75; }
 .langs button.on { background: var(--accent); color: #fff; opacity: 1; }
@@ -110,7 +108,7 @@ html[data-lang="zh"] .spot .lbl b { font-family: "Noto Serif SC", serif; }
   .spot { width: 24px; height: 24px; } .spot::before { inset: 7px; } .hero .cap small { display: none; }
   .hero .fade { display: none; }
   .hero .cap { position: relative; left: auto; right: auto; bottom: auto; padding: 14px 16px 16px; background: linear-gradient(#3a1d14, #2a1510); }
-  #nav { gap: 8px; } #nav .tools { gap: 0; } .ico { width: 32px; height: 32px; } .ico svg { width: 17px; height: 17px; } .ico.opt { display: none; }
+  #nav { gap: 8px; } #nav .tools { gap: 0; } .ico { padding: 0 6px; font-size: 12.5px; } .ico svg { display: none; } .ico.opt { display: none; } #nav .home span { display: none; }
   .langs button { padding: 3px 8px; }
 }
 
@@ -149,7 +147,7 @@ p { margin: 0 0 1.1em; }
 .lead { font: 400 clamp(20px, 2.3vw, 24px)/1.55 var(--serif); color: var(--ink); }
 html[data-lang="zh"] .lead { font-family: var(--sans); font-size: 19.5px; line-height: 1.85; }
 .dot { display: inline-block; width: .62em; height: .62em; border-radius: 50%; vertical-align: .04em; margin: 0 .22em 0 .1em; }
-.hl { padding: 0 .15em; border-radius: 3px; font-weight: 600; }
+.hl { font-weight: 600; }
 sup.fn button { border: 0; background: var(--bg-2); color: var(--accent-ink); font: 700 11px/1 var(--sans); padding: 3px 6px; border-radius: 999px; vertical-align: .4em; margin-left: 2px; }
 sup.fn button:hover { background: var(--accent); color: #fff; }
 .fnpop { position: absolute; z-index: 60; max-width: min(360px, calc(100vw - 32px)); background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14.5px; line-height: 1.6;
@@ -203,18 +201,17 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .step:hover .n, .step.on .n { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 20px var(--shadow); }
 .step.on .n { background: var(--accent); }
 .step.on .n { color: #fff; }
-.stepinfo { margin-top: 18px; padding: 18px 22px; font-size: 16px; line-height: 1.7; color: var(--ink-2); min-height: 92px; }
+.stepinfo { margin-top: 18px; padding: 18px 22px; font-size: 16px; line-height: 1.7; color: var(--ink-2); min-height: 92px; position: relative; }
 .stepinfo b { color: var(--ink); }
 @media (max-width: 760px) {
   .pipe { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   .step { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; text-align: left; align-items: center; padding: 4px 0; }
   .step .n { margin: 0; }
 }
-.rel { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 14px 0 6px; }
-.rel div { padding: 14px; font-size: 14px; line-height: 1.45; }
+.rel { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 14px 0 2px; }
+.rel div { padding: 12px 14px; font-size: 14px; line-height: 1.5; background: var(--bg-2); border-radius: 10px; color: var(--ink); }
 .rel div i { display: block; font-style: normal; font: 600 11.5px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
 .rel code { font: 500 13px/1.5 var(--mono); background: var(--bg-2); padding: 1px 6px; border-radius: 5px; }
-.rel .arr { color: var(--accent); font-weight: 700; margin: 0 2px; }
 @media (max-width: 760px) { .rel { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .cta { display: flex; align-items: center; gap: 16px; padding: 18px 22px; margin-top: 26px; text-decoration: none; color: var(--ink); transition: .25s; }
 .cta:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 12px 30px var(--shadow); }
@@ -265,7 +262,6 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .embed.ready .skel { display: none; }
 @keyframes shimmer { to { background-position: -200% 0; } }
 .embedbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 10px; font-size: 13.5px; color: var(--muted); }
-.embedbar .live { display: inline-flex; align-items: center; gap: 6px; font: 600 11.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--m-coexist); }
 
 /* scrollytelling */
 .scrolly { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 34px; align-items: start; }
@@ -368,10 +364,10 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <nav id="nav" aria-label="Site">
   <a class="home" href="#top"><svg aria-hidden="true"><use href="#i-logo"/></svg><span class="en">Recursive Generalization and Superposition Are Both Right</span><span class="zh">递归泛化与重叠都是对的</span></a>
   <div class="tools">
-    <a class="ico" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener" data-tip="Explorer" aria-label="Explorer"><svg><use href="#i-explorer"/></svg></a>
-    <a class="ico" href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener" data-tip="Code" aria-label="Code on GitHub"><svg><use href="#i-github"/></svg></a>
-    <a class="ico" href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener" data-tip="Dataset" aria-label="Dataset on Hugging Face"><svg><use href="#i-data"/></svg></a>
-    <a class="ico opt" href="/" data-tip="Home" aria-label="Lang Gao's homepage"><svg><use href="#i-home"/></svg></a>
+    <a class="ico" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-explorer"/></svg><span class="en">Explorer</span><span class="zh">浏览器</span></a>
+    <a class="ico" href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-github"/></svg><span class="en">Code</span><span class="zh">代码</span></a>
+    <a class="ico" href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-data"/></svg><span class="en">Dataset</span><span class="zh">数据集</span></a>
+    <a class="ico opt" href="/"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="en">Home</span><span class="zh">主页</span></a>
     <span class="langs" role="group" aria-label="Language"><button type="button" data-l="en">EN</button><button type="button" data-l="zh">中文</button></span>
   </div>
 </nav>
@@ -386,11 +382,11 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
       <img src="assets/hero-1400.jpg" srcset="assets/hero-800.jpg 800w, assets/hero-1400.jpg 1400w, assets/hero-1672.jpg 1672w" sizes="100vw" alt="A dusk stage of impossible trees: a great branching tree, a looped trunk, a tree grafted with a cypress and a bare branch, a crown floating above its cut stump, and fragments drifting in the air.">
     </picture>
     <div class="fade"></div>
-    <button class="spot" style="left:21%;top:29%" type="button"><span class="lbl"><b class="en">Recursive generalization</b><b class="zh">递归泛化</b><span class="en">One core, branching into related things.</span><span class="zh">一个核心，分叉出相关的东西。</span></span></button>
-    <button class="spot" style="left:52.5%;top:24%" type="button"><span class="lbl"><b class="en">Mixed</b><b class="zh">混合</b><span class="en">Different kinds of growth on one trunk.</span><span class="zh">同一根树干上长出不同种类的枝叶。</span></span></button>
-    <button class="spot" style="left:46.5%;top:71%" type="button"><span class="lbl"><b class="en">Superposition</b><b class="zh">重叠</b><span class="en">Separate, unrelated sticks standing side by side.</span><span class="zh">互不相关的木桩并排而立。</span></span></button>
-    <button class="spot r" style="left:82%;top:50%" type="button"><span class="lbl"><b class="en">Replacement</b><b class="zh">替换</b><span class="en">The old trunk is cut; a new crown takes its place.</span><span class="zh">旧树干被截断，新的树冠取而代之。</span></span></button>
-    <button class="spot r" style="left:95.5%;top:63%" type="button"><span class="lbl"><b class="en">Sporadic features</b><b class="zh">零散特征</b><span class="en">Fragments that never take root.</span><span class="zh">从未扎根的碎片。</span></span></button>
+    <button class="spot" style="left:21%;top:29%" type="button"><span class="lbl"><b class="en">Recursive generalization</b><b class="zh">递归泛化</b><span class="en">All branches grow from the same trunk, like features that extend step by step from one core.</span><span class="zh">所有枝条都长在同一根树干上，就像从一个核心逐步延伸出来的特征。</span></span></button>
+    <button class="spot" style="left:52.5%;top:24%" type="button"><span class="lbl"><b class="en">Mixed</b><b class="zh">混合</b><span class="en">One trunk carries several kinds of foliage, like a neuron that mixes several learning patterns.</span><span class="zh">同一根树干上长着几种不同的枝叶，就像混合了多种学习模式的神经元。</span></span></button>
+    <button class="spot" style="left:46.5%;top:71%" type="button"><span class="lbl"><b class="en">Superposition</b><b class="zh">重叠</b><span class="en">These stumps stand apart and do not connect, like unrelated features that share one neuron.</span><span class="zh">这些木桩各自独立，互不相连，就像共用一个神经元的无关特征。</span></span></button>
+    <button class="spot r" style="left:82%;top:50%" type="button"><span class="lbl"><b class="en">Replacement</b><b class="zh">替换</b><span class="en">The old trunk has been cut and a new crown floats in its place, like a feature that replaces an earlier one.</span><span class="zh">旧树干被截断，新的树冠悬在原处，就像取代了早先特征的新特征。</span></span></button>
+    <button class="spot r" style="left:95.5%;top:63%" type="button"><span class="lbl"><b class="en">Sporadic features</b><b class="zh">零散特征</b><span class="en">These fragments drift in the air and never take root, like features that appear only briefly.</span><span class="zh">这些碎片飘在空中，从未扎根，就像只短暂出现的特征。</span></span></button>
     </div>
     <div class="cap">
       <p class="en">Neurons evolve in many ways: branching generalization and unrelated coexistence (superposition) exist side by side.</p>
@@ -401,11 +397,10 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 </header>
 
 <div class="titleblock">
-  <div class="kicker rv"><span class="en">Interpretability · Training dynamics · Pythia-160M</span><span class="zh">可解释性 · 训练动态 · Pythia-160M</span></div>
   <h1 class="rv d1"><span class="en">Recursive Generalization <em>and</em> Superposition Are Both Right</span><span class="zh">递归泛化<em>与</em>重叠都是对的</span></h1>
-  <p class="dek rv d2"><span class="en">We followed 240 neurons of Pythia-160M through 40 training checkpoints and watched what they learned, when, and how.</span><span class="zh">我们在 40 个训练检查点上追踪了 Pythia-160M 的 240 个神经元，观察它们学到了什么、何时学到、又是怎样学到的。</span></p>
-  <div class="authors rv d2"><a href="/">Lang Gao</a><span class="sep">·</span>Jinghui Zhang<span class="sep">·</span>Xiuying Chen</div>
-  <div class="affil rv d2">MBZUAI <span class="sep">·</span> <span class="en">October 2026</span><span class="zh">2026 年 10 月</span></div>
+  <p class="dek rv d2"><span class="en">We tracked 240 neurons of Pythia-160M across 40 training checkpoints to see how their features appear and change.</span><span class="zh">我们在 40 个训练检查点上追踪了 Pythia-160M 的 240 个神经元，观察它们的特征如何出现和变化。</span></p>
+  <div class="authors rv d2"><a href="/">Lang Gao</a>, Jinghui Zhang, Xiuying Chen</div>
+  <div class="affil rv d2">MBZUAI</div><div class="affil rv d2"><span class="en">October 2026</span><span class="zh">2026 年 10 月</span></div>
   <div class="pills rv d3">
     <a class="pill" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg><use href="#i-explorer"/></svg><span class="en">Interactive Explorer</span><span class="zh">交互浏览器</span></a>
     <a class="pill" href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg><span class="en">Code</span><span class="zh">代码</span></a>
@@ -421,17 +416,17 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
     <div class="chlabel rv"><span>TL;DR</span></div>
     <div class="tldr">
       <article class="card rv">
-        <h3><span class="en">Both happen, together</span><span class="zh">两者同时发生</span></h3>
+        <h3><span class="en">Superposition and generalization happen together</span><span class="zh">重叠与泛化同时发生</span></h3>
         <p class="en">By tracking neurons in Pythia-160M throughout training, we found that superposition and recursive generalization are not mutually exclusive. Instead, they happen together most of the time.</p>
         <p class="zh">我们在整个训练过程中追踪 Pythia-160M 的神经元，发现重叠和递归泛化并不互斥，反而在大多数时候同时发生。</p>
       </article>
       <article class="card rv d1">
-        <h3><span class="en">Two new patterns</span><span class="zh">两种新模式</span></h3>
+        <h3><span class="en">Replacement and sporadic features</span><span class="zh">替换与零散特征</span></h3>
         <p class="en">We also observed two previously unreported learning patterns: replacement, where a neuron drops what it has learned and switches to something new, and sporadic features, where weak features appear only briefly.</p>
         <p class="zh">我们还观察到两种此前未被报道的学习模式：替换，即神经元放弃已经学会的东西，转向新的东西；以及零散特征，即微弱的特征只短暂出现。</p>
       </article>
       <article class="card rv d2">
-        <h3><span class="en">A denoising picture</span><span class="zh">去噪图景</span></h3>
+        <h3><span class="en">Neurons may learn by denoising</span><span class="zh">神经元可能通过去噪来学习</span></h3>
         <p class="en">One tentative explanation for neurons’ evolution is that neurons start out noisy and gradually settle on a few features—a process we call “denoising.”</p>
         <p class="zh">对神经元演化的一个初步解释是：神经元起初充满噪声，随后逐渐稳定在少数几个特征上，我们称这个过程为“去噪”。</p>
       </article>
@@ -442,8 +437,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Introduction ============ -->
 <section class="chapter" id="intro" data-toc-en="Introduction" data-toc-zh="引言">
   <div class="text">
-    <div class="chlabel rv"><span class="en">01 · Introduction</span><span class="zh">01 · 引言</span></div>
-    <h2 class="rv"><span class="en">Why do neurons respond to unrelated things?</span><span class="zh">神经元为什么会响应无关的东西？</span></h2>
+    <h2 class="rv"><span class="en">Introduction</span><span class="zh">引言</span></h2>
     <p class="lead rv en">Nick Cammarata’s recent essay, <em>Neural Networks Are Already Clean</em>, sparked a debate about why neurons respond to seemingly unrelated things. He argues that much of the evidence usually attributed to superposition was misread, partly because of weak tools and older model designs. Instead, he proposes recursive generalization as the main explanation.</p>
     <p class="lead rv zh">Nick Cammarata 最近的文章《Neural Networks Are Already Clean》引发了一场讨论：神经元为什么会响应看似无关的东西？他认为，通常被归因于重叠的许多证据其实被误读了，部分原因在于工具较弱、模型设计较旧。他转而提出，递归泛化才是主要解释。</p>
     <p class="rv en">This post builds on that discussion with further experiments and thoughts on language models. Our investigation centers on these two ideas:</p>
@@ -464,11 +458,10 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
           <circle style="--d:1.9s" cx="300" cy="34" r="4.5" fill="var(--m-branch)"/><circle style="--d:2s" cx="300" cy="92" r="4.5" fill="var(--m-branch)"/><circle style="--d:2s" cx="300" cy="150" r="4.5" fill="var(--m-branch)"/>
           <text x="16" y="104" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">iy</text><text x="176" y="56" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">diy</text><text x="232" y="22" font-size="12" fill="var(--muted)" font-family="var(--mono)">do it yourself</text>
         </svg>
-        <span class="tag" style="color:var(--m-branch)"><span class="en">Idea one</span><span class="zh">概念一</span></span>
         <h3><span class="en">Recursive generalization</span><span class="zh">递归泛化</span></h3>
         <p class="en">A neuron starts by responding to a simple pattern, then gradually extends to related things, sometimes branching in several directions. Each step follows a connection, but the endpoints may look unrelated if we cannot see how the neuron got there.</p>
         <p class="zh">神经元起初只响应一个简单的模式，随后逐渐延伸到相关的事物，有时会朝多个方向分叉。每一步都沿着某种联系，但如果看不到神经元是怎么走到那里的，终点之间可能显得毫不相关。</p>
-        <button class="replay" type="button" data-replay>↻ <span class="en">Replay</span><span class="zh">重播</span></button>
+        <button class="replay" type="button" data-replay><span class="en">Replay</span><span class="zh">重播</span></button>
       </article>
       <article class="card idea rv d1">
         <svg viewBox="0 0 320 170" class="grow" aria-hidden="true">
@@ -480,11 +473,10 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
           <circle style="--d:1s" cx="146" cy="138" r="6" fill="var(--card)" stroke="var(--plum)" stroke-width="3"/>
           <text x="30" y="22" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">"send"</text><text x="98" y="74" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">CAPITALS</text><text x="160" y="126" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">café</text>
         </svg>
-        <span class="tag" style="color:var(--m-coexist)"><span class="en">Idea two</span><span class="zh">概念二</span></span>
         <h3><span class="en">Superposition</span><span class="zh">重叠（superposition）</span></h3>
         <p class="en">In <a href="https://transformer-circuits.pub/2022/toy_model/index.html" target="_blank" rel="noopener">Toy Models of Superposition</a>, networks represent more features than they have dimensions by placing features along overlapping, non-orthogonal directions. This definition does not require the features to be unrelated. Nick uses the term more narrowly: unrelated features share neurons because they can coexist with little interference, rather than because they share a meaningful connection.<sup class="fn"><button type="button" data-fn="1">1</button></sup></p>
         <p class="zh">在 <a href="https://transformer-circuits.pub/2022/toy_model/index.html" target="_blank" rel="noopener">Toy Models of Superposition</a> 中，网络把特征放在相互重叠、非正交的方向上，从而表示比维度更多的特征。这一定义并不要求特征彼此无关。Nick 对这个词的用法更窄：无关的特征共享神经元，是因为它们可以几乎互不干扰地共存，而不是因为它们之间有什么有意义的联系。<sup class="fn"><button type="button" data-fn="1">1</button></sup></p>
-        <button class="replay" type="button" data-replay>↻ <span class="en">Replay</span><span class="zh">重播</span></button>
+        <button class="replay" type="button" data-replay><span class="en">Replay</span><span class="zh">重播</span></button>
       </article>
     </div>
   </div>
@@ -499,18 +491,11 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Method ============ -->
 <section class="chapter" id="method" data-toc-en="Method" data-toc-zh="方法">
   <div class="text">
-    <div class="chlabel rv"><span class="en">02 · Method</span><span class="zh">02 · 方法</span></div>
-    <h2 class="rv"><span class="en">Watching neurons learn</span><span class="zh">观察神经元学习</span></h2>
+    <h2 class="rv"><span class="en">Method</span><span class="zh">方法</span></h2>
     <p class="rv en">Our overall process looks like this: at each checkpoint, we collected the text passages that most strongly activated each neuron. An AI agent then described what the neuron responded to. A second agent read these descriptions in training order to identify how features appeared and evolved.</p>
     <p class="rv zh">整体流程是：在每个检查点，我们收集最能激活每个神经元的文本片段；由一个 AI agent 描述该神经元在响应什么；再由第二个 agent 按训练顺序阅读这些描述，识别特征如何出现和演化。</p>
   </div>
   <div class="wide">
-    <div class="stats">
-      <div class="card stat rv"><b data-count="10" data-suffix="M">0</b><span class="en">tokens of probe text from the Pile</span><span class="zh">来自 Pile 的探测文本 token</span></div>
-      <div class="card stat rv d1"><b data-count="40">0</b><span class="en">of Pythia’s 154 training checkpoints</span><span class="zh">个检查点（共 154 个）</span></div>
-      <div class="card stat rv d2"><b data-count="240">0</b><span class="en">neurons, 20 from each of 12 layers</span><span class="zh">个神经元，12 层每层 20 个</span></div>
-      <div class="card stat rv d3"><b data-count="9600" data-sep="1">0</b><span class="en">explanations written by the agent</span><span class="zh">份由 agent 写出的解释</span></div>
-    </div>
     <div class="card rv" style="padding:28px clamp(14px,3vw,30px) 22px;margin-top:16px">
       <div class="pipe" id="pipe">
         <button class="step on" type="button" data-s="0"><span class="n">1</span><span><b class="en">Text</b><b class="zh">文本</b><small>Pile-10K</small></span></button>
@@ -522,16 +507,9 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
       <div class="stepinfo card" id="stepinfo" aria-live="polite"></div>
       <div class="hint"><span class="en">Click each step for details</span><span class="zh">点击每一步查看细节</span></div>
     </div>
-    <div class="rel rv" id="rel">
-      <div class="card"><i class="en">Form</i><i class="zh">形式</i><code>iv</code><span class="arr">→</span><code>div</code></div>
-      <div class="card"><i class="en">Meaning</i><i class="zh">含义</i><code>in</code><span class="arr">→</span><code>within</code><span class="arr">→</span><code>outside</code></div>
-      <div class="card"><i class="en">Function or usage</i><i class="zh">功能或用法</i><span class="en">meeting agendas <span class="arr">→</span> parliamentary voting and speeches</span><span class="zh">会议议程 <span class="arr">→</span> 议会投票与发言</span></div>
-      <div class="card"><i class="en">Category</i><i class="zh">类别</i><code>London</code><span class="arr">→</span><code>Amsterdam</code></div>
-    </div>
-    <p class="rv" style="font-size:14.5px;color:var(--muted);margin:6px 2px 0"><span class="en">What counts as “related” when the agent labels a new feature.</span><span class="zh">agent 标注新特征时，什么算作“相关”。</span><sup class="fn"><button type="button" data-fn="2">2</button></sup></p>
     <a class="card cta rv" href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener">
       <svg aria-hidden="true"><use href="#i-logo"/></svg>
-      <div><b class="en">Explore every neuron yourself</b><b class="zh">亲自查看每一个神经元</b><span class="en">The descriptions, labels and neuron trajectories are all in the interactive Explorer.</span><span class="zh">所有描述、标注和神经元的演化轨迹都在交互浏览器中。</span></div>
+      <div><b class="en">Interactive Explorer</b><b class="zh">交互浏览器</b><span class="en">You can explore the descriptions, labels, and neuron trajectories in this interactive panel.</span><span class="zh">你可以在这个交互面板中查看描述、标注和神经元的演化轨迹。</span></div>
       <span class="go" aria-hidden="true">↗</span>
     </a>
   </div>
@@ -540,15 +518,14 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Finding 1 ============ -->
 <section class="chapter" id="together" data-toc-en="Both happen" data-toc-zh="同时发生">
   <div class="text">
-    <div class="chlabel rv"><span class="en">03 · Findings</span><span class="zh">03 · 发现</span></div>
     <h2 class="rv"><span class="en">Superposition and generalization happen together</span><span class="zh">重叠与泛化同时发生</span></h2>
     <p class="lead rv en">Our results suggest that superposition and recursive generalization are not mutually exclusive. Of the 240 neurons we tracked, only <b>14</b> showed recursive generalization alone, and only <b>11</b> showed superposition alone. Another <b>180</b> showed a mixture of learning patterns.</p>
     <p class="lead rv zh">我们的结果表明，重叠和递归泛化并不互斥。在追踪的 240 个神经元中，只有 <b>14</b> 个仅表现出递归泛化，只有 <b>11</b> 个仅表现出重叠；另有 <b>180</b> 个表现出多种学习模式的混合。</p>
   </div>
   <div class="wide">
     <figure class="card chartcard rv">
-      <h4><span class="en">How each neuron learned</span><span class="zh">每个神经元是怎样学习的</span></h4>
-      <p class="sub"><span class="en">240 neurons, as classified by the AI agent. Click a bar to see its neurons.</span><span class="zh">240 个神经元，由 AI agent 分类。点击一行查看其中的神经元。</span></p>
+      <h4><span class="en">Learning patterns across the 240 neurons</span><span class="zh">240 个神经元的学习模式</span></h4>
+      <p class="sub"><span class="en">Classified by the AI agent. Click a row to list its neurons.</span><span class="zh">由 AI agent 分类。点击一行可列出其中的神经元。</span></p>
       <div id="rgchart" role="list"></div>
       <div class="drawer" id="rgdrawer"></div>
     </figure>
@@ -559,7 +536,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
   </div>
   <div class="wide">
     <figure class="rv">
-      <div class="embedbar"><span class="live"><span class="en">Live panel</span><span class="zh">实时面板</span></span><span class="en">Hover a line to see how it grew; click it to isolate its family; click a column to read that stage.</span><span class="zh">悬停在线上看它如何长出；点击一条线只看它所在的家族；点击一列阅读该阶段的原文。</span></div>
+      <div class="embedbar"><span class="en">Hover over a line to see how it formed, click a line to show only its family, and click a column to read the texts at that stage.</span><span class="zh">把鼠标停在线上可以看它是怎么形成的，点击一条线只显示它所在的家族，点击一列可以阅读该阶段的原文。</span></div>
       <div class="embed" data-id="mixed" data-neuron="L10-N2063" data-color="family"><div class="skel"><span class="en">Loading the neuron…</span><span class="zh">正在加载神经元…</span></div></div>
       <figcaption><b class="en">Feature evolution in a mixed neuron (L10/N2063).</b><b class="zh">一个混合型神经元的特征演化（L10/N2063）。</b> <span class="en">From left to right, the diagram follows its features across training checkpoints, with colors grouping related features into families.</span><span class="zh">图从左到右沿训练检查点追踪它的特征，颜色把相关的特征归为同一个家族。</span></figcaption>
     </figure>
@@ -571,13 +548,13 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
   <div class="wide">
     <div class="split">
       <figure class="card chartcard rv">
-        <h4><span class="en">Where late-training responses come from</span><span class="zh">训练后期的响应从何而来</span></h4>
+        <h4><span class="en">Mechanisms behind late-training responses</span><span class="zh">训练后期响应背后的机制</span></h4>
         <p class="sub"><span class="en">The mechanism behind most of each neuron’s strongest responses after step 16,000.</span><span class="zh">第 16,000 步之后，每个神经元大部分最强响应背后的机制。</span></p>
         <div class="donut" id="donut"></div>
       </figure>
       <figure class="card chartcard rv d1">
-        <h4><span class="en">Superposition fades as training goes on</span><span class="zh">重叠随训练推进而减少</span></h4>
-        <p class="sub"><span class="en">Average share of the 10 strongest responses, by how each feature was born.</span><span class="zh">最强 10 段响应中，按特征诞生方式划分的平均占比。</span></p>
+        <h4><span class="en">Share of each mechanism over training</span><span class="zh">各机制占比随训练的变化</span></h4>
+        <p class="sub"><span class="en">Average over the 240 neurons of how much of the 10 strongest responses comes from features of each mechanism.</span><span class="zh">在 240 个神经元上平均，最强 10 段响应中来自各机制特征的占比。</span></p>
         <div id="area"></div>
         <div class="legend" id="arealegend"></div>
       </figure>
@@ -588,7 +565,6 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Other patterns ============ -->
 <section class="chapter" id="other" data-toc-en="Other patterns" data-toc-zh="其他模式">
   <div class="text">
-    <div class="chlabel rv"><span class="en">04 · Findings</span><span class="zh">04 · 发现</span></div>
     <h2 class="rv"><span class="en">There are other patterns</span><span class="zh">还有其他模式</span></h2>
     <p class="rv en">Beyond the two most commonly discussed patterns—generalization and superposition—we also observed two other ways neurons evolved:</p>
     <p class="rv zh">除了最常被讨论的两种模式，即泛化和重叠，我们还观察到神经元演化的另外两种方式：</p>
@@ -606,37 +582,32 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
   <div class="wide">
     <div class="scrolly">
       <div class="sticky">
-        <div class="embedbar"><span class="live"><span class="en">Live panel</span><span class="zh">实时面板</span></span><span>L0/N824 · <span class="en">colored by mechanism</span><span class="zh">按机制上色</span></span></div>
+        <div class="embedbar"><span class="en">L0/N824, colored by mechanism.</span><span class="zh">L0/N824，按机制上色。</span></div>
         <div class="embed" data-id="story" data-neuron="L0-N824" data-color="mech" data-fixed="1"><div class="skel"><span class="en">Loading the neuron…</span><span class="zh">正在加载神经元…</span></div></div>
       </div>
       <div class="beats" id="beats">
         <div class="beat" data-pin="" data-step="143000" data-color="mech">
-          <span class="k"><span class="en">Step 1 · Overview</span><span class="zh">第 1 步 · 总览</span></span>
-          <h4><span class="en">Both patterns in one neuron</span><span class="zh">一个神经元里的两种模式</span></h4>
+          <h4><span class="en">Overview</span><span class="zh">总览</span></h4>
           <p class="en">The example shows both patterns. Colors indicate how each feature developed: <span class="dot" style="background:var(--m-branch)"></span>branch, <span class="dot" style="background:var(--m-coexist)"></span>unrelated coexistence, <span class="dot" style="background:var(--m-replace)"></span>replacement, <span class="dot" style="background:var(--m-sporadic)"></span>sporadic. Let’s focus on yellow and pink.</p>
           <p class="zh">这个例子同时展示了这两种模式。颜色表示每个特征是如何发展出来的：<span class="dot" style="background:var(--m-branch)"></span>分支、<span class="dot" style="background:var(--m-coexist)"></span>无关共存、<span class="dot" style="background:var(--m-replace)"></span>替换、<span class="dot" style="background:var(--m-sporadic)"></span>零散。我们重点看黄色和粉色。</p>
         </div>
         <div class="beat" data-pin="H" data-step="6000">
-          <span class="k"><span class="en">Step 2 · Step 6,000</span><span class="zh">第 2 步 · 第 6,000 步</span></span>
-          <h4><span class="dot" style="background:var(--m-replace)"></span><span class="en">A replacement</span><span class="zh">一次替换</span></h4>
+          <h4><span class="dot" style="background:var(--m-replace)"></span><span class="en">Replacement at step 6,000</span><span class="zh">第 6,000 步的替换</span></h4>
           <p class="en">Around training step 6,000, a new feature involving approximate quantities, such as “about 10,” replaced the neuron’s earlier response to “MOT” strings.</p>
           <p class="zh">大约在第 6,000 步，一个与约数有关的新特征（如“about 10”）替换了神经元早先对“MOT”字符串的响应。</p>
         </div>
         <div class="beat" data-pin="J" data-step="8000">
-          <span class="k"><span class="en">Step 3 · Step 8,000</span><span class="zh">第 3 步 · 第 8,000 步</span></span>
-          <h4><span class="dot" style="background:var(--m-branch)"></span><span class="en">…which then generalizes</span><span class="zh">……随后继续泛化</span></h4>
+          <h4><span class="dot" style="background:var(--m-branch)"></span><span class="en">Generalization after the replacement</span><span class="zh">替换之后的泛化</span></h4>
           <p class="en">This replacement feature, shown in yellow, soon generalized to expressions involving “around” (the red arrow).</p>
           <p class="zh">这个以黄色表示的替换特征很快泛化到含“around”的表达（红色箭头）。</p>
         </div>
         <div class="beat" data-pin="K" data-step="143000">
-          <span class="k"><span class="en">Step 4 · End of training</span><span class="zh">第 4 步 · 训练结束</span></span>
-          <h4><span class="en">The final response</span><span class="zh">最终的响应</span></h4>
+          <h4><span class="en">The final response at step 143,000</span><span class="zh">第 143,000 步的最终响应</span></h4>
           <p class="en">That branch eventually developed into the neuron’s dominant final response: “about” introducing the phrase that follows. The “MOT” feature did not reappear in the later checkpoints we examined.</p>
           <p class="zh">这条分支最终发展成神经元训练结束时的主要响应：用“about”引出后面的短语。在我们检查的后续检查点中，“MOT”特征再也没有出现。</p>
         </div>
         <div class="beat" data-pin="B" data-step="512">
-          <span class="k"><span class="en">Step 5 · Step 512</span><span class="zh">第 5 步 · 第 512 步</span></span>
-          <h4><span class="dot" style="background:var(--m-sporadic)"></span><span class="en">A sporadic feature</span><span class="zh">一个零散特征</span></h4>
+          <h4><span class="dot" style="background:var(--m-sporadic)"></span><span class="en">A sporadic feature at step 512</span><span class="zh">第 512 步的零散特征</span></h4>
           <p class="en">Pink marks sporadic features, such as the “Caf” and “Café/Cafe” word forms, observed only at step 512. These appeared unrelated to the neuron’s other features and tended to involve surface patterns, such as spelling fragments. They looked like early features that never developed further. In our sample, they rarely persisted for more than one checkpoint.</p>
           <p class="zh">粉色表示零散特征，比如只在第 512 步出现的“Caf”和“Café/Cafe”词形。它们看起来与神经元的其他特征无关，往往涉及拼写片段之类的表层模式，像是从未进一步发展的早期特征。在我们的样本中，它们很少持续超过一个检查点。</p>
         </div>
@@ -648,7 +619,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Bigger picture ============ -->
 <section id="bigger" data-toc-en="Bigger picture" data-toc-zh="更大的图景">
   <div class="quote">
-    <div class="chlabel rv" style="max-width:var(--text-w);margin:0 auto 26px"><span class="en">05 · The bigger picture</span><span class="zh">05 · 更大的图景</span></div>
+    <h2 class="rv" style="font-size:clamp(30px,4.4vw,46px);margin:0 0 22px"><span class="en">The bigger picture</span><span class="zh">更大的图景</span></h2>
     <p class="pre rv en">In this sense, superposition and recursive generalization are both ways a neuron can become polysemantic, and neither provides a complete explanation on its own. Together with replacement and sporadic features, they often appear within the same neuron’s training history and may interact in complex ways. There may also be patterns we have not yet identified.</p>
     <p class="pre rv zh">从这个意义上说，重叠和递归泛化都是神经元变得多语义的途径，但单独哪一个都不是完整的解释。它们与替换和零散特征一起，常常出现在同一个神经元的训练历史中，并可能以复杂的方式相互作用。也可能还有我们尚未发现的模式。</p>
     <p class="rv en">So a broader question is: what <em>general principles</em> govern how neurons learn?</p>
@@ -659,14 +630,13 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Denoising ============ -->
 <section class="chapter" id="denoising" style="padding-top:0" data-toc-en="Denoising" data-toc-zh="去噪">
   <div class="text">
-    <div class="chlabel rv"><span class="en">06 · A hypothesis</span><span class="zh">06 · 一个猜想</span></div>
     <h2 class="rv"><span class="en">A denoising mechanism?</span><span class="zh">一种去噪机制？</span></h2>
     <p class="rv en">Here is a tentative idea we call “denoising.” Early in training, a neuron responds without a clear pattern. As training progresses, these scattered responses gradually give way to strong responses to a few specific features.</p>
     <p class="rv zh">这里提出一个初步的想法，我们称之为“去噪”。训练早期，神经元的响应没有清晰的模式；随着训练推进，这些零散的响应逐渐让位于对少数几个特定特征的强烈响应。</p>
   </div>
   <div class="wide" style="max-width:980px">
     <figure class="card chartcard rv" id="denoise">
-      <h4><span class="en">Two neurons, same data, different endings</span><span class="zh">同样的数据，不同的结局</span></h4>
+      <h4><span class="en">Denoising schematic</span><span class="zh">去噪示意图</span></h4>
       <p class="sub"><span class="en">Drag the slider or press play. Each bar is a feature; its height is how strongly the neuron responds to it.</span><span class="zh">拖动滑块或点击播放。每根柱子是一个特征，高度是神经元对它的响应强度。</span></p>
       <svg id="dnsvg" viewBox="0 0 900 330" role="img" aria-label="Denoising schematic"></svg>
       <div class="controls"><button class="play" type="button" id="dnplay" aria-label="Play">▶</button><input type="range" id="dnrange" min="0" max="100" value="0" aria-label="Training progress"><span class="tlabel" id="dnlabel"></span></div>
@@ -676,8 +646,8 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
   <div class="text">
     <p class="rv en">Why call it denoising? At initialization, a neuron has not yet learned clear preferences. In several examples in the interactive panel, its early responses appear weak and scattered. Most of the complex changes occur during early and middle training. Later, a clearer and more stable pattern emerges. This resembles a gradual clearing of noise. This picture is also consistent with previous work<sup class="fn"><button type="button" data-fn="3">3</button></sup> showing that, under certain conditions, neuron weights move from random initialization toward a few directions determined by the data.</p>
     <p class="rv zh">为什么叫去噪？初始化时，神经元还没有学到明确的偏好。在交互面板的若干例子中，它早期的响应显得微弱而分散。大多数复杂的变化发生在训练前期和中期，之后才出现更清晰、更稳定的模式。这就像噪声被逐渐清除。这一图景也与已有工作<sup class="fn"><button type="button" data-fn="3">3</button></sup>一致：在一定条件下，神经元权重会从随机初始化移向由数据决定的少数几个方向。</p>
-    <p class="rv en">One appealing part of this idea is that it can accommodate both recursive generalization and superposition. Think of images emerging from noise in an image generator. Initially, they all look similarly noisy. One eventually becomes a <b>tree</b>: its branches are connected, like features developing through recursive generalization. Another becomes a collection of separate <b>sticks</b>, like unrelated features coexisting through superposition. Even with the same training data, different neurons may settle on different patterns. In practice, a neuron may end up with several “trees” and several “sticks” together—<a href="#top">much like the scene at the top of this page</a>.</p>
-    <p class="rv zh">这个想法吸引人的一点是，它能同时容纳递归泛化和重叠。想象图像生成模型从噪声中生成图像：起初它们都同样嘈杂。一张最终变成一棵<b>树</b>，枝干彼此相连，就像通过递归泛化发展出来的特征；另一张变成一堆分开的<b>木棍</b>，就像通过重叠共存的无关特征。即使训练数据相同，不同神经元也可能稳定到不同的模式。实际上，一个神经元最后可能同时拥有几棵“树”和几根“木棍”，<a href="#top">就像本页顶部的那幅画</a>。</p>
+    <p class="rv en">One appealing part of this idea is that it can accommodate both recursive generalization and superposition. Think of images emerging from noise in an image generator. Initially, they all look similarly noisy. One eventually becomes a <b>tree</b>: its branches are connected, like features developing through recursive generalization. Another becomes a collection of separate <b>sticks</b>, like unrelated features coexisting through superposition. Even with the same training data, different neurons may settle on different patterns. In practice, a neuron may end up with several “trees” and several “sticks” together. <a href="#top">The image at the top of this page</a> shows such a mix.</p>
+    <p class="rv zh">这个想法吸引人的一点是，它能同时容纳递归泛化和重叠。想象图像生成模型从噪声中生成图像：起初它们都同样嘈杂。一张最终变成一棵<b>树</b>，枝干彼此相连，就像通过递归泛化发展出来的特征；另一张变成一堆分开的<b>木棍</b>，就像通过重叠共存的无关特征。即使训练数据相同，不同神经元也可能稳定到不同的模式。实际上，一个神经元最后可能同时拥有几棵“树”和几根“木棍”。<a href="#top">本页顶部的图画</a>就是这样的混合。</p>
     <p class="rv en">The limitation is that it can’t explain replacement. An abrupt switch from one feature to another is hard to understand as a gradual clearing of noise. We therefore distinguish this denoising picture from evolution involving replacement, where a neuron’s direction changes along the way. We do not yet have a clear sense of what drives those changes.</p>
     <p class="rv zh">它的局限在于无法解释替换。从一个特征突然切换到另一个，很难理解为噪声的逐渐清除。因此，我们把这种去噪图景与包含替换的演化区分开来：后者中，神经元的方向在途中发生了改变。我们目前还不清楚是什么驱动了这些改变。</p>
   </div>
@@ -686,16 +656,15 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Examples ============ -->
 <section class="chapter" id="examples" data-toc-en="Examples" data-toc-zh="例子">
   <div class="text">
-    <div class="chlabel rv"><span class="en">07 · Examples</span><span class="zh">07 · 例子</span></div>
     <h2 class="rv"><span class="en">Examples of how neurons evolve</span><span class="zh">神经元演化的例子</span></h2>
-    <p class="rv en">We found that of the 240 neurons, <b>68</b> fit the denoising picture, <b>118</b> underwent feature replacement, and <b>54</b> showed no clear pattern. Here is one example from each group—pick one:</p>
-    <p class="rv zh">我们发现，240 个神经元中，<b>68</b> 个符合去噪图景，<b>118</b> 个经历了特征替换，<b>54</b> 个没有清晰的模式。以下每组各举一例，选一个看看：</p>
+    <p class="rv en">We found that of the 240 neurons, <b>68</b> fit the denoising picture, <b>118</b> underwent feature replacement, and <b>54</b> showed no clear pattern. Here is one example from each group. Click a group to switch the panel below.</p>
+    <p class="rv zh">我们发现，240 个神经元中，<b>68</b> 个符合去噪图景，<b>118</b> 个经历了特征替换，<b>54</b> 个没有清晰的模式。以下每组各举一例，点击一组即可切换下方的面板。</p>
   </div>
   <div class="wide">
     <div class="tabs rv" id="tabs" role="tablist"></div>
     <div class="card exnote" id="exnote" aria-live="polite"></div>
     <figure>
-      <div class="embedbar"><span class="live"><span class="en">Live panel</span><span class="zh">实时面板</span></span><span class="en">Colored by family: one color, one group of related concepts.</span><span class="zh">按家族上色：一种颜色代表一组相关的概念。</span></div>
+      <div class="embedbar"><span class="en">Colored by family. Each color marks a group of related concepts.</span><span class="zh">按家族上色。每种颜色代表一组相关的概念。</span></div>
       <div class="embed" data-id="examples" data-neuron="L10-N1661" data-color="family"><div class="skel"><span class="en">Loading the neuron…</span><span class="zh">正在加载神经元…</span></div></div>
       <figcaption id="excap"></figcaption>
     </figure>
@@ -709,8 +678,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <!-- ============ Open questions ============ -->
 <section class="chapter" id="questions" data-toc-en="Open questions" data-toc-zh="开放问题">
   <div class="text">
-    <div class="chlabel rv"><span class="en">08 · Open questions</span><span class="zh">08 · 开放问题</span></div>
-    <h2 class="rv"><span class="en">What we don’t know yet</span><span class="zh">我们还不知道的</span></h2>
+    <h2 class="rv"><span class="en">Open questions</span><span class="zh">开放问题</span></h2>
     <p class="rv en">These are some early results from a paper we are working on. They leave us with several open questions:</p>
     <p class="rv zh">这些是我们正在撰写的论文中的一些早期结果。它们留给我们几个开放问题：</p>
   </div>
@@ -719,7 +687,7 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
       <div class="card q rv"><h4><span class="en">Why do these patterns occur?</span><span class="zh">这些模式为什么会出现？</span></h4><p class="en">Do generalization, replacement, and the coexistence of unrelated features share a common cause, or do they arise from different mechanisms?</p><p class="zh">泛化、替换和无关特征的共存，是有共同的成因，还是源于不同的机制？</p></div>
       <div class="card q rv d1"><h4><span class="en">Have these neurons finished learning?</span><span class="zh">这些神经元学完了吗？</span></h4><p class="en">Our intuition is that messy or changing features may suggest that individual neurons need more training, even when the model as a whole appears well trained. Would further training help them settle into stable functions?</p><p class="zh">我们的直觉是，混乱或不断变化的特征可能意味着个别神经元还需要更多训练，即便模型整体看起来已经训练得很好。继续训练能否帮助它们稳定到固定的功能？</p></div>
       <div class="card q rv"><h4><span class="en">Where do replaced features go?</span><span class="zh">被替换的特征去了哪里？</span></h4><p class="en">They might lose out through local competition during generalization, then be taken over by other neurons or disappear altogether. This could happen even before the network reaches its capacity limit. But tracing what happens to them remains difficult.</p><p class="zh">它们可能在泛化过程中的局部竞争中落败，随后被其他神经元接管，或者彻底消失。这甚至可能在网络达到容量上限之前就发生。但追踪它们的去向仍然很困难。</p></div>
-      <div class="card q rv d1"><h4><span class="en">How does this affect the model?</span><span class="zh">这对模型有什么影响？</span></h4><p class="en">How does the appearance and disappearance of features affect the model? Does it change the model’s internal representations or how easily we can steer its behavior?</p><p class="zh">特征的出现和消失如何影响模型？它是否会改变模型的内部表征，或改变我们操控模型行为的难易程度？</p></div>
+      <div class="card q rv d1"><h4><span class="en">How does the appearance and disappearance of features affect the model?</span><span class="zh">特征的出现和消失如何影响模型？</span></h4><p class="en">Does it change the model’s internal representations or how easily we can steer its behavior?</p><p class="zh">它是否会改变模型的内部表征，或改变我们操控模型行为的难易程度？</p></div>
     </div>
   </div>
   <div class="text" style="margin-top:56px">
@@ -756,18 +724,17 @@ footer .fine { position: relative; text-align: center; padding: 0 20px 26px; fon
 <footer>
   <div class="in">
     <div>
-      <h3><span class="en">Every neuron, every checkpoint.</span><span class="zh">每一个神经元，每一个检查点。</span></h3>
-      <p class="en">The code, the full dataset of explanations and lineages, and the Explorer are all open.</p>
-      <p class="zh">代码、完整的解释与谱系数据集，以及交互浏览器，全部公开。</p>
+      <p class="en">The code, the data and the interactive explorer are publicly available.</p>
+      <p class="zh">代码、数据和交互浏览器均已公开。</p>
     </div>
     <div class="links">
       <a href="https://heartyhaven.github.io/pythia-neuron-explorer/" target="_blank" rel="noopener"><svg><use href="#i-explorer"/></svg><span class="en">Interactive Explorer</span><span class="zh">交互浏览器</span></a>
       <a href="https://github.com/HeartyHaven/pythia-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg><span class="en">Code on GitHub</span><span class="zh">GitHub 代码</span></a>
       <a href="https://huggingface.co/datasets/LangGao/pythia-160m-neuron-evolution" target="_blank" rel="noopener"><svg><use href="#i-data"/></svg><span class="en">Dataset on Hugging Face</span><span class="zh">Hugging Face 数据集</span></a>
-      <a href="/blog/"><svg><use href="#i-home"/></svg><span class="en">More posts · Homepage</span><span class="zh">更多文章 · 主页</span></a>
+      <a href="/blog/"><svg><use href="#i-home"/></svg><span class="en">Blog</span><span class="zh">博客</span></a>
     </div>
   </div>
-  <div class="fine">Lang Gao · Jinghui Zhang · Xiuying Chen — MBZUAI · 2026</div>
+  <div class="fine">Lang Gao, Jinghui Zhang, Xiuying Chen (MBZUAI), 2026</div>
 </footer>
 <div id="atip"></div>
 
@@ -846,17 +813,21 @@ document.addEventListener("click", e => {
 });
 
 // ---------- method steps ----------
+const REL = [["Form", "Meaning", "Function or usage", "Category"], ["形式", "含义", "功能或用法", "类别"]].map((h, z) => `<div class="rel">`
+  + [`<code>iv</code> → <code>div</code>`, `<code>in</code> → <code>within</code> → <code>outside</code>`,
+     z ? "会议议程 → 议会投票与发言" : "meeting agendas → parliamentary voting and speeches", `<code>London</code> → <code>Amsterdam</code>`]
+    .map((x, i) => `<div><i>${h[i]}</i>${x}</div>`).join("") + `</div>`);
 const STEPS = [
-  ["<b>Text.</b> We used Pile-10K, a subset of the Pile—the dataset used to pretrain Pythia—containing approximately 10 million tokens.",
+  ["<b>Text:</b> We used Pile-10K, a subset of the Pile—the dataset used to pretrain Pythia—containing approximately 10 million tokens.",
    "<b>文本：</b>我们使用 Pile-10K，它是 Pythia 预训练数据集 Pile 的一个子集，约含 1000 万个 token。"],
-  ["<b>Checkpoints and neurons.</b> Pythia has 154 training checkpoints. We selected 40, spaced approximately evenly across training steps. We also randomly selected 20 neurons from each of the model’s 12 layers, giving 240 neurons in total, and tracked each one across all 40 checkpoints.",
+  ["<b>Checkpoints and neurons:</b> Pythia has 154 training checkpoints. We selected 40, spaced approximately evenly across training steps. We also randomly selected 20 neurons from each of the model’s 12 layers, giving 240 neurons in total, and tracked each one across all 40 checkpoints.",
    "<b>检查点与神经元：</b>Pythia 有 154 个训练检查点，我们按训练步大致均匀地选取了 40 个；又从模型 12 层中每层随机选取 20 个神经元，共 240 个，并在全部 40 个检查点上追踪了每个神经元。"],
-  ["<b>Descriptions.</b> Each description was based on the 10 token positions with the highest neuron activations across the corpus, together with their surrounding context. We asked the agent to cover all observed patterns and, where possible, identify a more abstract function that connects them. All agents were based on GPT-6 Luna.",
+  ["<b>Descriptions:</b> Each description was based on the 10 token positions with the highest neuron activations across the corpus, together with their surrounding context. We asked the agent to cover all observed patterns and, where possible, identify a more abstract function that connects them. All agents were based on GPT-6 Luna.",
    "<b>描述：</b>每份描述基于该神经元在整个语料上激活最高的 10 个 token 位置及其上下文。我们要求 agent 覆盖所有观察到的模式，并在可能时找出把它们联系起来的更抽象的功能。所有 agent 均基于 GPT-6 Luna。"],
-  ["<b>Link over time.</b> A second agent read these descriptions in training order to identify how features appeared and evolved.",
+  ["<b>Link over time:</b> A second agent read these descriptions in training order to identify how features appeared and evolved.",
    "<b>按时间串联：</b>第二个 agent 按训练顺序阅读这些描述，识别特征如何出现和演化。"],
-  ["<b>Labels.</b> Whenever a new feature appeared, we asked whether it was related to the neuron’s earlier features in form, meaning, function, or category (examples below). If so, we labelled it <span class=\"hl\" style=\"color:var(--m-branch)\">generalization</span>; otherwise, we labelled it <span class=\"hl\" style=\"color:var(--m-coexist)\">superposition</span>.",
-   "<b>标注：</b>每当出现一个新特征，我们判断它是否在形式、含义、功能或类别上与该神经元更早的特征相关（例子见下）。如果相关，就标为<span class=\"hl\" style=\"color:var(--m-branch)\">泛化</span>；否则标为<span class=\"hl\" style=\"color:var(--m-coexist)\">重叠</span>。"],
+  ["<b>Labels:</b> Whenever a new feature appeared, we asked whether it was related to the neuron’s earlier features in form, meaning, function, or category. If so, we labelled it <span class=\"hl\" style=\"color:var(--m-branch)\">generalization</span>; otherwise, we labelled it <span class=\"hl\" style=\"color:var(--m-coexist)\">superposition</span>.<sup class=\"fn\"><button type=\"button\" data-fn=\"2\">2</button></sup>" + REL[0],
+   "<b>标注：</b>每当出现一个新特征，我们判断它是否在形式、含义、功能或类别上与该神经元更早的特征相关。如果相关，就标为<span class=\"hl\" style=\"color:var(--m-branch)\">泛化</span>；否则标为<span class=\"hl\" style=\"color:var(--m-coexist)\">重叠</span>。<sup class=\"fn\"><button type=\"button\" data-fn=\"2\">2</button></sup>" + REL[1]],
 ];
 let stepIdx = 0, stepUser = false;
 function renderStepInfo() {
@@ -892,7 +863,7 @@ function renderRg() {
   const d = $("#rgdrawer");
   if (rgOpen) {
     const r = RG.find(x => x[0] === rgOpen), ids = ST.rg[rgOpen] || [];
-    d.innerHTML = `<b>${tr(r[1], r[2])}</b> · ${ids.length} ${tr("neurons", "个神经元")}<br><span style="color:var(--ink-2)">${tr(r[3], r[4])}</span>${chipsFor(ids)}`;
+    d.innerHTML = `<b>${tr(r[1], r[2])}</b>${tr(": ", "：")}${ids.length} ${tr("neurons", "个神经元")}<br><span style="color:var(--ink-2)">${tr(r[3], r[4])}</span>${chipsFor(ids)}`;
     d.classList.add("open");
   } else d.classList.remove("open");
 }
@@ -985,9 +956,9 @@ function renderDn() {
     }
     return h + `<line x1="${gx}" x2="${gx + gw}" y1="${y0 + rowH + 1}" y2="${y0 + rowH + 1}" stroke="var(--line)"/>`;
   };
-  svg.innerHTML = row(DN.A, 20, "var(--m-blue)", tr("Neuron A", "神经元 A"), tr("→ a tree", "→ 一棵树"))
-    + row(DN.B, 175, "var(--m-branch)", tr("Neuron B", "神经元 B"), tr("→ sticks", "→ 几根木棍"))
-    + `<text x="${gx}" y="322">${tr("features", "特征")} →</text>`;
+  svg.innerHTML = row(DN.A, 20, "var(--m-blue)", tr("Neuron A", "神经元 A"), tr("becomes a tree", "变成一棵树"))
+    + row(DN.B, 175, "var(--m-branch)", tr("Neuron B", "神经元 B"), tr("becomes sticks", "变成几根木棍"))
+    + `<text x="${gx}" y="322">${tr("features", "特征")}</text>`;
   $("#dnrange").value = Math.round(dnT * 100);
   $("#dnlabel").textContent = dnT < .05 ? tr("initialization", "初始化") : dnT > .97 ? tr("end of training", "训练结束") : `${tr("training", "训练")} ${Math.round(dnT * 100)}%`;
   $("#dnplay").textContent = dnTimer ? "❚❚" : "▶";
@@ -1046,15 +1017,15 @@ beats.forEach(b => { bio.observe(b); b.onclick = () => { b.classList.remove("on"
 
 // ---------- examples tabs ----------
 const EX = [
-  { k: "denoising", n: "10_1661", col: "var(--m-blue)", en: "Denoising", zh: "去噪", ds: ["Settled step by step, getting clearer", "一步步定型，越来越清晰"],
+  { k: "denoising", n: "10_1661", col: "var(--m-blue)", en: "Denoising", zh: "去噪", ds: ["Gradually becomes clearer", "逐渐变清晰"],
     note: ["<b>Denoising.</b> Early in training, this neuron shows many weak, scattered responses. A response to text boundaries (blue) then grows stronger and eventually becomes much stronger than its other responses.",
       "<b>去噪：</b>训练早期，这个神经元有许多微弱、分散的响应。随后，对文本边界的响应（蓝色）逐渐增强，最终远强于它的其他响应。"],
     cap: ["L10/N1661. A response to text boundaries (blue) gradually becomes dominant.", "L10/N1661。对文本边界的响应（蓝色）逐渐占据主导。"] },
-  { k: "drift", n: "2_778", col: "var(--m-replace)", en: "Replacement", zh: "替换", ds: ["Switched content before settling", "中途换了内容，之后才稳定"],
+  { k: "drift", n: "2_778", col: "var(--m-replace)", en: "Replacement", zh: "替换", ds: ["Switches to other features midway", "中途换成其他特征"],
     note: ["<b>Replacement.</b> This neuron went through eight feature replacements. By the end of training, it still responds to several unrelated things.",
       "<b>替换：</b>这个神经元经历了八次特征替换。训练结束时，它仍然响应多个无关的东西。"],
     cap: ["L2/N778. A neuron undergoes repeated feature replacements (black vertical dashes), and ends with several unrelated responses.", "L2/N778。神经元反复发生特征替换（黑色竖线），最终带着多个无关的响应。"] },
-  { k: "unclear", n: "9_2929", col: "var(--m-none)", en: "No clear pattern", zh: "模式不明", ds: ["Neither denoising nor clear replacements", "既不像去噪，也没有清晰的替换"],
+  { k: "unclear", n: "9_2929", col: "var(--m-none)", en: "No clear pattern", zh: "模式不明", ds: ["Fits neither of the two", "两者都不符合"],
     note: ["<b>Unclear pattern.</b> This neuron does not fit either the denoising picture or a clear sequence of replacements. Its features keep appearing, disappearing, and shifting toward unrelated concepts, and we could not identify a clear overall pattern.",
       "<b>模式不明：</b>这个神经元既不符合去噪图景，也没有清晰的替换序列。它的特征不断出现、消失、转向无关的概念，我们无法识别出清晰的整体模式。"],
     cap: ["L9/N2929. The neuron’s strongest responses keep changing, with no clear pattern. One color denotes one concept.", "L9/N2929。神经元最强的响应不断变化，没有清晰的模式。一种颜色代表一个概念。"] },
@@ -1065,7 +1036,7 @@ function renderTabs() {
   $("#tabs").innerHTML = EX.map((x, i) => {
     const n = (ST.diff[x.k] || []).length;
     return `<button class="tab${i === exSel ? " on" : ""}" type="button" role="tab" aria-selected="${i === exSel}" data-i="${i}">
-      <span class="ct" style="color:${x.col}">${n}<small>/ ${tot}</small></span><span class="nm">${tr(x.en, x.zh)}</span><span class="ds">${tr(...x.ds)} · ${tr("example", "例子")} ${nid(x.n)}</span>
+      <span class="ct" style="color:${x.col}">${n}<small>/ ${tot}</small></span><span class="nm">${tr(x.en, x.zh)}</span><span class="ds">${tr(...x.ds)}</span><span class="ds">${tr("Example", "例子")}${tr(": ", "：")}${nid(x.n)}</span>
 </button>`;
   }).join("");
   $$("#tabs .tab").forEach(b => b.onclick = () => { exSel = +b.dataset.i; renderTabs(); send("examples", { type: "nevo-select", neuron: EX[exSel].n }); });
