@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Lang Gao — icosahedron</title>
+  <rect width="64" height="64" rx="14" fill="#251e16"/>
+  <defs><linearGradient id="ivory" x1="0" y1="0" x2="0.6" y2="1"><stop stop-color="#f5e6c8"/><stop offset="1" stop-color="#bd965d"/></linearGradient></defs>
+  <g fill="none" stroke="url(#ivory)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M37.36 50.55L40.53 24.21 M37.36 50.55L15.59 34.48 M40.53 24.21L15.59 34.48 M37.36 50.55L57.00 36.16 M40.53 24.21L57.00 36.16 M37.36 50.55L16.63 52.79 M37.36 50.55L42.23 53.83 M16.63 52.79L15.59 34.48 M40.53 24.21L21.77 10.17 M40.53 24.21L47.37 11.21 M21.77 10.17L15.59 34.48 M7.00 27.84L15.59 34.48" stroke-width="2.1"/>
+    <path d="M16.63 52.79L42.23 53.83 M16.63 52.79L7.00 27.84 M42.23 53.83L57.00 36.16 M21.77 10.17L47.37 11.21 M21.77 10.17L7.00 27.84 M47.37 11.21L57.00 36.16" stroke-width="2.7"/>
+  </g>
+</svg>
