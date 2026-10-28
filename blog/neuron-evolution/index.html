@@ -45,7 +45,8 @@ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 html.lenis, html.lenis body { height: auto; }
 html.lenis-smooth { scroll-behavior: auto !important; }
 html.lenis-scrolling .embed iframe { pointer-events: none; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 18px/1.75 var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+html, body { overflow-x: hidden; overflow-x: clip; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 18px/1.75 var(--sans); -webkit-font-smoothing: antialiased; }
 html[data-lang="zh"] body { font-size: 17px; line-height: 1.9; }
 html[data-lang="en"] .zh, html[data-lang="zh"] .en { display: none !important; }
 a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
@@ -90,7 +91,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 /* ---------- hero ---------- */
 .hero { position: relative; overflow: hidden; background: #2a1510; }
 .hero .stage { position: relative; width: 100%; }
-.hero .pic { position: relative; width: 100%; aspect-ratio: 1672 / 941; overflow: hidden; }
+.hero .pic { position: relative; width: 100%; aspect-ratio: 1672 / 941; }
+.hero picture { position: absolute; inset: 0; overflow: hidden; }
 .hero picture img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; animation: drift 26s ease-in-out infinite alternate; transform-origin: 50% 60%; }
 @keyframes drift { from { transform: scale(1.02); } to { transform: scale(1.08) translate(-.6%, -.4%); } }
 .hero .fade { position: absolute; inset: auto 0 0; height: 46%; background: linear-gradient(transparent, rgba(28, 10, 5, .6) 55%, rgba(28, 10, 5, .88)); pointer-events: none; }
@@ -102,13 +104,14 @@ html[data-lang="zh"] .hero .cap p { max-width: 20em; font-family: "Noto Serif SC
 .spot::before, .spot::after { content: ""; position: absolute; inset: 9px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 2px rgba(196, 81, 47, .9); }
 .spot::after { inset: 0; background: none; box-shadow: 0 0 0 2px rgba(255, 255, 255, .8); animation: ping 2.4s cubic-bezier(.2, .6, .3, 1) infinite; }
 @keyframes ping { 0% { transform: scale(.4); opacity: 1; } 80%, 100% { transform: scale(1.5); opacity: 0; } }
-.spot .lbl { position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translate(-50%, 6px); width: max-content; max-width: 230px; text-align: left; padding: 9px 12px; border-radius: 10px;
+.spot .lbl { position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translate(-50%, 6px); width: max-content; max-width: min(230px, calc(100vw - 32px)); margin-left: var(--dx, 0px); text-align: left; padding: 9px 12px; border-radius: 10px;
   background: rgba(255, 250, 244, .96); color: #1f1612; box-shadow: 0 8px 28px rgba(0, 0, 0, .3); opacity: 0; pointer-events: none; transition: .25s; font: 400 13px/1.45 var(--sans); }
 .spot .lbl b { display: block; font: 600 15px/1.3 var(--serif); margin-bottom: 2px; }
 html[data-lang="zh"] .spot .lbl b { font-family: "Noto Serif SC", serif; }
 .spot:hover .lbl, .spot:focus-visible .lbl, .spot.open .lbl { opacity: 1; transform: translate(-50%, 0); }
 .spot.r .lbl { left: auto; right: -8px; transform: translateY(6px); }
 .spot.r:hover .lbl, .spot.r:focus-visible .lbl, .spot.r.open .lbl { transform: none; }
+.spot.below .lbl { bottom: auto; top: calc(100% + 8px); }
 @media (max-width: 640px) {
   .spot { width: 24px; height: 24px; } .spot::before { inset: 7px; } .hero .cap small { margin-left: 0; padding: 0; border: 0; background: none; font-size: 14px; opacity: .8; }
   .hero .fade { display: none; }
@@ -116,6 +119,7 @@ html[data-lang="zh"] .spot .lbl b { font-family: "Noto Serif SC", serif; }
   #nav { gap: 8px; } #nav .tools { gap: 0; } .ico { padding: 0 6px; font-size: 13px; } .ico svg { display: none; } .ico.opt { display: none; } #nav .home span { display: none; }
   .langs button { padding: 3px 8px; }
 }
+@media (max-width: 380px) { #nav { gap: 6px; padding-left: 12px; padding-right: 12px; } .ico { padding: 0 5px; font-size: 12.5px; } .langs { margin-left: 2px; } .langs button { padding: 3px 7px; } }
 
 /* ---------- title block ---------- */
 .titleblock { max-width: 980px; margin: 0 auto; padding: clamp(40px, 7vw, 84px) 20px 24px; text-align: center; }
@@ -215,6 +219,12 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .rel div i { display: block; font-style: normal; font: 600 11.5px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
 .rel code { font: 500 13px/1.5 var(--mono); background: var(--bg-2); padding: 1px 6px; border-radius: 5px; }
 @media (max-width: 760px) { .rel { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .rel { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .rel div { display: grid; grid-template-columns: 6.6em minmax(0, 1fr); gap: 10px; align-items: baseline; padding: 9px 12px; }
+  .rel div i { margin: 0; line-height: 1.4; }
+  .stepinfo { padding: 16px; }
+}
 .cta { display: flex; align-items: center; gap: 16px; padding: 18px 22px; margin-top: 26px; text-decoration: none; color: var(--ink); transition: .25s; }
 .cta:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 12px 30px var(--shadow); }
 .cta svg { width: 42px; height: 42px; flex: none; }
@@ -238,7 +248,7 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 @keyframes fadein { from { opacity: 0; transform: translateY(-4px); } }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .chip { display: inline-flex; gap: 6px; align-items: baseline; padding: 4px 10px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 13px; max-width: 100%; }
-.chip b { font-variant-numeric: tabular-nums; }
+.chip b { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .chip span { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 22ch; }
 .chip:hover { border-color: var(--accent); }
 .hint { font-size: 13px; color: var(--muted); margin-top: 10px; display: flex; align-items: center; gap: 6px; }
@@ -251,6 +261,7 @@ figcaption b { color: var(--ink-2); font-weight: 600; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13.5px; color: var(--ink-2); margin: 10px 0 0; }
 .legend span { display: inline-flex; align-items: center; gap: 6px; }
 .legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+@media (max-width: 600px) { .donut { grid-template-columns: minmax(0, 1fr); gap: 12px; } .donut svg { width: 150px; height: 150px; margin: 0 auto; } }
 #area svg { width: 100%; height: 230px; display: block; overflow: visible; }
 #area text { fill: var(--muted); font: 11px var(--sans); }
 #atip { position: fixed; z-index: 70; pointer-events: none; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 13px; line-height: 1.5; box-shadow: 0 8px 24px var(--shadow); display: none; }
@@ -279,8 +290,10 @@ html[data-lang="zh"] .beat h4 { font-family: "Noto Serif SC", serif; }
 .beat .k { font: 600 11.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; display: block; }
 @media (max-width: 960px) {
   .scrolly { grid-template-columns: minmax(0, 1fr); gap: 0; }
-  .scrolly .sticky { top: 58px; z-index: 5; }
+  .scrolly .sticky { top: 56px; z-index: 5; background: var(--bg); margin: 0 -20px; padding: 8px 20px 12px; }
+  .scrolly .sticky .embed { min-height: 0; }
   .scrolly .sticky .embed iframe { height: 46vh; }
+  .scrolly .sticky .embedbar { margin-bottom: 6px; }
   .beats { padding: 12px 0 0; }
   .beat { margin: 0 0 30vh; background: color-mix(in srgb, var(--card) 94%, transparent); backdrop-filter: blur(8px); }
 }
@@ -299,9 +312,11 @@ html[data-lang="zh"] .quote p em { font-style: normal; }
 #denoise input[type=range] { flex: 1; accent-color: var(--accent); }
 #denoise .play { width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--ink); color: var(--bg); display: grid; place-items: center; flex: none; }
 #denoise .play:hover { background: var(--accent); color: #fff; }
-#denoise .tlabel { font: 600 14px/1 var(--sans); font-variant-numeric: tabular-nums; min-width: 6.5em; text-align: right; color: var(--ink-2); }
+#denoise .tlabel { font: 600 14px/1 var(--sans); font-variant-numeric: tabular-nums; min-width: 6.5em; text-align: right; color: var(--ink-2); white-space: nowrap; }
+@media (max-width: 600px) { #denoise .controls { gap: 10px; } #denoise .tlabel { font-size: 13px; min-width: 0; } }
 #denoise text { fill: var(--muted); font: 12px var(--sans); }
 #denoise .nlab { font: 600 13px var(--sans); }
+#dnsvg.narrow text { font-size: 14px; } #dnsvg.narrow .nlab { font-size: 15px; }
 
 /* example tabs */
 .tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
@@ -347,6 +362,7 @@ footer .links svg { width: 18px; height: 18px; }
 footer .fine { position: relative; text-align: center; padding: 0 20px 10px; font-size: 13.5px; opacity: .7; }
 footer .fine:last-child { padding-bottom: 28px; }
 @media (max-width: 760px) { footer .in { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .cite pre { white-space: pre-wrap; overflow-wrap: anywhere; padding-top: 44px; } }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   .rv { opacity: 1; transform: none; }
@@ -462,7 +478,7 @@ footer .fine:last-child { padding-bottom: 28px; }
           <circle style="--d:0s" cx="16" cy="120" r="7" fill="var(--m-branch)"/>
           <circle style="--d:.9s" cx="190" cy="70" r="5" fill="var(--m-branch)"/><circle style="--d:1s" cx="190" cy="140" r="5" fill="var(--m-branch)"/>
           <circle style="--d:1.9s" cx="300" cy="34" r="4.5" fill="var(--m-branch)"/><circle style="--d:2s" cx="300" cy="92" r="4.5" fill="var(--m-branch)"/><circle style="--d:2s" cx="300" cy="150" r="4.5" fill="var(--m-branch)"/>
-          <text x="16" y="104" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">iy</text><text x="176" y="56" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">diy</text><text x="232" y="22" font-size="12" fill="var(--muted)" font-family="var(--mono)">do it yourself</text>
+          <text x="16" y="104" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">iy</text><text x="176" y="56" font-size="13" fill="var(--ink-2)" font-family="var(--mono)">diy</text><text x="312" y="22" font-size="12" fill="var(--muted)" font-family="var(--mono)" text-anchor="end">do it yourself</text>
         </svg>
         <h3><span class="en">Recursive generalization</span><span class="zh">递归泛化</span></h3>
         <p class="en">A neuron starts by responding to a simple pattern, then gradually extends to related things, sometimes branching in several directions. Each step follows a connection, but the endpoints may look unrelated if we cannot see how the neuron got there.</p>
@@ -788,7 +804,18 @@ function onScroll() {
 addEventListener("scroll", onScroll, { passive: true });
 
 // ---------- hero hotspots ----------
-$$(".spot").forEach(s => s.onclick = e => { e.stopPropagation(); const o = s.classList.contains("open"); $$(".spot").forEach(x => x.classList.remove("open")); s.classList.toggle("open", !o); });
+function fitSpot(s) {  // keep the label inside the hero: open below when there is no room above, slide sideways at the edges
+  const l = s.querySelector(".lbl"), h = $(".hero .pic").getBoundingClientRect(), r = s.getBoundingClientRect();
+  s.style.setProperty("--dx", "0px");
+  s.classList.toggle("below", r.top - l.offsetHeight - 10 < Math.max(h.top, 60));
+  const b = l.getBoundingClientRect(), W = document.documentElement.clientWidth;
+  const dx = b.left < 8 ? 8 - b.left : b.right > W - 8 ? W - 8 - b.right : 0;
+  s.style.setProperty("--dx", dx + "px");
+}
+$$(".spot").forEach(s => {
+  s.onmouseenter = s.onfocus = () => fitSpot(s);
+  s.onclick = e => { e.stopPropagation(); const o = s.classList.contains("open"); $$(".spot").forEach(x => x.classList.remove("open")); if (!o) fitSpot(s); s.classList.toggle("open", !o); };
+});
 document.addEventListener("click", () => $$(".spot.open").forEach(x => x.classList.remove("open")));
 
 // ---------- reveal ----------
@@ -824,7 +851,7 @@ document.addEventListener("click", e => {
 const REL = [["Form", "Meaning", "Function or usage", "Category"], ["形式", "含义", "功能或用法", "类别"]].map((h, z) => `<div class="rel">`
   + [`<code>iv</code> → <code>div</code>`, `<code>in</code> → <code>within</code> → <code>outside</code>`,
      z ? "会议议程 → 议会投票与发言" : "meeting agendas → parliamentary voting and speeches", `<code>London</code> → <code>Amsterdam</code>`]
-    .map((x, i) => `<div><i>${h[i]}</i>${x}</div>`).join("") + `</div>`);
+    .map((x, i) => `<div><i>${h[i]}</i><span>${x}</span></div>`).join("") + `</div>`);
 const STEPS = [
   ["<b>Text:</b> We used Pile-10K, a subset of the Pile—the dataset used to pretrain Pythia—containing approximately 10 million tokens.",
    "<b>文本：</b>我们使用 Pile-10K，它是 Pythia 预训练数据集 Pile 的一个子集，约含 1000 万个 token。"],
@@ -953,10 +980,14 @@ const DN = (() => {
 })();
 let dnT = 0, dnTimer = null;
 function renderDn() {
-  const svg = $("#dnsvg"), W = 900, rowH = 120, gx = 120, gw = W - gx - 20, K = DN.K, bw = gw / K;
+  // phones get a narrower drawing with the row labels above the bars, so the text stays readable
+  const svg = $("#dnsvg"), narrow = svg.clientWidth < 600, W = narrow ? 360 : 900, rowH = narrow ? 92 : 120, gx = narrow ? 0 : 120, gw = W - gx - (narrow ? 0 : 20), K = DN.K, bw = gw / K;
+  const top = narrow ? 26 : 0, H = narrow ? 2 * (rowH + top) + 38 : 330;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.classList.toggle("narrow", narrow);
   const ease = t => t * t * (3 - 2 * t), a = ease(dnT);
   const row = (target, y0, col, name, endLbl) => {
-    let h = `<text x="0" y="${y0 + rowH / 2 - 6}" class="nlab" style="fill:${col}">${name}</text><text x="0" y="${y0 + rowH / 2 + 14}">${endLbl}</text>`;
+    let h = narrow ? `<text x="0" y="${y0 - 8}" class="nlab" style="fill:${col}">${name}</text><text x="${W}" y="${y0 - 8}" text-anchor="end">${endLbl}</text>`
+      : `<text x="0" y="${y0 + rowH / 2 - 6}" class="nlab" style="fill:${col}">${name}</text><text x="0" y="${y0 + rowH / 2 + 14}">${endLbl}</text>`;
     for (let i = 0; i < K; i++) {
       const v = (1 - a) * DN.noise[i] * (0.9 + 0.1 * Math.sin(i * 3 + dnT * 20)) + a * target[i], tgt = target[i] > .35;
       const hgt = Math.max(2, v * (rowH - 14));
@@ -964,9 +995,9 @@ function renderDn() {
     }
     return h + `<line x1="${gx}" x2="${gx + gw}" y1="${y0 + rowH + 1}" y2="${y0 + rowH + 1}" stroke="var(--line)"/>`;
   };
-  svg.innerHTML = row(DN.A, 20, "var(--m-blue)", tr("Neuron A", "神经元 A"), tr("becomes a tree", "变成一棵树"))
-    + row(DN.B, 175, "var(--m-branch)", tr("Neuron B", "神经元 B"), tr("becomes sticks", "变成几根木棍"))
-    + `<text x="${gx}" y="322">${tr("features", "特征")}</text>`;
+  svg.innerHTML = row(DN.A, narrow ? top : 20, "var(--m-blue)", tr("Neuron A", "神经元 A"), tr("becomes a tree", "变成一棵树"))
+    + row(DN.B, narrow ? 2 * top + rowH + 12 : 175, "var(--m-branch)", tr("Neuron B", "神经元 B"), tr("becomes sticks", "变成几根木棍"))
+    + `<text x="${gx}" y="${H - 8}">${tr("features", "特征")}</text>`;
   $("#dnrange").value = Math.round(dnT * 100);
   $("#dnlabel").textContent = dnT < .05 ? tr("initialization", "初始化") : dnT > .97 ? tr("end of training", "训练结束") : `${tr("training", "训练")} ${Math.round(dnT * 100)}%`;
   $("#dnplay").textContent = dnTimer ? "❚❚" : "▶";
@@ -990,7 +1021,7 @@ function mount(box) {
   const f = document.createElement("iframe");
   f.title = tr("Neuron Evolution Explorer panel", "神经元演化浏览器面板");
   f.loading = "lazy";
-  f.src = `panel.html?embed&id=${box.dataset.id}&color=${box.dataset.color}&lang=${LANG}#${box.dataset.neuron}`;
+  f.src = `panel.html?embed&id=${box.dataset.id}&color=${box.dataset.color}&lang=${LANG}${box.dataset.id === "story" && matchMedia("(max-width: 960px)").matches ? "&focus=tree" : ""}#${box.dataset.neuron}`;
   box.appendChild(f);
   frames[box.dataset.id] = { f, box, ready: false, queue: pending[box.dataset.id] || [] };
 }
@@ -1006,6 +1037,7 @@ addEventListener("message", e => {
   const d = e.data || {}, fr = frames[d.id];
   if (!fr || e.source !== fr.f.contentWindow) return;
   if (d.type === "nevo-h" && !fr.box.dataset.fixed) fr.f.style.height = Math.max(380, d.h) + "px";
+  if (d.type === "nevo-h" && fr.box.dataset.fixed) fr.f.style.height = innerWidth <= 960 ? Math.min(d.h, innerHeight * .52) + "px" : "";
   if (d.type === "nevo-ready") {
     fr.ready = true; fr.box.classList.add("ready");
     fr.f.contentWindow.postMessage({ type: "nevo-lang", lang: LANG }, "*");
@@ -1061,7 +1093,7 @@ $("#copybib").onclick = () => {
 };
 
 function renderAll() { buildToc(); onScroll(); renderStepInfo(); renderRg(); renderDonut(); renderArea(); renderDn(); renderTabs(); }
-let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderArea, 150); });
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderArea(); renderDn(); }, 150); });
 setLang(new URLSearchParams(location.search).get("lang") === "zh" ? "zh" : "en");
 
 // ---------- page views (Vercount, counted under one canonical URL) ----------

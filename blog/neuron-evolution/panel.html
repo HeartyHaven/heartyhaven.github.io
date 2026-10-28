@@ -164,6 +164,12 @@ body.embed .treebox { max-height: 460px; overflow: auto; overscroll-behavior: co
 body.embed details.panel > summary { font-size: 13px; padding: 2px 0; }
 .embhead { display: flex; align-items: center; gap: 6px 10px; flex-wrap: wrap; }
 .embhead .hbtn { margin-left: auto; }
+@media (max-width: 760px) { body.embed .legend span { white-space: normal; max-width: 100%; } }
+/* 博客在窄屏上跟着滚动的面板（&focus=tree）：只留图例和演化树 */
+body.embed.treeonly #right > :not(#evopanel), body.embed.treeonly #evopanel > :not(.legend):not(.treebox) { display: none !important; }
+body.embed.treeonly .treebox { max-height: none; }
+body.embed.treeonly #evopanel { padding-bottom: 78px; }  /* 被博客点名的概念，说明固定显示在树下面这块空白里 */
+body.embed.treeonly #tip { max-width: calc(100vw - 24px); font-size: 11.5px; line-height: 1.4; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 </style>
 
@@ -645,7 +651,7 @@ function renderRight() {
   <div class="panel" id="steppanel">
     <div class="toolbar">
       <b id="stephdr"></b>
-      <button id="prev" type="button" title="${t("prev")}" aria-label="${t("prev")}">◀</button><button id="next" type="button" title="${t("next")}" aria-label="${t("next")}">▶</button>
+      <span class="ctl"><button id="prev" type="button" title="${t("prev")}" aria-label="${t("prev")}">◀</button><button id="next" type="button" title="${t("next")}" aria-label="${t("next")}">▶</button></span>
       <span class="ctl"><label for="topn">${t("show")}</label><select id="topn"><option value="5">top 5</option><option value="10">top 10</option></select></span>
       <span class="ctl"><label for="cmp">${t("compare")}</label><select id="cmp"><option value="">${t("noCompare")}</option>${rows.map(r => `<option value="${r.step}">${fmtStep(r.step)}</option>`).join("")}</select></span>
     </div>
@@ -668,7 +674,7 @@ function renderRight() {
 // ---------- 主题演化树 ----------
 function evolutionPanel(n) {
   if (!n.lineages || !n.lineages.length || !n.lineage_shares || !n.lineage_shares.length) return "";
-  return `<div class="panel">
+  return `<div class="panel" id="evopanel">
     <div class="panel-head"><h2>${t("panelTitle")}</h2>
       <span class="langs" id="colorby" role="group"><button type="button" data-c="mech">${t("colorMech")}</button><button type="button" data-c="family">${t("colorFam")}</button></span></div>
     <div class="legend" id="evo-legend"></div>
@@ -841,7 +847,9 @@ function treeChart(n) {
     const g = byId[S.pin], el = svg.querySelector(`g.lin[data-g="${CSS.escape(S.pin)}"]`), r = svg.getBoundingClientRect(), sc = r.width / W;
     svg.classList.add("focus"); el.classList.add("on");
     const y = g.birth === "sporadic" ? spY : yOf(laneOf[g.id]);
-    requestAnimationFrame(() => tip({ clientX: r.left + X(g.first) * sc, clientY: r.top + y * sc + 6 }, info(S.pin)));
+    const short = document.body.classList.contains("treeonly");
+    requestAnimationFrame(() => short ? tip({ clientX: 0, clientY: innerHeight }, info(S.pin).split("<br>").slice(0, 2).join("<br>"))
+      : tip({ clientX: r.left + X(g.first) * sc, clientY: r.top + y * sc + 6 }, info(S.pin)));
   }
   svg.onmousemove = ev => {
     if (S.pin) { S.pin = null; }
@@ -889,7 +897,7 @@ function mechChart(n) {
   const Y = v => pt + (H - pt - pb) * (1 - v);
   const ser = barSeries(n), fk = S.colorBy === "family" ? focusKey(n) : null;
   let h = `<line x1="${pl - bw / 2}" x2="${W - pr + bw / 2}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--border)"/>`;
-  const every = colW < 26 ? 4 : 2;
+  const every = colW < 9 ? 6 : colW < 26 ? 4 : 2;
   steps.forEach((s, i) => {
     let acc = 0;
     for (const x of ser) {
@@ -899,7 +907,7 @@ function mechChart(n) {
       acc += v;
     }
     if (s === S.step) h += `<rect x="${X(i) - bw / 2 - 3}" y="${pt - 2}" width="${bw + 6}" height="${H - pt - pb + 4}" fill="none" stroke="var(--text-primary)" stroke-width="1.5" stroke-dasharray="3 2" rx="3"/>`;
-    if (i % every === 0 || i === k - 1) h += `<text x="${X(i)}" y="${H - 5}" text-anchor="middle">${fmtAxis(s)}</text>`;
+    if ((i % every === 0 && k - 1 - i >= every) || i === k - 1) h += `<text x="${X(i)}" y="${H - 5}" text-anchor="middle">${fmtAxis(s)}</text>`;
   });
   h += steps.map((s, i) => `<rect x="${X(i) - colW / 2}" y="${pt}" width="${colW}" height="${H - pt - pb}" fill="transparent" data-i="${i}"/>`).join("");
   svg.innerHTML = h;
@@ -970,6 +978,7 @@ document.addEventListener("keydown", ev => {
   try { if (localStorage.getItem("explorer-colorby") === "family") S.colorBy = "family"; } catch (e) { /* 存储不可用 */ }
   if (EMBED) {
     document.body.classList.add("embed");
+    if (Q.get("focus") === "tree") document.body.classList.add("treeonly");
     if (["mech", "family"].includes(Q.get("color"))) S.colorBy = Q.get("color");
     addEventListener("message", e => {
       const d = e.data || {};
@@ -981,7 +990,7 @@ document.addEventListener("keydown", ev => {
         if (d.step != null && S.rows.some(r => r.step === d.step)) setStep(d.step); else renderCharts();
       }
     });
-    new ResizeObserver(() => parent.postMessage({ type: "nevo-h", id: Q.get("id"), h: document.documentElement.scrollHeight }, "*")).observe(document.body);
+    new ResizeObserver(() => parent.postMessage({ type: "nevo-h", id: Q.get("id"), h: document.body.offsetHeight }, "*")).observe(document.body);  // 用 body 高度，内容变短时 iframe 也能跟着变矮
   }
   $("lang-zh").onclick = () => setLang("zh");
   $("lang-en").onclick = () => setLang("en");
